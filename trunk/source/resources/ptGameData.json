@@ -1,0 +1,543 @@
+ [
+  {
+  "LapisId": "ash3brg",
+  "DisplayName": "三卡吹牛",
+  "ButtonImagePath": "pt/pc/ash3brg.jpg",
+  "typeid": "老虎机"
+  }, {
+  "LapisId": "7bal",
+  "DisplayName": "真人7席百家乐",
+  "ButtonImagePath": "pt/pc/7bal.jpg",
+  "typeid": "老虎机"
+  }, {"LapisId": "hb", "DisplayName": "狂欢夜", "ButtonImagePath": "pt/pc/hb.jpg", "typeid": "老虎机"}, {
+  "LapisId": "ashadv",
+  "DisplayName": "梦游仙境豪华版",
+  "ButtonImagePath": "pt/pc/ashadv.jpg",
+  "typeid": "老虎机"
+  }, {
+  "LapisId": "aogs",
+  "DisplayName": "众神时代",
+  "ButtonImagePath": "pt/pc/aogs.jpg",
+  "typeid": "老虎机"
+  }, {
+  "LapisId": "ftsis",
+  "DisplayName": "众神时代：命运姐妹",
+  "ButtonImagePath": "pt/pc/ftsis.jpg",
+  "typeid": "老虎机"
+  }, {
+  "LapisId": "furf",
+  "DisplayName": "众神时代：狂暴4",
+  "ButtonImagePath": "pt/pc/furf.jpg",
+  "typeid": "老虎机"
+  }, {
+  "LapisId": "athn",
+  "DisplayName": "众神时代：智慧女神",
+  "ButtonImagePath": "pt/pc/athn.jpg",
+  "typeid": "老虎机"
+  }, {
+  "LapisId": "kolymp",
+  "DisplayName": "众神时代：奥林匹斯之王",
+  "ButtonImagePath": "pt/pc/kolymp.jpg",
+  "typeid": "老虎机"
+  }, {
+  "LapisId": "hrcls",
+  "DisplayName": "众神时代：奥林匹斯王子",
+  "ButtonImagePath": "pt/pc/hrcls.jpg",
+  "typeid": "老虎机"
+  }, {
+  "LapisId": "aogro",
+  "DisplayName": "众神时代轮盘",
+  "ButtonImagePath": "pt/pc/aogro.jpg",
+  "typeid": "桌牌游戏"
+  }, {
+  "LapisId": "ashamw",
+  "DisplayName": "野生亚马逊",
+  "ButtonImagePath": "pt/pc/ashamw.jpg",
+  "typeid": "老虎机"
+  }, {"LapisId": "arc", "DisplayName": "弓箭手", "ButtonImagePath": "pt/pc/arc.jpg", "typeid": "老虎机"}, {
+  "LapisId": "art",
+  "DisplayName": "北极宝藏",
+  "ButtonImagePath": "pt/pc/art.jpg",
+  "typeid": "老虎机"
+  }, {
+  "LapisId": "gtsatq",
+  "DisplayName": "亚特兰蒂斯女王",
+  "ButtonImagePath": "pt/pc/gtsatq.jpg",
+  "typeid": "老虎机"
+  }, {"LapisId": "ba", "DisplayName": "百家乐", "ButtonImagePath": "pt/pc/ba.jpg", "typeid": "老虎机"}, {
+  "LapisId": "bal",
+  "DisplayName": "真人百家乐",
+  "ButtonImagePath": "pt/pc/bal.jpg",
+  "typeid": "老虎机"
+  }, {"LapisId": "bs", "DisplayName": "白狮", "ButtonImagePath": "pt/pc/bs.jpg", "typeid": "老虎机"}, {
+  "LapisId": "bl",
+  "DisplayName": "海滨嘉年华",
+  "ButtonImagePath": "pt/pc/bl.jpg",
+  "typeid": "老虎机"
+  }, {"LapisId": "bt", "DisplayName": "百慕大三角", "ButtonImagePath": "pt/pc/bt.jpg", "typeid": "街机游戏"}, {
+  "LapisId": "mobbj",
+  "DisplayName": "21点",
+  "ButtonImagePath": "pt/pc/mobbj.jpg",
+  "typeid": "老虎机"
+  }, {"LapisId": "bjl", "DisplayName": "真人21点", "ButtonImagePath": "pt/pc/bjl.jpg", "typeid": "老虎机"}, {
+  "LapisId": "bob",
+  "DisplayName": "熊之舞",
+  "ButtonImagePath": "pt/pc/bob.jpg",
+  "typeid": "老虎机"
+  }, {
+  "LapisId": "ashbob",
+  "DisplayName": "魔豆赏金",
+  "ButtonImagePath": "pt/pc/ashbob.jpg",
+  "typeid": "老虎机"
+  }, {"LapisId": "bfb", "DisplayName": "犎牛闪电突击", "ButtonImagePath": "pt/pc/bfb.jpg", "typeid": "老虎机"}, {
+  "LapisId": "ct",
+  "DisplayName": "船长的宝藏",
+  "ButtonImagePath": "pt/pc/ct.jpg",
+  "typeid": "老虎机"
+  }, {
+  "LapisId": "cheaa",
+  "DisplayName": "娱乐场同花顺",
+  "ButtonImagePath": "pt/pc/cheaa.jpg",
+  "typeid": "老虎机"
+  }, {
+  "LapisId": "ctiv",
+  "DisplayName": "猫王战赌城",
+  "ButtonImagePath": "pt/pc/ctiv.jpg",
+  "typeid": "老虎机"
+  }, {"LapisId": "catqc", "DisplayName": "猫后", "ButtonImagePath": "pt/pc/catqc.jpg", "typeid": "老虎机"}, {
+  "LapisId": "chao",
+  "DisplayName": "超级 888",
+  "ButtonImagePath": "pt/pc/chao.jpg",
+  "typeid": "老虎机"
+  }, {"LapisId": "chl", "DisplayName": "狂野樱桃", "ButtonImagePath": "pt/pc/chl.jpg", "typeid": "老虎机"}, {
+  "LapisId": "ashcpl",
+  "DisplayName": "宝箱满满",
+  "ButtonImagePath": "pt/pc/ashcpl.jpg",
+  "typeid": "老虎机"
+  }, {
+  "LapisId": "gtscnb",
+  "DisplayName": "警察和土匪",
+  "ButtonImagePath": "pt/pc/gtscnb.jpg",
+  "typeid": "老虎机"
+  }, {
+  "LapisId": "gtscbl",
+  "DisplayName": "牛仔和外星人",
+  "ButtonImagePath": "pt/pc/gtscbl.jpg",
+  "typeid": "老虎机"
+  }, {
+  "LapisId": "c7",
+  "DisplayName": "疯狂之七",
+  "ButtonImagePath": "pt/pc/c7.jpg",
+  "typeid": "街机游戏"
+  }, {
+  "LapisId": "gtsdrdv ",
+  "DisplayName": "无畏的戴夫",
+  "ButtonImagePath": "pt/pc/gtsdrdv .jpg",
+  "typeid": "老虎机"
+  }, {
+  "LapisId": "mobdt",
+  "DisplayName": "沙漠财宝",
+  "ButtonImagePath": "pt/pc/mobdt.jpg",
+  "typeid": "老虎机"
+  }, {"LapisId": "dnr", "DisplayName": "海豚之梦", "ButtonImagePath": "pt/pc/dnr.jpg", "typeid": "老虎机"}, {
+  "LapisId": "dlm",
+  "DisplayName": "情圣博士",
+  "ButtonImagePath": "pt/pc/dlm.jpg",
+  "typeid": "老虎机"
+  },{
+  "LapisId": "gtsdgk",
+  "DisplayName": "龙之国度",
+  "ButtonImagePath": "pt/pc/gtsdgk.jpg",
+  "typeid": "老虎机"
+  }, {"LapisId": "eas", "DisplayName": "复活节惊喜", "ButtonImagePath": "pt/pc/eas.jpg", "typeid": "老虎机"}, {
+  "LapisId": "esm",
+  "DisplayName": "埃斯梅拉达",
+  "ButtonImagePath": "pt/pc/esm.jpg",
+  "typeid": "老虎机"
+  }, {
+  "LapisId": "mobro",
+  "DisplayName": "欧式轮盘",
+  "ButtonImagePath": "pt/pc/mobro.jpg",
+  "typeid": "桌牌游戏"
+  }, {
+  "LapisId": "evj",
+  "DisplayName": "欢乐积宝彩池",
+  "ButtonImagePath": "pt/pc/evj.jpg",
+  "typeid": "老虎机"
+  }, {
+  "LapisId": "ashfta",
+  "DisplayName": "魔镜与公主",
+  "ButtonImagePath": "pt/pc/ashfta.jpg",
+  "typeid": "老虎机"
+  }, {
+  "LapisId": "fcgz",
+  "DisplayName": "翡翠公主",
+  "ButtonImagePath": "pt/pc/fcgz.jpg",
+  "typeid": "老虎机"
+  }, {
+  "LapisId": "gtsflzt",
+  "DisplayName": "飞龙在天",
+  "ButtonImagePath": "pt/pc/gtsflzt.jpg",
+  "typeid": "老虎机"
+  }, {"LapisId": "fkmj", "DisplayName": "疯狂麻将", "ButtonImagePath": "pt/pc/fkmj.jpg", "typeid": "老虎机"}, {
+  "LapisId": "ftg",
+  "DisplayName": "五虎将",
+  "ButtonImagePath": "pt/pc/ftg.jpg",
+  "typeid": "老虎机"
+  }, {"LapisId": "foy", "DisplayName": "青春之泉", "ButtonImagePath": "pt/pc/foy.jpg", "typeid": "街机游戏"}, {
+  "LapisId": "gtsfc",
+  "DisplayName": "足球嘉年华",
+  "ButtonImagePath": "pt/pc/gtsfc.jpg",
+  "typeid": "老虎机"
+  }, {"LapisId": "fbr", "DisplayName": "终极足球", "ButtonImagePath": "pt/pc/fbr.jpg", "typeid": "老虎机"}, {
+  "LapisId": "fow",
+  "DisplayName": "惊异之林",
+  "ButtonImagePath": "pt/pc/fow.jpg",
+  "typeid": "老虎机"
+  }, {"LapisId": "frtf", "DisplayName": "五福海盗", "ButtonImagePath": "pt/pc/frtf.jpg", "typeid": "老虎机"}, {
+  "LapisId": "fday",
+  "DisplayName": "幸运日 ",
+  "ButtonImagePath": "pt/pc/fday.jpg",
+  "typeid": "老虎机"
+  }, {
+  "LapisId": "frtln",
+  "DisplayName": "幸运狮子",
+  "ButtonImagePath": "pt/pc/frtln.jpg",
+  "typeid": "老虎机"
+  }, {"LapisId": "fxf", "DisplayName": "狐媚宝藏", "ButtonImagePath": "pt/pc/fxf.jpg", "typeid": "老虎机"}, {
+  "LapisId": "fdt",
+  "DisplayName": "德托里传奇",
+  "ButtonImagePath": "pt/pc/fdt.jpg",
+  "typeid": "老虎机"
+  }, {
+  "LapisId": "fdtjg",
+  "DisplayName": "德托里传奇积宝游戏",
+  "ButtonImagePath": "pt/pc/fdtjg.jpg",
+  "typeid": "老虎机"
+  }, {"LapisId": "fmn", "DisplayName": "水果狂热", "ButtonImagePath": "pt/pc/fmn.jpg", "typeid": "老虎机"}, {
+  "LapisId": "ashfmf",
+  "DisplayName": "圆月财富",
+  "ButtonImagePath": "pt/pc/ashfmf.jpg",
+  "typeid": "老虎机"
+  }, {
+  "LapisId": "fff",
+  "DisplayName": "酷炫水果农场",
+  "ButtonImagePath": "pt/pc/fff.jpg",
+  "typeid": "老虎机"
+  }, {"LapisId": "fnfrj", "DisplayName": "酷炫水果", "ButtonImagePath": "pt/pc/fnfrj.jpg", "typeid": "老虎机"}, {
+  "LapisId": "fm",
+  "DisplayName": "古怪猴子",
+  "ButtonImagePath": "pt/pc/fm.jpg",
+  "typeid": "街机游戏"
+  }, {"LapisId": "ges", "DisplayName": "艺伎故事 ", "ButtonImagePath": "pt/pc/ges.jpg", "typeid": "老虎机"}, {
+  "LapisId": "glrj",
+  "DisplayName": "角斗士积宝",
+  "ButtonImagePath": "pt/pc/glrj.jpg",
+  "typeid": "老虎机"
+  }, {"LapisId": "gemq", "DisplayName": "宝石女王", "ButtonImagePath": "pt/pc/gemq.jpg", "typeid": "老虎机"}, {
+  "LapisId": "grel",
+  "DisplayName": "金色召集",
+  "ButtonImagePath": "pt/pc/grel.jpg",
+  "typeid": "老虎机"
+  }, {"LapisId": "glg", "DisplayName": "黄金体育竞技场", "ButtonImagePath": "pt/pc/glg.jpg", "typeid": "老虎机"}, {
+  "LapisId": "gos",
+  "DisplayName": "黄金之旅",
+  "ButtonImagePath": "pt/pc/gos.jpg",
+  "typeid": "老虎机"
+  }, {"LapisId": "bib", "DisplayName": "海底探宝", "ButtonImagePath": "pt/pc/bib.jpg", "typeid": "老虎机"}, {"LapisId": "gro", "DisplayName": "最强奥德赛", "ButtonImagePath": "pt/pc/gro.jpg", "typeid": "老虎机"}, {
+  "LapisId": "hlf",
+  "DisplayName": "万圣节宝藏",
+  "ButtonImagePath": "pt/pc/hlf.jpg",
+  "typeid": "老虎机"
+  }, {
+  "LapisId": "hlf2",
+  "DisplayName": "万圣节宝藏 2",
+  "ButtonImagePath": "pt/pc/hlf2.jpg",
+  "typeid": "老虎机"
+  },{
+  "LapisId": "ashhotj",
+  "DisplayName": "丛林之心",
+  "ButtonImagePath": "pt/pc/ashhotj.jpg",
+  "typeid": "老虎机"
+  }, {
+  "LapisId": "heavru",
+  "DisplayName": "武则天",
+  "ButtonImagePath": "pt/pc/heavru.jpg",
+  "typeid": "老虎机"
+  }, {"LapisId": "hk", "DisplayName": "高速公路之王", "ButtonImagePath": "pt/pc/hk.jpg", "typeid": "老虎机"}, {
+  "LapisId": "gts50",
+  "DisplayName": "炙热宝石",
+  "ButtonImagePath": "pt/pc/gts50.jpg",
+  "typeid": "老虎机"
+  }, {
+  "LapisId": "hotktv",
+  "DisplayName": "火热KTV",
+  "ButtonImagePath": "pt/pc/hotktv.jpg",
+  "typeid": "老虎机"
+  }, {
+  "LapisId": "aztec",
+  "DisplayName": "印加帝国头奖",
+  "ButtonImagePath": "pt/pc/aztec.jpg",
+  "typeid": "老虎机"
+  }, {
+  "LapisId": "ir",
+  "DisplayName": "浮冰流",
+  "ButtonImagePath": "pt/pc/ir.jpg",
+  "typeid": "老虎机"
+  }, {"LapisId": "irl", "DisplayName": "幸运爱尔兰", "ButtonImagePath": "pt/pc/irl.jpg", "typeid": "老虎机"}, {
+  "LapisId": "jpgt",
+  "DisplayName": "奖金巨人",
+  "ButtonImagePath": "pt/pc/jpgt.jpg",
+  "typeid": "老虎机"
+  }, {
+  "LapisId": "gtsje",
+  "DisplayName": "玉皇大帝",
+  "ButtonImagePath": "pt/pc/gtsje.jpg",
+  "typeid": "老虎机"
+  }, {
+  "LapisId": "gtsjxb",
+  "DisplayName": "吉祥 8",
+  "ButtonImagePath": "pt/pc/gtsjxb.jpg",
+  "typeid": "老虎机"
+  }, {"LapisId": "jqw", "DisplayName": "金钱蛙", "ButtonImagePath": "pt/pc/jqw.jpg", "typeid": "老虎机"}, {
+  "LapisId": "gtsjhw",
+  "DisplayName": "约翰韦恩",
+  "ButtonImagePath": "pt/pc/gtsjhw.jpg",
+  "typeid": "老虎机"
+  }, {"LapisId": "kkg", "DisplayName": "无敌金刚", "ButtonImagePath": "pt/pc/kkg.jpg", "typeid": "老虎机"}, {
+  "LapisId": "lndg",
+  "DisplayName": "遍地黄金",
+  "ButtonImagePath": "pt/pc/lndg.jpg",
+  "typeid": "老虎机"
+  }, {
+  "LapisId": "ght_a",
+  "DisplayName": "烈焰钻石",
+  "ButtonImagePath": "pt/pc/ght_a.jpg",
+  "typeid": "老虎机"
+  }, {"LapisId": "kfp", "DisplayName": "六福兽", "ButtonImagePath": "pt/pc/kfp.jpg", "typeid": "老虎机"}, {
+  "LapisId": "rofl",
+  "DisplayName": "真人法式轮盘",
+  "ButtonImagePath": "pt/pc/rofl.jpg",
+  "typeid": "视讯扑克"
+  }, {
+  "LapisId": "longlong",
+  "DisplayName": "龙龙龙",
+  "ButtonImagePath": "pt/pc/longlong.jpg",
+  "typeid": "老虎机"
+  }, {"LapisId": "lm", "DisplayName": "疯狂乐透", "ButtonImagePath": "pt/pc/lm.jpg", "typeid": "老虎机"}, {
+  "LapisId": "mgstk",
+  "DisplayName": "魔力老虎机",
+  "ButtonImagePath": "pt/pc/mgstk.jpg",
+  "typeid": "老虎机"
+  }, {
+  "LapisId": "gtsmrln",
+  "DisplayName": "玛丽莲梦露",
+  "ButtonImagePath": "pt/pc/gtsmrln.jpg",
+  "typeid": "老虎机"
+  }, {
+  "LapisId": "mfrt",
+  "DisplayName": "幸运女士",
+  "ButtonImagePath": "pt/pc/mfrt.jpg",
+  "typeid": "老虎机"
+  }, {
+  "LapisId": "ashlob",
+  "DisplayName": "蒙提派森之万世魔星",
+  "ButtonImagePath": "pt/pc/ashlob.jpg",
+  "typeid": "老虎机"
+  }, {"LapisId": "mrcb", "DisplayName": "返利先生", "ButtonImagePath": "pt/pc/mrcb.jpg", "typeid": "老虎机"}, {
+  "LapisId": "nk",
+  "DisplayName": "海王星王国",
+  "ButtonImagePath": "pt/pc/nk.jpg",
+  "typeid": "街机游戏"
+  }, {"LapisId": "nian", "DisplayName": "年年有余", "ButtonImagePath": "pt/pc/nian.jpg", "typeid": "老虎机"}, {
+  "LapisId": "pmn",
+  "DisplayName": "月亮下的黑豹",
+  "ButtonImagePath": "pt/pc/pmn.jpg",
+  "typeid": "老虎机"
+  }, {"LapisId": "pgv", "DisplayName": "企鹅度假", "ButtonImagePath": "pt/pc/pgv.jpg", "typeid": "老虎机"}, {
+  "LapisId": "bjp",
+  "DisplayName": "多幅完美21点",
+  "ButtonImagePath": "pt/pc/bjp.jpg",
+  "typeid": "老虎机"
+  }, {"LapisId": "pnp", "DisplayName": "粉红豹", "ButtonImagePath": "pt/pc/pnp.jpg", "typeid": "老虎机"}, {
+  "LapisId": "pst",
+  "DisplayName": "法老王的秘密",
+  "ButtonImagePath": "pt/pc/pst.jpg",
+  "typeid": "老虎机"
+  }, {
+  "LapisId": "paw",
+  "DisplayName": "三只小猪与大灰狼",
+  "ButtonImagePath": "pt/pc/paw.jpg",
+  "typeid": "老虎机"
+  }, {
+  "LapisId": "gtspor",
+  "DisplayName": "充裕财富",
+  "ButtonImagePath": "pt/pc/gtspor.jpg",
+  "typeid": "老虎机"
+  }, {
+  "LapisId": "rodz_g",
+  "DisplayName": "奖金美式轮盘",
+  "ButtonImagePath": "pt/pc/rodz_g.jpg",
+  "typeid": "桌牌游戏"
+  }, {
+  "LapisId": "ro_g",
+  "DisplayName": "奖金欧式轮盘",
+  "ButtonImagePath": "pt/pc/ro_g.jpg",
+  "typeid": "桌牌游戏"
+  }, {
+  "LapisId": "phot",
+  "DisplayName": "紫色狂热",
+  "ButtonImagePath": "pt/pc/phot.jpg",
+  "typeid": "老虎机"
+  }, {
+  "LapisId": "photk",
+  "DisplayName": "紫色狂热",
+  "ButtonImagePath": "pt/pc/photk.jpg",
+  "typeid": "老虎机"
+  }, {"LapisId": "qnw", "DisplayName": "权杖女王", "ButtonImagePath": "pt/pc/qnw.jpg", "typeid": "老虎机"}, {
+  "LapisId": "ririjc",
+  "DisplayName": "日日进财",
+  "ButtonImagePath": "pt/pc/ririjc.jpg",
+  "typeid": "老虎机"
+  }, {
+  "LapisId": "ririshc",
+  "DisplayName": "日日生财",
+  "ButtonImagePath": "pt/pc/ririshc.jpg",
+  "typeid": "老虎机"
+  }, {"LapisId": "rky", "DisplayName": "洛奇", "ButtonImagePath": "pt/pc/rky.jpg", "typeid": "老虎机"}, {
+  "LapisId": "rng2",
+  "DisplayName": "罗马荣光",
+  "ButtonImagePath": "pt/pc/rng2.jpg",
+  "typeid": "老虎机"
+  }, {"LapisId": "rol", "DisplayName": "真人轮盘", "ButtonImagePath": "pt/pc/rol.jpg", "typeid": "视讯扑克"}, {
+  "LapisId": "sfh",
+  "DisplayName": "野生狩猎",
+  "ButtonImagePath": "pt/pc/sfh.jpg",
+  "typeid": "老虎机"
+  }, {
+  "LapisId": "gtssmbr",
+  "DisplayName": "桑巴之舞",
+  "ButtonImagePath": "pt/pc/gtssmbr.jpg",
+  "typeid": "老虎机"
+  }, {"LapisId": "ssp", "DisplayName": "圣诞老人奇袭", "ButtonImagePath": "pt/pc/ssp.jpg", "typeid": "老虎机"}, {
+  "LapisId": "samz",
+  "DisplayName": "亚马逊之谜",
+  "ButtonImagePath": "pt/pc/samz.jpg",
+  "typeid": "老虎机"
+  }, {
+  "LapisId": "shmst",
+  "DisplayName": "神秘夏洛克",
+  "ButtonImagePath": "pt/pc/shmst.jpg",
+  "typeid": "老虎机"
+  }, {"LapisId": "sx", "DisplayName": "四象", "ButtonImagePath": "pt/pc/sx.jpg", "typeid": "老虎机"}, {
+  "LapisId": "sis",
+  "DisplayName": "忍者风云",
+  "ButtonImagePath": "pt/pc/sis.jpg",
+  "typeid": "老虎机"
+  }, {"LapisId": "sib", "DisplayName": "银弹", "ButtonImagePath": "pt/pc/sib.jpg", "typeid": "老虎机"}, {
+  "LapisId": "ashsbd",
+  "DisplayName": "辛巴达金航记",
+  "ButtonImagePath": "pt/pc/ashsbd.jpg",
+  "typeid": "老虎机"
+  }, {
+  "LapisId": "srcg",
+  "DisplayName": "欧莱里之黄金大田",
+  "ButtonImagePath": "pt/pc/srcg.jpg",
+  "typeid": "老虎机"
+  }, {"LapisId": "sol", "DisplayName": "幸运直击", "ButtonImagePath": "pt/pc/sol.jpg", "typeid": "老虎机"}, {
+  "LapisId": "gtsswk",
+  "DisplayName": "孙悟空",
+  "ButtonImagePath": "pt/pc/gtsswk.jpg",
+  "typeid": "老虎机"
+  }, {
+  "LapisId": "slion",
+  "DisplayName": "超级狮子",
+  "ButtonImagePath": "pt/pc/slion.jpg",
+  "typeid": "老虎机"
+  }, {"LapisId": "cnpr", "DisplayName": "甜蜜派对", "ButtonImagePath": "pt/pc/cnpr.jpg", "typeid": "老虎机"}, {
+  "LapisId": "tpd2",
+  "DisplayName": "泰国梦天堂",
+  "ButtonImagePath": "pt/pc/tpd2.jpg",
+  "typeid": "老虎机"
+  }, {"LapisId": "tht", "DisplayName": "泰国佛寺", "ButtonImagePath": "pt/pc/tht.jpg", "typeid": "老虎机"}, {
+  "LapisId": "dcv",
+  "DisplayName": "海上寻宝",
+  "ButtonImagePath": "pt/pc/dcv.jpg",
+  "typeid": "老虎机"
+  }, {
+  "LapisId": "ashglss",
+  "DisplayName": "水晶鞋",
+  "ButtonImagePath": "pt/pc/ashglss.jpg",
+  "typeid": "老虎机"
+  }, {
+  "LapisId": "gtsgme",
+  "DisplayName": "大明帝国",
+  "ButtonImagePath": "pt/pc/gtsgme.jpg",
+  "typeid": "老虎机"
+  },
+  {"LapisId": "lvb", "DisplayName": "恋爱之船", "ButtonImagePath": "pt/pc/lvb.jpg", "typeid": "老虎机"}, {
+  "LapisId": "donq",
+  "DisplayName": "唐吉诃德",
+  "ButtonImagePath": "pt/pc/donq.jpg",
+  "typeid": "老虎机"
+  }, {
+  "LapisId": "tmqd",
+  "DisplayName": "三个火枪手",
+  "ButtonImagePath": "pt/pc/tmqd.jpg",
+  "typeid": "老虎机"
+  }, {
+  "LapisId": "ashtmd",
+  "DisplayName": "三门问题",
+  "ButtonImagePath": "pt/pc/ashtmd.jpg",
+  "typeid": "老虎机"
+  }, {"LapisId": "topg", "DisplayName": "捍卫战士", "ButtonImagePath": "pt/pc/topg.jpg", "typeid": "老虎机"}, {
+  "LapisId": "ttc",
+  "DisplayName": "顶级王牌名人游戏",
+  "ButtonImagePath": "pt/pc/ttc.jpg",
+  "typeid": "老虎机"
+  }, {
+  "LapisId": "trpmnk",
+  "DisplayName": "三倍猴子",
+  "ButtonImagePath": "pt/pc/trpmnk.jpg",
+  "typeid": "老虎机"
+  }, {"LapisId": "er", "DisplayName": "开心假期", "ButtonImagePath": "pt/pc/er.jpg", "typeid": "老虎机"}, {
+  "LapisId": "vcstd",
+  "DisplayName": "开心假期豪華版",
+  "ButtonImagePath": "pt/pc/vcstd.jpg",
+  "typeid": "老虎机"
+  }, {
+  "LapisId": "gts52",
+  "DisplayName": "维京狂热",
+  "ButtonImagePath": "pt/pc/gts52.jpg",
+  "typeid": "老虎机"
+  }, {"LapisId": "whk", "DisplayName": "白狮王", "ButtonImagePath": "pt/pc/whk.jpg", "typeid": "老虎机"}, {
+  "LapisId": "gtswg",
+  "DisplayName": "野生动物大世界",
+  "ButtonImagePath": "pt/pc/gtswg.jpg",
+  "typeid": "老虎机"
+  }, {
+  "LapisId": "ashwgaa",
+  "DisplayName": "野生世界：北极大冒险",
+  "ButtonImagePath": "pt/pc/ashwgaa.jpg",
+  "typeid": "老虎机"
+  }, {"LapisId": "wis", "DisplayName": "狂野精灵", "ButtonImagePath": "pt/pc/wis.jpg", "typeid": "老虎机"}, {
+  "LapisId": "gtswng",
+  "DisplayName": "纯金之翼",
+  "ButtonImagePath": "pt/pc/gtswng.jpg",
+  "typeid": "老虎机"
+  }, {"LapisId": "wlg", "DisplayName": "舞龙", "ButtonImagePath": "pt/pc/wlg.jpg", "typeid": "老虎机"}, {
+  "LapisId": "wlcsh",
+  "DisplayName": "五路财神",
+  "ButtonImagePath": "pt/pc/wlcsh.jpg",
+  "typeid": "老虎机"
+  }, {
+  "LapisId": "zcjb",
+  "DisplayName": "招财进宝",
+  "ButtonImagePath": "pt/pc/zcjb.jpg",
+  "typeid": "老虎机"
+  }, {
+  "LapisId": "zcjbjp",
+  "DisplayName": "招财进宝积宝财池",
+  "ButtonImagePath": "pt/pc/zcjbjp.jpg",
+  "typeid": "老虎机"
+  }, {"LapisId": "zctz", "DisplayName": "招财童子", "ButtonImagePath": "pt/pc/zctz.jpg", "typeid": "老虎机"}]

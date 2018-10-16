@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Sport Order Detail Controller-->
+        <scene sceneID="OwW-Rg-qVj">
+            <objects>
+                <viewController storyboardIdentifier="sportOrderDetail" id="4M1-7A-Juo" customClass="SportOrderDetailController" customModule="gameplay" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QZ0-1d-9iR">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="CGu-qk-M7I">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="sportOrderDetailCell" rowHeight="80" id="hgO-gf-2A1" customClass="SportOrderDetailCell" customModule="gameplay" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="80"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="hgO-gf-2A1" id="OlF-Ll-2Ze">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="79.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="名称:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bWK-oc-uGB">
+                                                    <rect key="frame" x="15" y="31.5" width="62.5" height="17"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <color key="textColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="邓超首次自导" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fe1-5e-aqU">
+                                                    <rect key="frame" x="110" y="31" width="250" height="17"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <color key="textColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="bWK-oc-uGB" firstAttribute="leading" secondItem="OlF-Ll-2Ze" secondAttribute="leadingMargin" id="4qw-lS-jE3"/>
+                                                <constraint firstItem="fe1-5e-aqU" firstAttribute="width" secondItem="OlF-Ll-2Ze" secondAttribute="width" multiplier="4:6" id="Bx5-Rb-1RV"/>
+                                                <constraint firstItem="fe1-5e-aqU" firstAttribute="centerY" secondItem="OlF-Ll-2Ze" secondAttribute="centerY" id="Xcc-u8-iEc"/>
+                                                <constraint firstItem="bWK-oc-uGB" firstAttribute="centerY" secondItem="OlF-Ll-2Ze" secondAttribute="centerY" id="ZVc-wB-mJv"/>
+                                                <constraint firstItem="fe1-5e-aqU" firstAttribute="trailing" secondItem="OlF-Ll-2Ze" secondAttribute="trailingMargin" id="l4A-HP-xQ1"/>
+                                                <constraint firstItem="bWK-oc-uGB" firstAttribute="width" secondItem="OlF-Ll-2Ze" secondAttribute="width" multiplier="1:6" id="rqT-Us-nKZ"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="nameUI" destination="bWK-oc-uGB" id="s1A-Sc-hcg"/>
+                                            <outlet property="valueUI" destination="fe1-5e-aqU" id="Jb0-o4-UMo"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="EV4-gD-Rc9" firstAttribute="bottom" secondItem="CGu-qk-M7I" secondAttribute="bottom" id="Kiy-2Y-8lo"/>
+                            <constraint firstItem="CGu-qk-M7I" firstAttribute="leading" secondItem="EV4-gD-Rc9" secondAttribute="leading" id="XLS-00-wO9"/>
+                            <constraint firstItem="CGu-qk-M7I" firstAttribute="top" secondItem="EV4-gD-Rc9" secondAttribute="top" id="tRJ-M4-wLf"/>
+                            <constraint firstItem="EV4-gD-Rc9" firstAttribute="trailing" secondItem="CGu-qk-M7I" secondAttribute="trailing" id="v8U-Zt-ifu"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="EV4-gD-Rc9"/>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="CGu-qk-M7I" id="gSi-ox-LFi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FnL-uM-H7w" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="188" y="-347.67616191904051"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,403 @@
+ [ {
+  "DisplayName" : "王牌多手21点",
+  "DisplayEnName" : "Multihand Blackjack Deluxe",
+  "ButtonImagePath" : "xin/TA1Q.png",
+  "LapisId" : "TAITA1Q"
+  }, {
+  "DisplayName" : "王者传说",
+  "DisplayEnName" : "King of Glory",
+  "ButtonImagePath" : "xin/SB51_ZH.png",
+  "LapisId" : "162"
+  }, {
+  "DisplayName" : "骰宝",
+  "DisplayEnName" : "Sicbo",
+  "ButtonImagePath" : "xin/EP03_ZH.png",
+  "LapisId" : "EP03"
+  }, {
+  "DisplayName" : "阿里巴巴",
+  "DisplayEnName" : "Alibaba",
+  "ButtonImagePath" : "xin/WH01_ZH.png",
+  "LapisId" : "WHGWH01"
+  }, {
+  "DisplayName" : "神奇宝石",
+  "DisplayEnName" : "Mystic Gems",
+  "ButtonImagePath" : "SB47.jpg",
+  "LapisId" : "158"
+  }, {
+  "DisplayName" : "XIN哥来了",
+  "DisplayEnName" : "Mr XIN",
+  "ButtonImagePath" : "SB50.jpg",
+  "LapisId" : "161"
+  }, {
+  "DisplayName" : "五行世界",
+  "DisplayEnName" : "Five Elements",
+  "ButtonImagePath" : "DTA8.jpg",
+  "LapisId" : "DTGDTA8"
+  }, {
+  "DisplayName" : "梦幻森林",
+  "DisplayEnName" : "Fantasy Forest",
+  "ButtonImagePath" : "DTAB.jpg",
+  "LapisId" : "DTGDTAB"
+  }, {
+  "DisplayName" : "财神到",
+  "DisplayEnName" : "Wealthy God Arriving",
+  "ButtonImagePath" : "DTAF.jpg",
+  "LapisId" : "DTGDTAF"
+  }, {
+  "DisplayName" : "新年到",
+  "DisplayEnName" : "Happy New Year",
+  "ButtonImagePath" : "DTAG.jpg",
+  "LapisId" : "DTGDTAG"
+  }, {
+  "DisplayName" : "龙凤呈祥",
+  "DisplayEnName" : "DragonPhoenix Prosper",
+  "ButtonImagePath" : "xin/DTAQ_ZH.png",
+  "LapisId" : "DTGDTAQ"
+  }, {
+  "DisplayName" : "福禄寿",
+  "DisplayEnName" : "FULUSHOU",
+  "ButtonImagePath" : "xin/DTAT_ZH.png",
+  "LapisId" : "DTGDTAT"
+  }, {
+  "DisplayName" : "金龙珠",
+  "DisplayEnName" : "The Dragon Pearl Gold",
+  "ButtonImagePath" : "xin/SB49_ZH.png",
+  "LapisId" : "160"
+  }, {
+  "DisplayName" : "猛龙传奇",
+  "DisplayEnName" : "Legend of the Dragon",
+  "ButtonImagePath" : "xin/SB45_ZH.png",
+  "LapisId" : "156"
+  }, {
+  "DisplayName" : "英雄荣耀",
+  "DisplayEnName" : "Glory of Heroes",
+  "ButtonImagePath" : "xin/DTAR_ZH.jpg",
+  "LapisId" : "DTGDTAR"
+  }, {
+  "DisplayName" : "快乐农庄",
+  "DisplayEnName" : "Happy Farm",
+  "ButtonImagePath" : "xin/DTB1_ZH.png",
+  "LapisId" : "DTGDTB1"
+  }, {
+  "DisplayName" : "封神榜",
+  "DisplayEnName" : "Investiture of Gods",
+  "ButtonImagePath" : "xin/DTAM_ZH.jpg",
+  "LapisId" : "DTGDTAM"
+  }, {
+  "DisplayName" : "摇滚之夜",
+  "DisplayEnName" : "Rocknight",
+  "ButtonImagePath" : "xin/DTAZ_ZH.jpg",
+  "LapisId" : "DTGDTAZ"
+  }, {
+  "DisplayName" : "金拉霸",
+  "DisplayEnName" : "Gold Class",
+  "ButtonImagePath" : "xin/SC03_ZH.png",
+  "LapisId" : "802"
+  }, {
+  "DisplayName" : "街头烈战",
+  "DisplayEnName" : "Street Battle",
+  "ButtonImagePath" : "SX02.jpg",
+  "LapisId" : "221"
+  }, {
+  "DisplayName" : "赛亚烈战",
+  "DisplayEnName" : "Saiyan Battle Z",
+  "ButtonImagePath" : "xin/SX01_ZH.png",
+  "LapisId" : "DTGDTA0"
+  }, {
+  "DisplayName" : "欧洲轮盘（移动版）",
+  "DisplayEnName" : "Roulette Deluxe (mobile)",
+  "ButtonImagePath" : "tain/TA1S_ZH.jpg",
+  "LapisId" : "TAITA1O"
+  }, {
+  "DisplayName" : "龙舟竞渡",
+  "DisplayEnName" : "Dragon Boat Festival",
+  "ButtonImagePath" : "xin/XG10_ZH.gif",
+  "LapisId" : "209"
+  }, {
+  "DisplayName" : "中秋佳节",
+  "DisplayEnName" : "Moon Festival",
+  "ButtonImagePath" : "xin/XG11_ZH.gif",
+  "LapisId" : "210"
+  }, {
+  "DisplayName" : "韩风劲舞",
+  "DisplayEnName" : "K-Pop",
+  "ButtonImagePath" : "xin/XG12_ZH.gif",
+  "LapisId" : "211"
+  }, {
+  "DisplayName" : "美女大格斗",
+  "DisplayEnName" : "Fantasies",
+  "ButtonImagePath" : "xin/XG13_ZH.gif",
+  "LapisId" : "212"
+  }, {
+  "DisplayName" : "黄金对垒",
+  "DisplayEnName" : "Kick Off",
+  "ButtonImagePath" : "xin/XG16_ZH.gif",
+  "LapisId" : "215"
+  }, {
+  "DisplayName" : "上海百乐门",
+  "DisplayEnName" : "Shanghai Bund",
+  "ButtonImagePath" : "xin/SB37_ZH.gif",
+  "LapisId" : "149"
+  }, {
+  "DisplayName" : "冰河世界",
+  "DisplayEnName" : "Ice Crush",
+  "ButtonImagePath" : "xin/SB34_ZH.gif",
+  "LapisId" : "145"
+  }, {
+  "DisplayName" : "水果拉霸2",
+  "DisplayEnName" : "Fruit Slot 2",
+  "ButtonImagePath" : "xin/FRU2_ZH.gif",
+  "LapisId" : "146"
+  }, {
+  "DisplayName" : "糖果碰碰乐",
+  "DisplayEnName" : "Candy Quest",
+  "ButtonImagePath" : "xin/SB33_ZH.gif",
+  "LapisId" : "144"
+  }, {
+  "DisplayName" : "大豪客",
+  "DisplayEnName" : "High Roller",
+  "ButtonImagePath" : "xin/XG09_ZH.gif",
+  "LapisId" : "208"
+  }, {
+  "DisplayName" : "龙珠",
+  "DisplayEnName" : "Dragons Pearl",
+  "ButtonImagePath" : "xin/XG01_ZH.gif",
+  "LapisId" : "200"
+  }, {
+  "DisplayName" : "幸运8",
+  "DisplayEnName" : "lucky 8",
+  "ButtonImagePath" : "xin/XG02_ZH.gif",
+  "LapisId" : "201"
+  }, {
+  "DisplayName" : "闪亮女郎",
+  "DisplayEnName" : "Bling Bling",
+  "ButtonImagePath" : "xin/XG03_ZH.gif",
+  "LapisId" : "202"
+  }, {
+  "DisplayName" : "金鱼",
+  "DisplayEnName" : "Goldfish",
+  "ButtonImagePath" : "xin/XG04_ZH.gif",
+  "LapisId" : "203"
+  }, {
+  "DisplayName" : "中国新年",
+  "DisplayEnName" : "Chinese New Year",
+  "ButtonImagePath" : "xin/XG05_ZH.gif",
+  "LapisId" : "204"
+  }, {
+  "DisplayName" : "海盗王",
+  "DisplayEnName" : "Pirates",
+  "ButtonImagePath" : "xin/XG06_ZH.gif",
+  "LapisId" : "205"
+  }, {
+  "DisplayName" : "鲜果狂热",
+  "DisplayEnName" : "Fruitmania",
+  "ButtonImagePath" : "xin/XG07_ZH.gif",
+  "LapisId" : "206"
+  }, {
+  "DisplayName" : "小熊猫",
+  "DisplayEnName" : "Red Panda",
+  "ButtonImagePath" : "xin/XG08_ZH.gif",
+  "LapisId" : "207"
+  }, {
+  "DisplayName" : "灵猴献瑞",
+  "DisplayEnName" : "Year of the Monkey",
+  "ButtonImagePath" : "SB30_ZH.gif",
+  "LapisId" : "139"
+  }, {
+  "DisplayName" : "武财神",
+  "DisplayEnName" : "God of Wu Fortune",
+  "ButtonImagePath" : "xin/SB28_ZH.gif",
+  "LapisId" : "135"
+  }, {
+  "DisplayName" : "象棋老虎机",
+  "DisplayEnName" : "Chinese Chess slots",
+  "ButtonImagePath" : "xin/SB07_ZH.gif",
+  "LapisId" : "114"
+  }, {
+  "DisplayName" : "麻将老虎机",
+  "DisplayEnName" : "Mahjong slots",
+  "ButtonImagePath" : "xin/SB08_ZH.gif",
+  "LapisId" : "115"
+  }, {
+  "DisplayName" : "开心农场",
+  "DisplayEnName" : "Happy Farm",
+  "ButtonImagePath" : "xin/SB10_ZH.gif",
+  "LapisId" : "117"
+  }, {
+  "DisplayName" : "夏日营地",
+  "DisplayEnName" : "Summer Campsite",
+  "ButtonImagePath" : "xin/SB11_ZH.gif",
+  "LapisId" : "118"
+  }, {
+  "DisplayName" : "太空漫游",
+  "DisplayEnName" : "Space Odyssey",
+  "ButtonImagePath" : "SB01.gif",
+  "LapisId" : "108"
+  }, {
+  "DisplayName" : "复古花园",
+  "DisplayEnName" : "Garden Vintage",
+  "ButtonImagePath" : "xin/SB02_ZH.gif",
+  "LapisId" : "109"
+  }, {
+  "DisplayName" : "日本武士",
+  "DisplayEnName" : "Samurai slots",
+  "ButtonImagePath" : "xin/SB06_ZH.gif",
+  "LapisId" : "113"
+  }, {
+  "DisplayName" : "杰克高手",
+  "DisplayEnName" : "Jacks or Better",
+  "ButtonImagePath" : "PKBJ.gif",
+  "LapisId" : "102"
+  }, {
+  "DisplayName" : "水果拉霸",
+  "DisplayEnName" : "Fruit slots",
+  "ButtonImagePath" : "xin/FRU_ZH.gif",
+  "LapisId" : "101"
+  }, {
+  "DisplayName" : "森林舞会",
+  "DisplayEnName" : "Forest Dance",
+  "FTP_gametype" : "YFD",
+  "category" : "单人游戏",
+  "ButtonImagePath" : "yfd.png",
+  "LapisId" : "YP801"
+  }, {
+  "DisplayName" : "奔驰宝马",
+  "DisplayEnName" : "Benz",
+  "FTP_gametype" : "YBEN",
+  "category" : "单人游戏",
+  "ButtonImagePath" : "yben.png",
+  "LapisId" : "YP802"
+  }, {
+  "DisplayName" : "極速赛马",
+  "DisplayEnName" : "Run Horse",
+  "FTP_gametype" : "YHR",
+  "category" : "单人游戏",
+  "ButtonImagePath" : "yhr.png",
+  "LapisId" : "YP803"
+  }, {
+  "DisplayName" : "猜猜乐",
+  "DisplayEnName" : "Guess",
+  "FTP_gametype" : "YGS",
+  "category" : "单人游戏",
+  "ButtonImagePath" : "ygs.png",
+  "LapisId" : "YP804"
+  }, {
+  "DisplayName" : "水果拉霸",
+  "DisplayEnName" : "Fruit Slot",
+  "FTP_gametype" : "YFR",
+  "category" : "单人游戏",
+  "ButtonImagePath" : "yfr.png",
+  "LapisId" : "YP805"
+  }, {
+  "DisplayName" : "德州牛仔",
+  "DisplayEnName" : "Texas Cowboy",
+  "FTP_gametype" : "YDZ",
+  "category" : "桌面游戏",
+  "ButtonImagePath" : "ydz.png",
+  "LapisId" : "YP806"
+  }, {
+  "DisplayName" : "飞禽走兽",
+  "DisplayEnName" : "Birds & Beasts",
+  "FTP_gametype" : "YBIR",
+  "category" : "单人游戏",
+  "ButtonImagePath" : "ybir.png",
+  "LapisId" : "YP807"
+  }, {
+  "DisplayName" : "水果派对",
+  "DisplayEnName" : "Fruit Party",
+  "FTP_gametype" : "YFP",
+  "category" : "单人游戏",
+  "ButtonImagePath" : "yfp.png",
+  "LapisId" : "YP808"
+  }, {
+  "DisplayName" : "森林舞会多人版",
+  "DisplayEnName" : "Forest Dance Multiplayer",
+  "FTP_gametype" : "YMFD",
+  "category" : "多人游戏",
+  "ButtonImagePath" : "ymfd.png",
+  "LapisId" : "YP810"
+  }, {
+  "DisplayName" : "水果拉霸多人版",
+  "DisplayEnName" : "Fruit Slot Multiplayer",
+  "FTP_gametype" : "YMFR",
+  "category" : "多人游戏",
+  "ButtonImagePath" : "ymfr.png",
+  "LapisId" : "YP813"
+  }, {
+  "DisplayName" : "百人牛牛",
+  "DisplayEnName" : "Yo Bull",
+  "FTP_gametype" : "YMBN",
+  "category" : "桌面游戏",
+  "ButtonImagePath" : "ymbn.png",
+  "LapisId" : "YP817"
+  }, {
+  "DisplayName" : "多宝水果拉霸",
+  "DisplayEnName" : "Treasure Fruit slot",
+  "FTP_gametype" : "YGFS",
+  "category" : "单人游戏",
+  "ButtonImagePath" : "ygfs.png",
+  "LapisId" : "YP818"
+  }, {
+  "DisplayName" : "彩金水果拉霸",
+  "DisplayEnName" : "Jackpot Fruit Slot",
+  "FTP_gametype" : "YJFS",
+  "category" : "单人游戏",
+  "ButtonImagePath" : "yjfs.png",
+  "LapisId" : "YP820"
+  }, {
+  "DisplayName" : "飞禽走兽多人版",
+  "DisplayEnName" : "Birds and Beasts Multiplayer",
+  "FTP_gametype" : "YMBI",
+  "category" : "多人游戏",
+  "ButtonImagePath" : "ymbi.png",
+  "LapisId" : "YP814"
+  }, {
+  "DisplayName" : "牛牛对战",
+  "DisplayEnName" : "Bull Battle",
+  "FTP_gametype" : "YMBA",
+  "category" : "桌面游戏",
+  "ButtonImagePath" : "ymba.png",
+  "LapisId" : "YP821"
+  }, {
+  "DisplayName" : "奔驰宝马多人版",
+  "DisplayEnName" : "Benz Multiplayer",
+  "FTP_gametype" : "YMBZ",
+  "category" : "多人游戏",
+  "ButtonImagePath" : "ymbz.png",
+  "LapisId" : "YP811"
+  }, {
+  "DisplayName" : "动物狂欢",
+  "DisplayEnName" : "Animal Carnival",
+  "FTP_gametype" : "YMAC",
+  "category" : "多人游戏",
+  "ButtonImagePath" : "ymac.png",
+  "LapisId" : "YP823"
+  }, {
+  "DisplayName" : "西游争霸",
+  "DisplayEnName" : "Western Journey",
+  "FTP_gametype" : "YMJW",
+  "category" : "多人游戏",
+  "ButtonImagePath" : "ymjw.png",
+  "LapisId" : "YP824"
+  }, {
+  "DisplayName" : "翻倍炸金花",
+  "DisplayEnName" : "Double Win 3 Cards",
+  "FTP_gametype" : "YMJH",
+  "category" : "多人游戏",
+  "ButtonImagePath" : "ymjh.png",
+  "LapisId" : "YP822"
+  }, {
+  "DisplayName" : "刺激战场",
+  "DisplayEnName" : "Battle Field",
+  "FTP_gametype" : "YMBF",
+  "category" : "多人游戏",
+  "ButtonImagePath" : "ymbf.png",
+  "LapisId" : "YP826"
+  }, {
+  "DisplayName" : "斗三公",
+  "DisplayEnName" : "San Gong",
+  "FTP_gametype" : "YMSG",
+  "category" : "桌面游戏",
+  "ButtonImagePath" : "ymsg.png",
+  "LapisId" : "YP825"
+  } ]

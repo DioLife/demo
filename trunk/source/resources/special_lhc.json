@@ -1,0 +1,318 @@
+[
+  {
+    "code": "lm",
+    "data": [
+      {
+        "name": "三中二",
+        "code": "sze",
+        "data": [
+          {
+            "name": "单选/复式",
+            "code": "dxfs"
+          },
+          {
+            "name": "拖胆",
+            "code": "td"
+          }
+        ]
+      },
+      {
+        "name": "三全中",
+        "code": "sqz",
+        "data": [
+          {
+            "name": "单选/复式",
+            "code": "dxfs"
+          },
+          {
+            "name": "拖胆",
+            "code": "td"
+          }
+        ]
+      },
+      {
+        "name": "二全中",
+        "code": "eqz",
+        "data": [
+          {
+            "name": "单选/复式",
+            "code": "dxfs"
+          },
+          {
+            "name": "拖胆",
+            "code": "td"
+          },
+          {
+            "name": "生肖/对碰",
+            "code": "sxdp"
+          },
+          {
+            "name": "尾数/对碰",
+            "code": "wsdp"
+          },
+          {
+            "name": "混合/对碰",
+            "code": "hhdp"
+          }
+        ]
+      },
+      {
+        "name": "二中特",
+        "code": "ezt",
+        "data": [
+          {
+            "name": "单选/复式",
+            "code": "dxfs"
+          },
+          {
+            "name": "拖胆",
+            "code": "td"
+          },
+          {
+            "name": "生肖/对碰",
+            "code": "sxdp"
+          },
+          {
+            "name": "尾数/对碰",
+            "code": "wsdp"
+          },
+          {
+            "name": "混合/对碰",
+            "code": "hhdp"
+          }
+        ]
+      },
+      {
+        "name": "特串",
+        "code": "tc",
+        "data": [
+          {
+            "name": "单选/复式",
+            "code": "dxfs"
+          },
+          {
+            "name": "拖胆",
+            "code": "td"
+          },
+          {
+            "name": "生肖/对碰",
+            "code": "sxdp"
+          },
+          {
+            "name": "尾数/对碰",
+            "code": "wsdp"
+          },
+          {
+            "name": "混合/对碰",
+            "code": "hhdp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "zxbz",
+    "data": [
+      {
+        "name": "五不中",
+        "code": "wbz"
+      },
+      {
+        "name": "六不中",
+        "code": "lbz"
+      },
+      {
+        "name": "七不中",
+        "code": "qbz"
+      },
+      {
+        "name": "八不中",
+        "code": "bbz"
+      },
+      {
+        "name": "九不中",
+        "code": "jbz"
+      },
+      {
+        "name": "十不中",
+        "code": "sbz"
+      },
+      {
+        "name": "十一不中",
+        "code": "sybz"
+      },
+      {
+        "name": "十二不中",
+        "code": "sebz"
+      }
+    ]
+  },
+  {
+    "code": "lx",
+    "data": [
+    {
+      "name": "连肖二肖",
+      "code": "lxex",
+      "data": [
+        {
+          "name": "单选/复式",
+          "code": "dxfs"
+        },
+        {
+          "name": "拖胆",
+          "code": "td"
+        }
+      ]
+    },
+    {
+      "name": "连肖三肖",
+      "code": "lxsx",
+      "data": [
+        {
+          "name": "单选/复式",
+          "code": "dxfs"
+        },
+        {
+          "name": "拖胆",
+          "code": "td"
+        }
+      ]
+    },
+    {
+      "name": "连肖四肖",
+      "code": "lxsix",
+      "data": [
+        {
+          "name": "单选/复式",
+          "code": "dxfs"
+        },
+        {
+          "name": "拖胆",
+          "code": "td"
+        }
+      ]
+    },
+    {
+      "name": "连肖五肖",
+      "code": "lxwx",
+      "data": [
+        {
+          "name": "单选/复式",
+          "code": "dxfs"
+        },
+        {
+          "name": "拖胆",
+          "code": "td"
+        }
+      ]
+    }
+  ]
+  },
+  {
+    "code": "hx",
+    "data": [
+      {
+        "name": "一肖",
+        "code": "hxy"
+      },
+      {
+        "name": "二肖",
+        "code": "hxe"
+      },
+      {
+        "name": "三肖",
+        "code": "hxs"
+      },
+      {
+        "name": "四肖",
+        "code": "hxsi"
+      },
+      {
+        "name": "五肖",
+        "code": "hxw"
+      },
+      {
+        "name": "六肖",
+        "code": "hxl"
+      },
+      {
+        "name": "七肖",
+        "code": "hxq"
+      },
+      {
+        "name": "八肖",
+        "code": "hxb"
+      },
+      {
+        "name": "九肖",
+        "code": "hxj"
+      },
+      {
+        "name": "十肖",
+        "code": "hxsh"
+      },
+      {
+        "name": "十一肖",
+        "code": "hxsy"
+      }
+    ]
+  },
+  {
+    "code": "ztm",
+    "data": [
+      {
+        "name": "正码特一",
+        "code": "zty"
+      },
+      {
+        "name": "正码特二",
+        "code": "zte"
+      },
+      {
+        "name": "正码特三",
+        "code": "zts"
+      },
+      {
+        "name": "正码特四",
+        "code": "ztsi"
+      },
+      {
+        "name": "正码特五",
+        "code": "ztw"
+      },
+      {
+        "name": "正码特六",
+        "code": "ztl"
+      }
+    ]
+  },
+  {
+    "code": "zm16",
+    "data": [
+      {
+        "name": "正码一",
+        "code": "zmy"
+      },
+      {
+        "name": "正码二",
+        "code": "zme"
+      },
+      {
+        "name": "正码三",
+        "code": "zms"
+      },
+      {
+        "name": "正码四",
+        "code": "zmsi"
+      },
+      {
+        "name": "正码五",
+        "code": "zmw"
+      },
+      {
+        "name": "正码六",
+        "code": "zml"
+      }
+    ]
+  }
+]
