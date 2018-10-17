@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--About Us Controller-->
+        <scene sceneID="3Uk-SM-zZO">
+            <objects>
+                <viewController storyboardIdentifier="aboutus" id="QB7-qo-ERk" customClass="AboutUsController" customModule="YiboGameIos" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="I6E-HH-I6f">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TI2-mK-RvC">
+                                <rect key="frame" x="67" y="213" width="240" height="240"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="wiB-bW-Nfn">
+                                        <rect key="frame" x="73" y="73" width="93" height="93"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="易博宝" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hc2-HI-Psf">
+                                        <rect key="frame" x="0.5" y="178" width="240" height="19.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <color key="textColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="wiB-bW-Nfn" firstAttribute="centerX" secondItem="TI2-mK-RvC" secondAttribute="centerX" id="1HG-MY-234"/>
+                                    <constraint firstItem="wiB-bW-Nfn" firstAttribute="centerY" secondItem="TI2-mK-RvC" secondAttribute="centerY" id="Bq6-tq-Vub"/>
+                                    <constraint firstItem="hc2-HI-Psf" firstAttribute="width" secondItem="TI2-mK-RvC" secondAttribute="width" id="DQT-XE-I39"/>
+                                    <constraint firstItem="hc2-HI-Psf" firstAttribute="centerX" secondItem="TI2-mK-RvC" secondAttribute="centerX" id="Gb9-kX-Yvw"/>
+                                    <constraint firstAttribute="height" constant="240" id="SYV-Ih-nr0"/>
+                                    <constraint firstAttribute="width" constant="240" id="bjZ-ai-1m7"/>
+                                    <constraint firstItem="hc2-HI-Psf" firstAttribute="top" secondItem="wiB-bW-Nfn" secondAttribute="bottom" constant="12" id="pDh-iq-5bD"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="v1.1.10000" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ewB-hx-Hwf">
+                                <rect key="frame" x="-0.5" y="626" width="375" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="NJG-xr-xBL" firstAttribute="bottom" secondItem="ewB-hx-Hwf" secondAttribute="bottom" constant="20" id="6uc-zF-Pyh"/>
+                            <constraint firstItem="TI2-mK-RvC" firstAttribute="centerY" secondItem="I6E-HH-I6f" secondAttribute="centerY" id="DD6-NM-qnd"/>
+                            <constraint firstItem="TI2-mK-RvC" firstAttribute="centerX" secondItem="I6E-HH-I6f" secondAttribute="centerX" id="IRm-kg-wvW"/>
+                            <constraint firstItem="ewB-hx-Hwf" firstAttribute="width" secondItem="I6E-HH-I6f" secondAttribute="width" id="J4i-TT-bLv"/>
+                            <constraint firstItem="TI2-mK-RvC" firstAttribute="centerX" secondItem="I6E-HH-I6f" secondAttribute="centerX" id="JtX-ce-LsZ"/>
+                            <constraint firstItem="TI2-mK-RvC" firstAttribute="centerY" secondItem="I6E-HH-I6f" secondAttribute="centerY" id="LSt-US-nmz"/>
+                            <constraint firstItem="TI2-mK-RvC" firstAttribute="centerX" secondItem="I6E-HH-I6f" secondAttribute="centerX" id="Tqj-yj-4uO"/>
+                            <constraint firstItem="ewB-hx-Hwf" firstAttribute="centerX" secondItem="I6E-HH-I6f" secondAttribute="centerX" id="ZUg-hY-fqS"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="NJG-xr-xBL"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="9iz-Mf-yT2"/>
+                    <connections>
+                        <outlet property="appName" destination="hc2-HI-Psf" id="swk-vy-jOf"/>
+                        <outlet property="appVersion" destination="ewB-hx-Hwf" id="pz0-kF-UT3"/>
+                        <outlet property="icon" destination="wiB-bW-Nfn" id="djS-Yg-OX8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8IW-M4-WjR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="637.60000000000002" y="-242.42878560719643"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="VH5-k2-2hW">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="xCX-fd-qMQ" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="se2-gd-16e">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="QB7-qo-ERk" kind="relationship" relationship="rootViewController" id="ZBI-q1-xSY"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7d3-Dl-4Lt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-362" y="-242"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="icon.png" width="93" height="93"/>
+    </resources>
+</document>

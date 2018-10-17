@@ -1,0 +1,16 @@
+PODS:
+  - DNSPageView (1.1.1)
+
+DEPENDENCIES:
+  - DNSPageView (~> 1.1.1)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - DNSPageView
+
+SPEC CHECKSUMS:
+  DNSPageView: c8598a6d38ee4191191e326cbd5198b641245aaf
+
+PODFILE CHECKSUM: ea36b0b510f900abc09e8ec38e788ec57920bbc1
+
+COCOAPODS: 1.5.3

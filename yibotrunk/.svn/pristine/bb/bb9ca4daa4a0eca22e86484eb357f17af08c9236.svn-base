@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Modify Pwd Controller-->
+        <scene sceneID="VSi-xV-Ixa">
+            <objects>
+                <viewController storyboardIdentifier="modifyPwd" id="kRo-N9-keP" customClass="ModifyPwdController" customModule="YiboGameIos" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bjD-NZ-GE6">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="请输入旧密码" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Seh-HW-2XO" customClass="CustomFeildText" customModule="YiboGameIos" customModuleProvider="target">
+                                <rect key="frame" x="62" y="124" width="250" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Udc-xT-7sx"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="请输入新密码" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5ZF-zd-jjf" customClass="CustomFeildText" customModule="YiboGameIos" customModuleProvider="target">
+                                <rect key="frame" x="62" y="184" width="250" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="tX7-Ji-hn0"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="请确认密码" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MZn-jc-XOf" customClass="CustomFeildText" customModule="YiboGameIos" customModuleProvider="target">
+                                <rect key="frame" x="62" y="244" width="250" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="p90-AH-0MY"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Imq-du-1Up">
+                                <rect key="frame" x="62" y="304" width="250" height="40"/>
+                                <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="aPg-ui-OSF"/>
+                                </constraints>
+                                <state key="normal" title="修改">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Imq-du-1Up" firstAttribute="trailing" secondItem="MZn-jc-XOf" secondAttribute="trailing" id="2Cy-0d-cJm"/>
+                            <constraint firstItem="5ZF-zd-jjf" firstAttribute="leading" secondItem="Seh-HW-2XO" secondAttribute="leading" id="7IS-pA-x30"/>
+                            <constraint firstItem="Seh-HW-2XO" firstAttribute="width" secondItem="lN9-Oy-fWO" secondAttribute="width" multiplier="2:3" id="8xi-ZF-T8V"/>
+                            <constraint firstItem="Imq-du-1Up" firstAttribute="top" secondItem="MZn-jc-XOf" secondAttribute="bottom" constant="20" id="D88-r8-T0b"/>
+                            <constraint firstItem="MZn-jc-XOf" firstAttribute="top" secondItem="5ZF-zd-jjf" secondAttribute="bottom" constant="20" id="EkO-IH-nHV"/>
+                            <constraint firstItem="5ZF-zd-jjf" firstAttribute="trailing" secondItem="Seh-HW-2XO" secondAttribute="trailing" id="IN3-gQ-mwM"/>
+                            <constraint firstItem="Seh-HW-2XO" firstAttribute="centerX" secondItem="bjD-NZ-GE6" secondAttribute="centerX" id="OAM-fO-2My"/>
+                            <constraint firstItem="Imq-du-1Up" firstAttribute="leading" secondItem="MZn-jc-XOf" secondAttribute="leading" id="QyD-ib-Og0"/>
+                            <constraint firstItem="MZn-jc-XOf" firstAttribute="leading" secondItem="5ZF-zd-jjf" secondAttribute="leading" id="S4B-gI-KBf"/>
+                            <constraint firstItem="5ZF-zd-jjf" firstAttribute="centerX" secondItem="bjD-NZ-GE6" secondAttribute="centerX" id="U86-Lm-X8u"/>
+                            <constraint firstItem="5ZF-zd-jjf" firstAttribute="top" secondItem="Seh-HW-2XO" secondAttribute="bottom" constant="20" id="Zgk-Of-Bjr"/>
+                            <constraint firstItem="Seh-HW-2XO" firstAttribute="top" secondItem="lN9-Oy-fWO" secondAttribute="top" constant="60" id="bnI-G0-aOJ"/>
+                            <constraint firstItem="MZn-jc-XOf" firstAttribute="trailing" secondItem="5ZF-zd-jjf" secondAttribute="trailing" id="qsn-FT-dbd"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="lN9-Oy-fWO"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Y4m-RI-HR8"/>
+                    <connections>
+                        <outlet property="apwdInput" destination="MZn-jc-XOf" id="Ojx-Wk-LwF"/>
+                        <outlet property="btn" destination="Imq-du-1Up" id="F5e-ts-mvW"/>
+                        <outlet property="npwdInput" destination="5ZF-zd-jjf" id="thM-bm-VOd"/>
+                        <outlet property="opwdInput" destination="Seh-HW-2XO" id="0KS-xX-sOO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cow-fz-ydH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="720.79999999999995" y="-119.1904047976012"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="577-PV-N60">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="zdu-ac-YOc" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="OWZ-81-LaY">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="kRo-N9-keP" kind="relationship" relationship="rootViewController" id="j1H-7c-si4"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="emD-uC-1K6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="28" y="-119"/>
+        </scene>
+    </scenes>
+</document>

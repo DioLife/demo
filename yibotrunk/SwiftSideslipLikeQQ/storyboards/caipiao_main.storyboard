@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Cp Main Controller-->
+        <scene sceneID="LMP-e7-rUg">
+            <objects>
+                <viewController storyboardIdentifier="caipiao" hidesBottomBarWhenPushed="YES" id="yE8-la-Els" customClass="CpMainController" customModule="YiboGameIos" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="J7d-M4-ZwY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kdt-zu-EIs" userLabel="热门彩种开奖结果">
+                                <rect key="frame" x="0.0" y="64" width="375" height="120"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="[xxxx]最新开奖:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="czI-Ey-TEn">
+                                        <rect key="frame" x="10" y="10" width="355" height="20"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="20" id="9s9-bF-WEL"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="每 --:--:-- 开奖" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q5h-wJ-d1C">
+                                        <rect key="frame" x="10" y="90" width="150" height="20"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="20" id="GGd-hR-vY7"/>
+                                            <constraint firstAttribute="width" constant="150" id="vsq-ng-3fZ"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Awe-F1-QEl">
+                                        <rect key="frame" x="305" y="80" width="60" height="30"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <state key="normal" image="fast_touzhu_icon.png">
+                                            <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="586-vl-ahu" customClass="BallsView" customModule="YiboGameIos" customModuleProvider="target">
+                                        <rect key="frame" x="10" y="35" width="250" height="50"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="166-Wz-d0L"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="586-vl-ahu" firstAttribute="centerY" secondItem="kdt-zu-EIs" secondAttribute="centerY" id="00M-2C-87x"/>
+                                    <constraint firstAttribute="trailing" secondItem="czI-Ey-TEn" secondAttribute="trailing" constant="10" id="7HT-RA-j2S"/>
+                                    <constraint firstItem="586-vl-ahu" firstAttribute="leading" secondItem="czI-Ey-TEn" secondAttribute="leading" id="AfJ-tw-y8o"/>
+                                    <constraint firstItem="Awe-F1-QEl" firstAttribute="bottom" secondItem="Q5h-wJ-d1C" secondAttribute="bottom" id="AtX-d6-9dr"/>
+                                    <constraint firstAttribute="bottom" secondItem="Q5h-wJ-d1C" secondAttribute="bottom" constant="10" id="Foj-61-MLR"/>
+                                    <constraint firstItem="Q5h-wJ-d1C" firstAttribute="leading" secondItem="czI-Ey-TEn" secondAttribute="leading" id="KTk-bH-6ky"/>
+                                    <constraint firstItem="czI-Ey-TEn" firstAttribute="leading" secondItem="kdt-zu-EIs" secondAttribute="leading" constant="10" id="LER-1u-I2z"/>
+                                    <constraint firstAttribute="trailing" secondItem="Awe-F1-QEl" secondAttribute="trailing" constant="10" id="N5N-sI-7tv"/>
+                                    <constraint firstAttribute="height" constant="120" id="eRW-5S-jJT"/>
+                                    <constraint firstItem="586-vl-ahu" firstAttribute="width" secondItem="kdt-zu-EIs" secondAttribute="width" multiplier="2:3" id="oK8-jK-qoR"/>
+                                    <constraint firstItem="czI-Ey-TEn" firstAttribute="top" secondItem="kdt-zu-EIs" secondAttribute="top" constant="10" id="sap-pr-fe6"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GoC-iZ-kPx" userLabel="彩种列表">
+                                <rect key="frame" x="0.0" y="185" width="375" height="482"/>
+                                <subviews>
+                                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="oKw-LD-P0r">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="472"/>
+                                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="2" minimumInteritemSpacing="0.5" id="Laa-Dl-NTX">
+                                            <size key="itemSize" width="100" height="100"/>
+                                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        </collectionViewFlowLayout>
+                                        <cells>
+                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cpCell" id="Io2-X7-9wz" customClass="CPViewCell" customModule="YiboGameIos" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                                    <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </view>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </collectionViewCell>
+                                        </cells>
+                                        <connections>
+                                            <outlet property="dataSource" destination="yE8-la-Els" id="e2g-Ir-eNM"/>
+                                            <outlet property="delegate" destination="yE8-la-Els" id="lZn-bk-47z"/>
+                                        </connections>
+                                    </collectionView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="oKw-LD-P0r" firstAttribute="leading" secondItem="GoC-iZ-kPx" secondAttribute="leading" id="9yS-9H-QCJ"/>
+                                    <constraint firstAttribute="trailing" secondItem="oKw-LD-P0r" secondAttribute="trailing" id="ZP2-HH-qIW"/>
+                                    <constraint firstItem="oKw-LD-P0r" firstAttribute="top" secondItem="GoC-iZ-kPx" secondAttribute="top" id="bzv-68-3l4"/>
+                                    <constraint firstAttribute="bottom" secondItem="oKw-LD-P0r" secondAttribute="bottom" constant="10" id="fol-rH-RnT"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="GoC-iZ-kPx" firstAttribute="leading" secondItem="wL7-s0-Kii" secondAttribute="leading" id="Aeu-vg-JS1"/>
+                            <constraint firstItem="GoC-iZ-kPx" firstAttribute="trailing" secondItem="wL7-s0-Kii" secondAttribute="trailing" id="CQx-me-mb5"/>
+                            <constraint firstItem="kdt-zu-EIs" firstAttribute="trailing" secondItem="wL7-s0-Kii" secondAttribute="trailing" id="Cz9-UK-vPE"/>
+                            <constraint firstItem="GoC-iZ-kPx" firstAttribute="bottom" secondItem="wL7-s0-Kii" secondAttribute="bottom" id="Fgb-s0-ZVU"/>
+                            <constraint firstItem="GoC-iZ-kPx" firstAttribute="top" secondItem="kdt-zu-EIs" secondAttribute="bottom" constant="1" id="MIE-7R-lhl"/>
+                            <constraint firstItem="kdt-zu-EIs" firstAttribute="top" secondItem="wL7-s0-Kii" secondAttribute="top" id="Qnp-1d-Wvl"/>
+                            <constraint firstItem="GoC-iZ-kPx" firstAttribute="width" secondItem="J7d-M4-ZwY" secondAttribute="width" id="UpM-kS-MaN"/>
+                            <constraint firstItem="GoC-iZ-kPx" firstAttribute="trailing" secondItem="wL7-s0-Kii" secondAttribute="trailing" id="bIQ-aW-1ar"/>
+                            <constraint firstItem="kdt-zu-EIs" firstAttribute="width" secondItem="J7d-M4-ZwY" secondAttribute="width" id="iz1-aU-xv7"/>
+                            <constraint firstItem="GoC-iZ-kPx" firstAttribute="bottom" secondItem="wL7-s0-Kii" secondAttribute="bottom" id="ksd-by-n3i"/>
+                            <constraint firstItem="GoC-iZ-kPx" firstAttribute="leading" secondItem="wL7-s0-Kii" secondAttribute="leading" id="sRy-QI-fdj"/>
+                            <constraint firstItem="kdt-zu-EIs" firstAttribute="leading" secondItem="wL7-s0-Kii" secondAttribute="leading" id="x1O-hX-Vy9"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="wL7-s0-Kii"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="0JR-EZ-kNb"/>
+                    <connections>
+                        <outlet property="caipiaos" destination="oKw-LD-P0r" id="L84-Rs-1Lk"/>
+                        <outlet property="lotteryName" destination="czI-Ey-TEn" id="ZEh-8x-wY4"/>
+                        <outlet property="lotteryOpenTime" destination="Q5h-wJ-d1C" id="6cc-AK-ZVh"/>
+                        <outlet property="resultBalls" destination="586-vl-ahu" id="fNg-Af-mK9"/>
+                        <outlet property="touzhuBtn" destination="Awe-F1-QEl" id="CvG-02-0Dl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="A6w-1N-xSS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="397.60000000000002" y="-179.46026986506749"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="uuz-1Z-kXR">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="YSc-Vm-XeM" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="hHi-xq-Xyd">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="yE8-la-Els" kind="relationship" relationship="rootViewController" id="icL-Zd-HhT"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aP7-xZ-oRI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-289" y="-179"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="fast_touzhu_icon.png" width="60" height="30"/>
+    </resources>
+</document>

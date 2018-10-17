@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Message Center Controller-->
+        <scene sceneID="Zs8-CA-c7q">
+            <objects>
+                <tableViewController storyboardIdentifier="mc" id="czi-I5-xCd" customClass="MessageCenterController" customModule="YiboGameIos" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="mVK-8y-iC0">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="mcCell" rowHeight="120" id="3Qi-xr-igo" customClass="MessageCenterCell" customModule="YiboGameIos" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="375" height="120"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="3Qi-xr-igo" id="73r-zV-KRN">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="119.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="标题" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="06P-0t-3kg">
+                                            <rect key="frame" x="16" y="11" width="281.5" height="19.5"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                            <color key="textColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="内容" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="na9-42-Czf">
+                                            <rect key="frame" x="16" y="36" width="343" height="50"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="50" id="ntb-ja-X38"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <color key="textColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="未读" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="feX-KE-rFn">
+                                            <rect key="frame" x="317" y="11" width="42" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <color key="textColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1997" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zzh-0h-tmJ">
+                                            <rect key="frame" x="16" y="94.5" width="343" height="14.5"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                            <color key="textColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="zzh-0h-tmJ" firstAttribute="trailing" secondItem="73r-zV-KRN" secondAttribute="trailingMargin" id="MZq-T4-ZTF"/>
+                                        <constraint firstItem="zzh-0h-tmJ" firstAttribute="bottom" secondItem="73r-zV-KRN" secondAttribute="bottomMargin" id="Rg6-4Q-jcL"/>
+                                        <constraint firstItem="06P-0t-3kg" firstAttribute="width" secondItem="73r-zV-KRN" secondAttribute="width" multiplier="3:4" id="SOj-T9-GgL"/>
+                                        <constraint firstItem="na9-42-Czf" firstAttribute="top" secondItem="06P-0t-3kg" secondAttribute="bottom" constant="5.5" id="Sgq-pG-rEc"/>
+                                        <constraint firstItem="zzh-0h-tmJ" firstAttribute="leading" secondItem="73r-zV-KRN" secondAttribute="leadingMargin" id="VjV-6w-Jgc"/>
+                                        <constraint firstItem="06P-0t-3kg" firstAttribute="top" secondItem="73r-zV-KRN" secondAttribute="topMargin" id="gTa-fS-sdA"/>
+                                        <constraint firstItem="na9-42-Czf" firstAttribute="trailing" secondItem="73r-zV-KRN" secondAttribute="trailingMargin" id="jwl-Dd-b3K"/>
+                                        <constraint firstItem="06P-0t-3kg" firstAttribute="leading" secondItem="73r-zV-KRN" secondAttribute="leadingMargin" id="mOc-xy-HQJ"/>
+                                        <constraint firstItem="na9-42-Czf" firstAttribute="leading" secondItem="06P-0t-3kg" secondAttribute="leading" id="wiO-m0-SeJ"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="contentUI" destination="na9-42-Czf" id="HSN-V1-fjO"/>
+                                    <outlet property="statusUI" destination="feX-KE-rFn" id="t2P-m7-GmL"/>
+                                    <outlet property="timeUI" destination="zzh-0h-tmJ" id="fAF-9N-cwr"/>
+                                    <outlet property="titleUI" destination="06P-0t-3kg" id="L9L-zx-oMP"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="czi-I5-xCd" id="rLU-vh-qW6"/>
+                            <outlet property="delegate" destination="czi-I5-xCd" id="Sdm-BN-Y3h"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="e7J-sP-dRd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="396" y="-215.44227886056973"/>
+        </scene>
+    </scenes>
+</document>

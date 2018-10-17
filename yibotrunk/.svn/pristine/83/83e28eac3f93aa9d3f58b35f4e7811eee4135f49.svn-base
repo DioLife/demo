@@ -1,0 +1,503 @@
+[
+  {
+    "ButtonImagePath": "BTN_CandyDreams_ZH",
+    "DisplayName": "梦果子乐园",
+    "typeid": 1,
+    "LapisId": "70313"
+  },
+  {
+    "ButtonImagePath": "BTN_Junglejim_zh",
+    "DisplayName": "丛林吉姆-黄金国",
+    "typeid": 1,
+    "LapisId": "66605"
+  },
+  {
+    "ButtonImagePath": "BTN_5ReelDrive1",
+    "DisplayName": "5卷的驱动器",
+    "typeid": 1,
+    "LapisId": "28118"
+  },
+  {
+    "ButtonImagePath": "BTN_AcesAndEights1",
+    "DisplayName": "王牌和八分",
+    "typeid": 6,
+    "LapisId": "28684"
+  },
+  {
+    "ButtonImagePath": "BTN_AcesFaces1",
+    "DisplayName": "王牌和面孔",
+    "typeid": 6,
+    "LapisId": "28690"
+  },
+  {
+    "ButtonImagePath": "BTN_AdventurePalace4",
+    "DisplayName": "宫廷历险",
+    "typeid": 1,
+    "LapisId": "28688"
+  },
+  {
+    "ButtonImagePath": "BTN_AgentJaneBlonde7",
+    "DisplayName": "大航海时代",
+    "typeid": 1,
+    "LapisId": "28692"
+  },
+  {
+    "ButtonImagePath": "BTN_AgeofDiscovery3",
+    "DisplayName": "美女秘探",
+    "typeid": 1,
+    "LapisId": "28698"
+  },
+  {
+    "ButtonImagePath": "BTN_AlaskanFishing1",
+    "DisplayName": "阿拉斯加钓鱼",
+    "typeid": 1,
+    "LapisId": "28700"
+  },
+  {
+    "ButtonImagePath": "BTN_AsianBeauty1",
+    "DisplayName": "亚洲美人",
+    "typeid": 1,
+    "LapisId": "45531"
+  },
+  {
+    "ButtonImagePath": "BTN_Avalon1",
+    "DisplayName": "阿瓦隆",
+    "typeid": 1,
+    "LapisId": "28702"
+  },
+  {
+    "ButtonImagePath": "BTN_barsandstripes",
+    "DisplayName": "美国酒吧",
+    "typeid": 1,
+    "LapisId": "28682",
+    "single": 1
+  },
+  {
+    "ButtonImagePath": "BTN_BasketballStar_ZH",
+    "DisplayName": "篮球巨星",
+    "typeid": 1,
+    "LapisId": "45539"
+  },
+  {
+    "ButtonImagePath": "BTN_beachbabes",
+    "DisplayName": "沙滩宝贝",
+    "typeid": 1,
+    "LapisId": "28704",
+    "single": 1
+  },
+  {
+    "ButtonImagePath": "BTN_BigTop1",
+    "DisplayName": "马戏篷",
+    "typeid": 1,
+    "LapisId": "28714"
+  },
+  {
+    "ButtonImagePath": "BTN_BikiniParty_ZH",
+    "DisplayName": "比基尼派对",
+    "typeid": 1,
+    "LapisId": "46810"
+  },
+  {
+    "ButtonImagePath": "BTN_BonusDeucesWild1",
+    "DisplayName": "疯狂奖金局末平分",
+    "typeid": 6,
+    "LapisId": "28718"
+  },
+  {
+    "ButtonImagePath": "BTN_BreakDaBank1",
+    "DisplayName": "抢银行",
+    "typeid": 2,
+    "LapisId": "28722"
+  },
+  {
+    "ButtonImagePath": "BTN_BreakDaBankAgain1",
+    "DisplayName": "银行爆破",
+    "typeid": 1,
+    "LapisId": "29451"
+  },
+  {
+    "ButtonImagePath": "BTN_BrideZilla",
+    "DisplayName": "新娘吉拉",
+    "typeid": 1,
+    "LapisId": "45529"
+  },
+  {
+    "ButtonImagePath": "BTN_BurningDesire1",
+    "DisplayName": "燃烧的欲望",
+    "typeid": 1,
+    "LapisId": "28730"
+  },
+  {
+    "ButtonImagePath": "BTN_BushTelegraph1",
+    "DisplayName": "丛林摇摆",
+    "typeid": 1,
+    "LapisId": "28732"
+  },
+  {
+    "ButtonImagePath": "BTN_Carnaval2",
+    "DisplayName": "狂欢节",
+    "typeid": 1,
+    "LapisId": "28736"
+  },
+  {
+    "ButtonImagePath": "BTN_Cashapillar1",
+    "DisplayName": "昆虫派对",
+    "typeid": 1,
+    "LapisId": "28750"
+  },
+  {
+    "ButtonImagePath": "BTN_CentreCourt1",
+    "DisplayName": "中心球场",
+    "typeid": 1,
+    "LapisId": "28742"
+  },
+  {
+    "ButtonImagePath": "BTN_GoldSeries_ClassicBlackjack1",
+    "DisplayName": "经典黄金21点",
+    "typeid": 5,
+    "LapisId": "28746"
+  },
+  {
+    "ButtonImagePath": "BTN_CouchPotato2",
+    "DisplayName": "沙发土豆",
+    "typeid": 2,
+    "LapisId": "28768"
+  },
+  {
+    "ButtonImagePath": "BTN_DeckTheHalls1",
+    "DisplayName": "闪亮的圣诞节 ？",
+    "typeid": 1,
+    "LapisId": "28784"
+  },
+  {
+    "ButtonImagePath": "BTN_DeucesWild1",
+    "DisplayName": "万能两点",
+    "typeid": 6,
+    "LapisId": "28792"
+  },
+  {
+    "ButtonImagePath": "BTN_DoubleDoubleBonus1",
+    "DisplayName": "换牌扑克",
+    "typeid": 6,
+    "LapisId": "28798"
+  },
+  {
+    "ButtonImagePath": "BTN_DragonDance_ZH",
+    "DisplayName": "舞龙",
+    "typeid": 1,
+    "LapisId": "46704"
+  },
+  {
+    "ButtonImagePath": "BTN_EaglesWings1",
+    "DisplayName": "老鹰的翅膀",
+    "typeid": 1,
+    "LapisId": "28802"
+  },
+  {
+    "ButtonImagePath": "BTN_GoldSeries_EuroBlackjack1",
+    "DisplayName": "欧洲黄金21点",
+    "typeid": 5,
+    "LapisId": "28808"
+  },
+  {
+    "ButtonImagePath": "BTN_EuroRoulette1",
+    "DisplayName": "欧式黄金轮盘",
+    "typeid": 5,
+    "LapisId": "28804",
+    "single": 1
+  },
+  {
+    "ButtonImagePath": "BTN_footballstar1",
+    "DisplayName": "足球明星",
+    "typeid": 1,
+    "LapisId": "28806"
+  },
+  {
+    "ButtonImagePath": "BTN_FrozenDiamonds",
+    "DisplayName": "急冻钻石",
+    "typeid": 1,
+    "LapisId": "66082"
+  },
+  {
+    "ButtonImagePath": "BTN_GoldenEra",
+    "DisplayName": "黄金时代",
+    "typeid": 1,
+    "LapisId": "45537"
+  },
+  {
+    "ButtonImagePath": "BTN_Halloweenies1",
+    "DisplayName": "万圣节",
+    "typeid": 1,
+    "LapisId": "28818"
+  },
+  {
+    "ButtonImagePath": "BTN_HappyHolidays_ZH",
+    "DisplayName": "快乐假日",
+    "typeid": 1,
+    "LapisId": "45609"
+  },
+  {
+    "ButtonImagePath": "BTN_HighSociety",
+    "DisplayName": "上流社会",
+    "typeid": 1,
+    "LapisId": "28824"
+  },
+  {
+    "ButtonImagePath": "BTN_Hitman1",
+    "DisplayName": "终极杀手",
+    "typeid": 1,
+    "LapisId": "28832"
+  },
+  {
+    "ButtonImagePath": "BTN_isis",
+    "DisplayName": "埃及女神伊西絲",
+    "typeid": 1,
+    "LapisId": "28936",
+    "single": 1
+  },
+  {
+    "ButtonImagePath": "BTN_JacksOrBetter1",
+    "DisplayName": "千斤顶或更好",
+    "typeid": 6,
+    "LapisId": "28942"
+  },
+  {
+    "ButtonImagePath": "BTN_KaraokeParty_ZH",
+    "DisplayName": "K歌乐韵",
+    "typeid": 1,
+    "LapisId": "66078"
+  },
+  {
+    "ButtonImagePath": "BTN_Kathmandu1",
+    "DisplayName": "卡萨缦都",
+    "typeid": 1,
+    "LapisId": "28940"
+  },
+  {
+    "ButtonImagePath": "BTN_LadiesNite5",
+    "DisplayName": "女仕之夜",
+    "typeid": 1,
+    "LapisId": "28944"
+  },
+  {
+    "ButtonImagePath": "BTN_lionsPride",
+    "DisplayName": "狮子的骄傲",
+    "typeid": 1,
+    "LapisId": "28946",
+    "single": 1
+  },
+  {
+    "ButtonImagePath": "BTN_Loaded1",
+    "DisplayName": "炫富一族",
+    "typeid": 1,
+    "LapisId": "28948"
+  },
+  {
+    "ButtonImagePath": "BTN_LuckyKoi",
+    "DisplayName": "幸运的锦鲤",
+    "typeid": 1,
+    "LapisId": "45611"
+  },
+  {
+    "ButtonImagePath": "BTN_MadHatters1",
+    "DisplayName": "疯狂的帽子",
+    "typeid": 1,
+    "LapisId": "28950"
+  },
+  {
+    "ButtonImagePath": "BTN_MayanPrincess1",
+    "DisplayName": "玛雅公主",
+    "typeid": 1,
+    "LapisId": "28952"
+  },
+  {
+    "ButtonImagePath": "BTN_MermaidsMillions1",
+    "DisplayName": "海底世界",
+    "typeid": 1,
+    "LapisId": "28956"
+  },
+  {
+    "ButtonImagePath": "BTN_MysticDreams1",
+    "DisplayName": "神秘梦境",
+    "typeid": 1,
+    "LapisId": "28970"
+  },
+  {
+    "ButtonImagePath": "BTN_prettykitty_zh",
+    "DisplayName": "漂亮猫咪",
+    "typeid": 1,
+    "LapisId": "61151"
+  },
+  {
+    "ButtonImagePath": "BTN_PurePlatinum1",
+    "DisplayName": "纯铂",
+    "typeid": 1,
+    "LapisId": "28984"
+  },
+  {
+    "ButtonImagePath": "BTN_ReelSpinner_zh",
+    "DisplayName": "旋转大战",
+    "typeid": 1,
+    "LapisId": "61557"
+  },
+  {
+    "ButtonImagePath": "BTN_ReelThunder2",
+    "DisplayName": "雷电击",
+    "typeid": 1,
+    "LapisId": "29014"
+  },
+  {
+    "ButtonImagePath": "BTN_RugbyStar_ZH",
+    "DisplayName": "橄榄球明星",
+    "typeid": 1,
+    "LapisId": "45535"
+  },
+  {
+    "ButtonImagePath": "BTN_Shoot",
+    "DisplayName": "射击",
+    "typeid": 1,
+    "LapisId": "61153"
+  },
+  {
+    "ButtonImagePath": "BTN_SilverFang1",
+    "DisplayName": "银芳",
+    "typeid": 1,
+    "LapisId": "29016"
+  },
+  {
+    "ButtonImagePath": "BTN_somanymonsters",
+    "DisplayName": "怪兽多多",
+    "typeid": 1,
+    "LapisId": "45541"
+  },
+  {
+    "ButtonImagePath": "BTN_somuchcandy",
+    "DisplayName": "糖果多多",
+    "typeid": 1,
+    "LapisId": "45545"
+  },
+  {
+    "ButtonImagePath": "BTN_somuchsushi",
+    "DisplayName": "寿司多多",
+    "typeid": 1,
+    "LapisId": "45543"
+  },
+  {
+    "ButtonImagePath": "BTN_SpringBreak2",
+    "DisplayName": "春假",
+    "typeid": 1,
+    "LapisId": "29018"
+  },
+  {
+    "ButtonImagePath": "BTN_StarlightKiss",
+    "DisplayName": "星梦之吻",
+    "typeid": 1,
+    "LapisId": "29026"
+  },
+  {
+    "ButtonImagePath": "BTN_StashoftheTitans1",
+    "DisplayName": "泰坦之藏匿",
+    "typeid": 1,
+    "LapisId": "29452"
+  },
+  {
+    "ButtonImagePath": "BTN_SterlingSilver3D1",
+    "DisplayName": "纯银",
+    "typeid": 1,
+    "LapisId": "45533"
+  },
+  {
+    "ButtonImagePath": "BTN_summertime",
+    "DisplayName": "夏天",
+    "typeid": 1,
+    "LapisId": "29050",
+    "single": 1
+  },
+  {
+    "ButtonImagePath": "BTN_SunTide_Button_ZH",
+    "DisplayName": "太阳征程",
+    "typeid": 1,
+    "LapisId": "50191"
+  },
+  {
+    "ButtonImagePath": "BTN_TallyHo1",
+    "DisplayName": "泰利嗬",
+    "typeid": 1,
+    "LapisId": "29058"
+  },
+  {
+    "ButtonImagePath": "BTN_thegrandjourney",
+    "DisplayName": "冒险之旅",
+    "typeid": 1,
+    "LapisId": "29453",
+    "single": 1
+  },
+  {
+    "ButtonImagePath": "BTN_TwistedCircus",
+    "DisplayName": "反转马戏团",
+    "typeid": 1,
+    "LapisId": "29074"
+  },
+  {
+    "ButtonImagePath": "BTN_Thunderstruck1",
+    "DisplayName": "雷神",
+    "typeid": 1,
+    "LapisId": "29080"
+  },
+  {
+    "ButtonImagePath": "BTN_ThunderstruckTwo1",
+    "DisplayName": "雷神2",
+    "typeid": 1,
+    "LapisId": "29454"
+  },
+  {
+    "ButtonImagePath": "BTN_tigersEye",
+    "DisplayName": "老虎之眼",
+    "typeid": 1,
+    "LapisId": "29118",
+    "single": 1
+  },
+  {
+    "ButtonImagePath": "BTN_TombRaiderSotS1",
+    "DisplayName": "古墓丽影",
+    "typeid": 1,
+    "LapisId": "29126"
+  },
+  {
+    "ButtonImagePath": "BTN_TreasurePalace",
+    "DisplayName": "图腾宝藏",
+    "typeid": 1,
+    "LapisId": "29132"
+  },
+  {
+    "ButtonImagePath": "BTN_UntamedGiantPanda",
+    "DisplayName": "大熊猫",
+    "typeid": 1,
+    "LapisId": "42983"
+  },
+  {
+    "ButtonImagePath": "BTN_voila",
+    "DisplayName": "瞧！",
+    "typeid": 1,
+    "LapisId": "29136",
+    "single": 1
+  },
+  {
+    "ButtonImagePath": "BTN_WhataHoot3",
+    "DisplayName": "猫头鹰乐园",
+    "typeid": 1,
+    "LapisId": "29138"
+  },
+  {
+    "ButtonImagePath": "BTN_WildOrient_Button_ZH",
+    "DisplayName": "东方珍兽",
+    "typeid": 1,
+    "LapisId": "50192"
+  },
+  {
+    "ButtonImagePath": "BTN_winsumdimsum_zh",
+    "DisplayName": "开心点心",
+    "typeid": 1,
+    "LapisId": "61501"
+  }
+]

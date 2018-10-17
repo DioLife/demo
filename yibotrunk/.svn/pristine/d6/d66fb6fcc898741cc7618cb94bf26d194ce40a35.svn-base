@@ -1,0 +1,1081 @@
+[{
+  "ButtonImagePath" : "qt/pc/HAB-5mariachis.jpg",
+  "DisplayName" : "街头乐队",
+  "typeid" : "2",
+  "LapisId" : "HAB-5mariachis"
+}, {
+  "ButtonImagePath" : "qt/pc/HAB-12zodiacs.jpg",
+  "DisplayName" : "十二生肖",
+  "typeid" : "2",
+  "LapisId" : "HAB-12zodiacs"
+}, {
+  "ButtonImagePath" : "qt/pc/HAB-arcaneelements.jpg",
+  "DisplayName" : "神秘元素",
+  "typeid" : "2",
+  "LapisId" : "HAB-arcaneelements"
+}, {
+  "ButtonImagePath" : "qt/pc/HAB-birdofthunder.jpg",
+  "DisplayName" : "雷鸟",
+  "typeid" : "2",
+  "LapisId" : "HAB-birdofthunder"
+}, {
+  "ButtonImagePath" : "qt/pc/HAB-baccarat.jpg",
+  "DisplayName" : "免佣百家乐",
+  "typeid" : "3",
+  "LapisId" : "HAB-baccaratzerocommission"
+}, {
+  "ButtonImagePath" : "qt/pc/HAB-3handblackjack.jpg",
+  "DisplayName" : "三手黑杰克",
+  "typeid" : "3",
+  "LapisId" : "HAB-3handblackjack"
+}, {
+  "ButtonImagePath" : "qt/pc/HAB-3handblackjack.jpg",
+  "DisplayName" : "三手黑杰克双重曝光",
+  "typeid" : "3",
+  "LapisId" : "HAB-3handblackjackdoubleexposure"
+}, {
+  "ButtonImagePath" : "qt/pc/HAB-caribbeanholdem.jpg",
+  "DisplayName" : "赌场德州扑克",
+  "typeid" : "3",
+  "LapisId" : "HAB-caribbeanholdem"
+}, {
+  "ButtonImagePath" : "qt/pc/HAB-caribbeanstud.jpg",
+  "DisplayName" : "加勒比扑克",
+  "typeid" : "3",
+  "LapisId" : "HAB-caribbeanstud"
+}, {
+  "ButtonImagePath" : "qt/pc/HAB-bombsaway.jpg",
+  "DisplayName" : "炸弹追击",
+  "typeid" : "2",
+  "LapisId" : "HAB-bombsaway"
+}, {
+  "ButtonImagePath" : "qt/pc/HAB-cakevalley.jpg",
+  "DisplayName" : "蛋糕谷",
+  "typeid" : "2",
+  "LapisId" : "HAB-cakevalley"
+}, {
+  "ButtonImagePath" : "qt/pc/HAB-coyotecrash.jpg",
+  "DisplayName" : "狼贼夺宝",
+  "typeid" : "2",
+  "LapisId" : "HAB-coyotecrash"
+}, {
+  "ButtonImagePath" : "qt/pc/HAB-dragonsrealm.jpg",
+  "DisplayName" : "神龙之境",
+  "typeid" : "2",
+  "LapisId" : "HAB-dragonsrealm"
+}, {
+  "ButtonImagePath" : "qt/pc/HAB-dragonsthrone.jpg",
+  "DisplayName" : "龙之宝座",
+  "typeid" : "2",
+  "LapisId" : "HAB-dragonsthrone"
+}, {
+  "ButtonImagePath" : "qt/pc/HAB-facaishen.jpg",
+  "DisplayName" : "发财神",
+  "typeid" : "2",
+  "LapisId" : "HAB-facaishen"
+}, {
+  "ButtonImagePath" : "qt/pc/HAB-fenghuang.jpg",
+  "DisplayName" : "凤凰",
+  "typeid" : "2",
+  "LapisId" : "HAB-fenghuang"
+}, {
+  "ButtonImagePath" : "qt/pc/HAB-firerooster.jpg",
+  "DisplayName" : "公鸡王",
+  "typeid" : "2",
+  "LapisId" : "HAB-firerooster"
+}, {
+  "ButtonImagePath" : "qt/pc/HAB-fourdivinebeasts.jpg",
+  "DisplayName" : "四大神兽",
+  "typeid" : "2",
+  "LapisId" : "HAB-fourdivinebeasts"
+}, {
+  "ButtonImagePath" : "qt/pc/HAB-gangsters.jpg",
+  "DisplayName" : "黑手党",
+  "typeid" : "2",
+  "LapisId" : "HAB-gangsters"
+}, {
+  "ButtonImagePath" : "qt/pc/HAB-goldrush.jpg",
+  "DisplayName" : "淘金疯狂",
+  "typeid" : "2",
+  "LapisId" : "HAB-goldrush"
+}, {
+  "ButtonImagePath" : "qt/pc/HAB-indiancashcatcher.jpg",
+  "DisplayName" : "印第安追梦",
+  "typeid" : "2",
+  "LapisId" : "HAB-indiancashcatcher"
+}, {
+  "ButtonImagePath" : "qt/pc/HAB-jugglenaut.jpg",
+  "DisplayName" : "惊喜秀",
+  "typeid" : "2",
+  "LapisId" : "HAB-jugglenaut"
+}, {
+  "ButtonImagePath" : "qt/pc/HAB-koigate.jpg",
+  "DisplayName" : "鲤鱼门",
+  "typeid" : "2",
+  "LapisId" : "HAB-koigate"
+}, {
+  "ButtonImagePath" : "qt/pc/HAB-londonhunter.jpg",
+  "DisplayName" : "伦敦猎人",
+  "typeid" : "2",
+  "LapisId" : "HAB-londonhunter"
+}, {
+  "ButtonImagePath" : "qt/pc/HAB-monstermashcash.jpg",
+  "DisplayName" : "怪物聚集",
+  "typeid" : "2",
+  "LapisId" : "HAB-monstermashcash"
+}, {
+  "ButtonImagePath" : "qt/pc/HAB-mysticfortune.jpg",
+  "DisplayName" : "神秘宝藏",
+  "typeid" : "2",
+  "LapisId" : "HAB-mysticfortune"
+}, {
+  "ButtonImagePath" : "qt/pc/HAB-oceanscall.jpg",
+  "DisplayName" : "海洋之音",
+  "typeid" : "2",
+  "LapisId" : "HAB-oceanscall"
+}, {
+  "ButtonImagePath" : "qt/pc/HAB-pandapanda.jpg",
+  "DisplayName" : "双喜熊猫",
+  "typeid" : "2",
+  "LapisId" : "HAB-pandapanda"
+}, {
+  "ButtonImagePath" : "qt/pc/HAB-presto.jpg",
+  "DisplayName" : "魔幻大财",
+  "typeid" : "2",
+  "LapisId" : "HAB-presto"
+}, {
+  "ButtonImagePath" : "qt/pc/HAB-rollingroger.jpg",
+  "DisplayName" : "刺猬宝宝",
+  "typeid" : "2",
+  "LapisId" : "HAB-rollingroger"
+}, {
+  "ButtonImagePath" : "qt/pc/HAB-romanempire.jpg",
+  "DisplayName" : "罗马帝国",
+  "typeid" : "2",
+  "LapisId" : "HAB-romanempire"
+}, {
+  "ButtonImagePath" : "qt/pc/HAB-ruffledup.jpg",
+  "DisplayName" : "触电的小鸟",
+  "typeid" : "2",
+  "LapisId" : "HAB-ruffledup"
+}, {
+  "ButtonImagePath" : "qt/pc/HAB-santasvillage.jpg",
+  "DisplayName" : "圣诞乐村",
+  "typeid" : "2",
+  "LapisId" : "HAB-santasvillage"
+}, {
+  "ButtonImagePath" : "qt/pc/HAB-scruffyscallywags.jpg",
+  "DisplayName" : "欢乐帮",
+  "typeid" : "2",
+  "LapisId" : "HAB-scruffyscallywags"
+}, {
+  "ButtonImagePath" : "qt/pc/HAB-shaolinfortunes.jpg",
+  "DisplayName" : "少林宝藏",
+  "typeid" : "2",
+  "LapisId" : "HAB-shaolinfortunes"
+}, {
+  "ButtonImagePath" : "qt/pc/HAB-sparta.jpg",
+  "DisplayName" : "斯巴达",
+  "typeid" : "2",
+  "LapisId" : "HAB-sparta"
+}, {
+  "ButtonImagePath" : "qt/pc/HAB-supertwister.jpg",
+  "DisplayName" : "超级龙卷风",
+  "typeid" : "2",
+  "LapisId" : "HAB-supertwister"
+}, {
+  "ButtonImagePath" : "qt/pc/HAB-thedeadescape.jpg",
+  "DisplayName" : "死海逃生",
+  "typeid" : "2",
+  "LapisId" : "HAB-thedeadescape"
+}, {
+  "ButtonImagePath" : "qt/pc/HAB-wickedwitch.jpg",
+  "DisplayName" : "巫婆大财",
+  "typeid" : "2",
+  "LapisId" : "HAB-wickedwitch"
+}, {
+  "ButtonImagePath" : "qt/pc/QS-bigbadwolf.jpg",
+  "DisplayName" : "灰太狼",
+  "typeid" : "2",
+  "LapisId" : "QS-bigbadwolf"
+}, {
+  "ButtonImagePath" : "qt/pc/QS-crystalqueen.jpg",
+  "DisplayName" : "冰雪奇缘",
+  "typeid" : "2",
+  "LapisId" : "QS-crystalqueen"
+}, {
+  "ButtonImagePath" : "qt/pc/QS-dragonshrine.jpg",
+  "DisplayName" : "龙神殿",
+  "typeid" : "2",
+  "LapisId" : "QS-dragonshrine"
+}, {
+  "ButtonImagePath" : "qt/pc/QS-fairygate.jpg",
+  "DisplayName" : "仙境之门",
+  "typeid" : "2",
+  "LapisId" : "QS-fairygate"
+}, {
+  "ButtonImagePath" : "qt/pc/QS-firestorm.jpg",
+  "DisplayName" : "火暴",
+  "typeid" : "2",
+  "LapisId" : "QS-firestorm"
+}, {
+  "ButtonImagePath" : "qt/pc/QS-geniestouch.jpg",
+  "DisplayName" : "阿拉丁神灯",
+  "typeid" : "2",
+  "LapisId" : "QS-geniestouch"
+}, {
+  "ButtonImagePath" : "qt/pc/QS-goldlab.jpg",
+  "DisplayName" : "黄金实验室",
+  "typeid" : "2",
+  "LapisId" : "QS-goldlab"
+}, {
+  "ButtonImagePath" : "qt/pc/QS-goldilocks.jpg",
+  "DisplayName" : "金发姑娘",
+  "typeid" : "2",
+  "LapisId" : "QS-goldilocks"
+}, {
+  "ButtonImagePath" : "qt/pc/QS-hiddenvalley.jpg",
+  "DisplayName" : "神秘山谷",
+  "typeid" : "2",
+  "LapisId" : "QS-hiddenvalley"
+}, {
+  "ButtonImagePath" : "qt/pc/QS-hotsync.jpg",
+  "DisplayName" : "火热旋转",
+  "typeid" : "2",
+  "LapisId" : "QS-hotsync"
+}, {
+  "ButtonImagePath" : "qt/pc/QS-illuminous.jpg",
+  "DisplayName" : "嗨翻珠宝",
+  "typeid" : "2",
+  "LapisId" : "QS-illuminous"
+}, {
+  "ButtonImagePath" : "qt/pc/QS-jewelblast.jpg",
+  "DisplayName" : "宝石爆炸",
+  "typeid" : "2",
+  "LapisId" : "QS-jewelblast"
+}, {
+  "ButtonImagePath" : "qt/pc/QS-jokerstrike.jpg",
+  "DisplayName" : "暴击小丑",
+  "typeid" : "2",
+  "LapisId" : "QS-jokerstrike"
+}, {
+  "ButtonImagePath" : "qt/pc/QS-kingcolossus.jpg",
+  "DisplayName" : "国王巨像",
+  "typeid" : "2",
+  "LapisId" : "QS-kingcolossus"
+}, {
+  "ButtonImagePath" : "qt/pc/QS-leprechaunhills.jpg",
+  "DisplayName" : "精灵山",
+  "typeid" : "2",
+  "LapisId" : "QS-leprechaunhills"
+}, {
+  "ButtonImagePath" : "qt/pc/QS-mayana.jpg",
+  "DisplayName" : "玛雅人",
+  "typeid" : "2",
+  "LapisId" : "QS-mayana"
+}, {
+  "ButtonImagePath" : "qt/pc/QS-mightyarthur.jpg",
+  "DisplayName" : "亚瑟王",
+  "typeid" : "2",
+  "LapisId" : "QS-mightyarthur"
+}, {
+  "ButtonImagePath" : "qt/pc/QS-northernsky.jpg",
+  "DisplayName" : "北方的天空",
+  "typeid" : "2",
+  "LapisId" : "QS-northernsky"
+}, {
+  "ButtonImagePath" : "qt/pc/QS-phoenixsun.jpg",
+  "DisplayName" : "凤凰的涅槃",
+  "typeid" : "2",
+  "LapisId" : "QS-phoenixsun"
+}, {
+  "ButtonImagePath" : "qt/pc/QS-piedpiper.jpg",
+  "DisplayName" : "花衣魔笛手",
+  "typeid" : "2",
+  "LapisId" : "QS-piedpiper"
+}, {
+  "ButtonImagePath" : "qt/pc/QS-piratescharm.jpg",
+  "DisplayName" : "神秘海盗",
+  "typeid" : "2",
+  "LapisId" : "QS-piratescharm"
+}, {
+  "ButtonImagePath" : "qt/pc/QS-rapunzelstower.jpg",
+  "DisplayName" : "长发公主",
+  "typeid" : "2",
+  "LapisId" : "QS-rapunzelstower"
+}, {
+  "ButtonImagePath" : "qt/pc/QS-razortooth.jpg",
+  "DisplayName" : "虎口狼牙",
+  "typeid" : "2",
+  "LapisId" : "QS-razortooth"
+}, {
+  "ButtonImagePath" : "qt/pc/QS-royalfrog.jpg",
+  "DisplayName" : "皇族青蛙",
+  "typeid" : "2",
+  "LapisId" : "QS-royalfrog"
+}, {
+  "ButtonImagePath" : "qt/pc/QS-sakurafortune.jpg",
+  "DisplayName" : "樱花侠女",
+  "typeid" : "2",
+  "LapisId" : "QS-sakurafortune"
+}, {
+  "ButtonImagePath" : "qt/pc/QS-secondstrike.jpg",
+  "DisplayName" : "连环炮",
+  "typeid" : "2",
+  "LapisId" : "QS-secondstrike"
+}, {
+  "ButtonImagePath" : "qt/pc/QS-sevenshigh.jpg",
+  "DisplayName" : "疯狂777",
+  "typeid" : "2",
+  "LapisId" : "QS-sevenshigh"
+}, {
+  "ButtonImagePath" : "qt/pc/QS-sinbad.jpg",
+  "DisplayName" : "辛巴达",
+  "typeid" : "2",
+  "LapisId" : "QS-sinbad"
+}, {
+  "ButtonImagePath" : "qt/pc/QS-spinionsbeachparty.jpg",
+  "DisplayName" : "小黄人海滩派对",
+  "typeid" : "2",
+  "LapisId" : "QS-spinionsbeachparty"
+}, {
+  "ButtonImagePath" : "qt/pc/QS-stickybandits.jpg",
+  "DisplayName" : "西部劫匪",
+  "typeid" : "2",
+  "LapisId" : "QS-stickybandits"
+}, {
+  "ButtonImagePath" : "qt/pc/QS-sugartrail.jpg",
+  "DisplayName" : "糖果传奇",
+  "typeid" : "2",
+  "LapisId" : "QS-sugartrail"
+}, {
+  "ButtonImagePath" : "qt/pc/QS-theepicjourney.jpg",
+  "DisplayName" : "史诗之旅",
+  "typeid" : "2",
+  "LapisId" : "QS-theepicjourney"
+}, {
+  "ButtonImagePath" : "qt/pc/QS-thethreemusketeers.jpg",
+  "DisplayName" : "三剑客",
+  "typeid" : "2",
+  "LapisId" : "QS-thethreemusketeers"
+}, {
+  "ButtonImagePath" : "qt/pc/QS-thewildchase .jpg",
+  "DisplayName" : "侠盗猎车手",
+  "typeid" : "2",
+  "LapisId" : "QS-thewildchase "
+}, {
+  "ButtonImagePath" : "qt/pc/QS-titanthunder.jpg",
+  "DisplayName" : "泰坦雷霆",
+  "typeid" : "2",
+  "LapisId" : "QS-titanthunder"
+}, {
+  "ButtonImagePath" : "qt/pc/QS-treasureisland.jpg",
+  "DisplayName" : "宝藏岛",
+  "typeid" : "2",
+  "LapisId" : "QS-treasureisland"
+}, {
+  "ButtonImagePath" : "qt/pc/HAB-baccarat.jpg",
+  "DisplayName" : "美国百家乐",
+  "typeid" : "3",
+  "LapisId" : "HAB-baccarat"
+}, {
+  "ButtonImagePath" : "qt/pc/QS-volcanoriches.jpg",
+  "DisplayName" : "火焰山",
+  "typeid" : "2",
+  "LapisId" : "QS-volcanoriches"
+}, {
+  "ButtonImagePath" : "qt/pc/QS-winsoffortune.jpg",
+  "DisplayName" : "美猴王",
+  "typeid" : "2",
+  "LapisId" : "QS-winsoffortune"
+}, {
+  "ButtonImagePath" : "qt/pc/ELK-bloopers.jpg",
+  "DisplayName" : "幕后花絮",
+  "typeid" : "2",
+  "LapisId" : "ELK-bloopers"
+}, {
+  "ButtonImagePath" : "qt/pc/ELK-championsgoal.jpg",
+  "DisplayName" : "足球宝贝",
+  "typeid" : "2",
+  "LapisId" : "ELK-championsgoal"
+}, {
+  "ButtonImagePath" : "qt/pc/ELK-djwild.jpg",
+  "DisplayName" : "狂野DJ",
+  "typeid" : "2",
+  "LapisId" : "ELK-djwild"
+}, {
+  "ButtonImagePath" : "qt/pc/ELK-electricsam.jpg",
+  "DisplayName" : "美女和野兽",
+  "typeid" : "2",
+  "LapisId" : "ELK-electricsam"
+}, {
+  "ButtonImagePath" : "qt/pc/ELK-hidden.jpg",
+  "DisplayName" : "古埃法老王",
+  "typeid" : "2",
+  "LapisId" : "ELK-hidden"
+}, {
+  "ButtonImagePath" : "qt/pc/ELK-hohotower.jpg",
+  "DisplayName" : "HoHo大楼",
+  "typeid" : "2",
+  "LapisId" : "ELK-hohotower"
+}, {
+  "ButtonImagePath" : "qt/pc/ELK-hongkongtower.jpg",
+  "DisplayName" : "香港摩天大楼",
+  "typeid" : "2",
+  "LapisId" : "ELK-hongkongtower"
+}, {
+  "ButtonImagePath" : "qt/pc/ELK-ivanhoe.jpg",
+  "DisplayName" : "劫后英雄传",
+  "typeid" : "2",
+  "LapisId" : "ELK-ivanhoe"
+}, {
+  "ButtonImagePath" : "qt/pc/ELK-kaiju.jpg",
+  "DisplayName" : "环太平洋",
+  "typeid" : "2",
+  "LapisId" : "ELK-kaiju"
+}, {
+  "ButtonImagePath" : "qt/pc/ELK-lakesfive.jpg",
+  "DisplayName" : "莱克五人团",
+  "typeid" : "2",
+  "LapisId" : "ELK-lakesfive"
+}, {
+  "ButtonImagePath" : "qt/pc/ELK-poltava.jpg",
+  "DisplayName" : "波尔塔瓦之战",
+  "typeid" : "2",
+  "LapisId" : "ELK-poltava"
+}, {
+  "ButtonImagePath" : "qt/pc/ELK-route777.jpg",
+  "DisplayName" : "公路777",
+  "typeid" : "2",
+  "LapisId" : "ELK-route777"
+}, {
+  "ButtonImagePath" : "qt/pc/ELK-samonthebeach.jpg",
+  "DisplayName" : "夏日海滩",
+  "typeid" : "2",
+  "LapisId" : "ELK-samonthebeach"
+}, {
+  "ButtonImagePath" : "qt/pc/ELK-tacobrothers.jpg",
+  "DisplayName" : "塔科兄弟",
+  "typeid" : "2",
+  "LapisId" : "ELK-tacobrothers"
+}, {
+  "ButtonImagePath" : "qt/pc/ELK-tacobrotherssavingchristmas.jpg",
+  "DisplayName" : "塔科的圣诞使命",
+  "typeid" : "2",
+  "LapisId" : "ELK-tacobrotherssavingchristmas"
+}, {
+  "ButtonImagePath" : "qt/pc/ELK-thelab.jpg",
+  "DisplayName" : "神奇实验室",
+  "typeid" : "2",
+  "LapisId" : "ELK-thelab"
+}, {
+  "ButtonImagePath" : "qt/pc/ELK-wildseas.jpg",
+  "DisplayName" : "海上霸王号",
+  "typeid" : "2",
+  "LapisId" : "ELK-wildseas"
+}, {
+  "ButtonImagePath" : "qt/pc/ELK-wildtoro.jpg",
+  "DisplayName" : "卑鄙的斗牛士",
+  "typeid" : "2",
+  "LapisId" : "ELK-wildtoro"
+}, {
+  "ButtonImagePath" : "qt/pc/NLC-casinowinspin.jpg",
+  "DisplayName" : "幸运大旋转",
+  "typeid" : "2",
+  "LapisId" : "NLC-casinowinspin"
+}, {
+  "ButtonImagePath" : "qt/pc/NLC-creepycarnival.jpg",
+  "DisplayName" : "惊悚嘉年华",
+  "typeid" : "2",
+  "LapisId" : "NLC-creepycarnival"
+}, {
+  "ButtonImagePath" : "qt/pc/NLC-kitchendramabbqfrenzy.jpg",
+  "DisplayName" : "疯狂烧烤趴",
+  "typeid" : "2",
+  "LapisId" : "NLC-kitchendramabbqfrenzy"
+}, {
+  "ButtonImagePath" : "qt/pc/NLC-oktoberfest.jpg",
+  "DisplayName" : "慕尼黑啤酒节",
+  "typeid" : "2",
+  "LapisId" : "NLC-oktoberfest"
+}, {
+  "ButtonImagePath" : "qt/pc/NLC-spacearcade.jpg",
+  "DisplayName" : "太空游乐场",
+  "typeid" : "2",
+  "LapisId" : "NLC-spacearcade"
+}, {
+  "ButtonImagePath" : "qt/pc/NLC-sushimania.jpg",
+  "DisplayName" : "寿司大餐",
+  "typeid" : "2",
+  "LapisId" : "NLC-sushimania"
+}, {
+  "ButtonImagePath" : "qt/pc/NLC-teslajolt .jpg",
+  "DisplayName" : "特斯拉",
+  "typeid" : "2",
+  "LapisId" : "NLC-teslajolt "
+}, {
+  "ButtonImagePath" : "qt/pc/NLC-wixx.jpg",
+  "DisplayName" : "炫彩水晶",
+  "typeid" : "2",
+  "LapisId" : "NLC-wixx"
+}, {
+  "ButtonImagePath" : "qt/pc/EVP-aceround.jpg",
+  "DisplayName" : "ACE枪王",
+  "typeid" : "2",
+  "LapisId" : "EVP-aceround"
+}, {
+  "ButtonImagePath" : "qt/pc/EVP-aeronauts.jpg",
+  "DisplayName" : "蒸汽朋克",
+  "typeid" : "2",
+  "LapisId" : "EVP-aeronauts"
+}, {
+  "ButtonImagePath" : "qt/pc/EVP-atlantis.jpg",
+  "DisplayName" : "亚特兰蒂斯",
+  "typeid" : "2",
+  "LapisId" : "EVP-atlantis"
+}, {
+  "ButtonImagePath" : "qt/pc/EVP-basketball.jpg",
+  "DisplayName" : "激情篮球",
+  "typeid" : "2",
+  "LapisId" : "EVP-basketball"
+}, {
+  "ButtonImagePath" : "qt/pc/EVP-battletanks.jpg",
+  "DisplayName" : "坦克大战",
+  "typeid" : "2",
+  "LapisId" : "EVP-battletanks"
+}, {
+  "ButtonImagePath" : "qt/pc/EVP-candydreams.jpg",
+  "DisplayName" : "梦幻糖果屋",
+  "typeid" : "2",
+  "LapisId" : "EVP-candydreams"
+}, {
+  "ButtonImagePath" : "qt/pc/EVP-chinesenewyear.jpg",
+  "DisplayName" : "新春大吉",
+  "typeid" : "2",
+  "LapisId" : "EVP-chinesenewyear"
+}, {
+  "ButtonImagePath" : "qt/pc/EVP-clashofpirates.jpg",
+  "DisplayName" : "海盗之战",
+  "typeid" : "2",
+  "LapisId" : "EVP-clashofpirates"
+}, {
+  "ButtonImagePath" : "qt/pc/EVP-dolphinstreasure .jpg",
+  "DisplayName" : "海豚宝宝",
+  "typeid" : "2",
+  "LapisId" : "EVP-dolphinstreasure "
+}, {
+  "ButtonImagePath" : "qt/pc/EVP-egyptgods.jpg",
+  "DisplayName" : "埃及众神",
+  "typeid" : "2",
+  "LapisId" : "EVP-egyptgods"
+}, {
+  "ButtonImagePath" : "qt/pc/EVP-elvenprincesses.jpg",
+  "DisplayName" : "精灵公主",
+  "typeid" : "2",
+  "LapisId" : "EVP-elvenprincesses"
+}, {
+  "ButtonImagePath" : "qt/pc/EVP-epicgladiators.jpg",
+  "DisplayName" : "角斗士大战僵尸",
+  "typeid" : "2",
+  "LapisId" : "EVP-epicgladiators"
+}, {
+  "ButtonImagePath" : "qt/pc/EVP-football.jpg",
+  "DisplayName" : "旋风少女",
+  "typeid" : "2",
+  "LapisId" : "EVP-football"
+}, {
+  "ButtonImagePath" : "qt/pc/EVP-fruitburst.jpg",
+  "DisplayName" : "水果爆裂",
+  "typeid" : "2",
+  "LapisId" : "EVP-fruitburst"
+}, {
+  "ButtonImagePath" : "qt/pc/EVP-greatwall.jpg",
+  "DisplayName" : "长城探宝",
+  "typeid" : "2",
+  "LapisId" : "EVP-greatwall"
+}, {
+  "ButtonImagePath" : "qt/pc/EVP-indianasquest.jpg",
+  "DisplayName" : "印第安纳的任务",
+  "typeid" : "2",
+  "LapisId" : "EVP-indianasquest"
+}, {
+  "ButtonImagePath" : "qt/pc/EVP-jewellerystore.jpg",
+  "DisplayName" : "珠宝店",
+  "typeid" : "2",
+  "LapisId" : "EVP-jewellerystore"
+}, {
+  "ButtonImagePath" : "qt/pc/EVP-journeytothewest.jpg",
+  "DisplayName" : "西游记",
+  "typeid" : "2",
+  "LapisId" : "EVP-journeytothewest"
+}, {
+  "ButtonImagePath" : "qt/pc/EVP-legendofra.jpg",
+  "DisplayName" : "太阳神传说",
+  "typeid" : "2",
+  "LapisId" : "EVP-legendofra"
+}, {
+  "ButtonImagePath" : "qt/pc/EVP-luckymahjongbox.jpg",
+  "DisplayName" : "神秘麻将盒",
+  "typeid" : "2",
+  "LapisId" : "EVP-luckymahjongbox"
+}, {
+  "ButtonImagePath" : "qt/pc/EVP-monsterlab.jpg",
+  "DisplayName" : "怪物实验室",
+  "typeid" : "2",
+  "LapisId" : "EVP-monsterlab"
+}, {
+  "ButtonImagePath" : "qt/pc/EVP-naughtygirlscabaret.jpg",
+  "DisplayName" : "顽皮女孩歌舞秀",
+  "typeid" : "2",
+  "LapisId" : "EVP-naughtygirlscabaret"
+}, {
+  "ButtonImagePath" : "qt/pc/EVP-prohibition.jpg",
+  "DisplayName" : "禁令",
+  "typeid" : "2",
+  "LapisId" : "EVP-prohibition"
+}, {
+  "ButtonImagePath" : "qt/pc/EVP-redcliff.jpg",
+  "DisplayName" : "赤壁之战",
+  "typeid" : "2",
+  "LapisId" : "EVP-redcliff"
+}, {
+  "ButtonImagePath" : "qt/pc/EVP-robinhood.jpg",
+  "DisplayName" : "罗宾汉",
+  "typeid" : "2",
+  "LapisId" : "EVP-robinhood"
+}, {
+  "ButtonImagePath" : "qt/pc/EVP-robinson.jpg",
+  "DisplayName" : "鲁滨逊",
+  "typeid" : "2",
+  "LapisId" : "EVP-robinson"
+}, {
+  "ButtonImagePath" : "qt/pc/EVP-sindbad.jpg",
+  "DisplayName" : "航海家辛巴达",
+  "typeid" : "2",
+  "LapisId" : "EVP-sindbad"
+}, {
+  "ButtonImagePath" : "qt/pc/EVP-talismansoffortune.jpg",
+  "DisplayName" : "转运护身符",
+  "typeid" : "2",
+  "LapisId" : "EVP-talismansoffortune"
+}, {
+  "ButtonImagePath" : "qt/pc/EVP-theemperorstomb.jpg",
+  "DisplayName" : "皇帝陵墓",
+  "typeid" : "2",
+  "LapisId" : "EVP-theemperorstomb"
+}, {
+  "ButtonImagePath" : "qt/pc/EVP-thegreatconflict.jpg",
+  "DisplayName" : "人兽争霸",
+  "typeid" : "2",
+  "LapisId" : "EVP-thegreatconflict"
+}, {
+  "ButtonImagePath" : "qt/pc/EVP-thelegendofshaolin.jpg",
+  "DisplayName" : "少林传奇",
+  "typeid" : "2",
+  "LapisId" : "EVP-thelegendofshaolin"
+}, {
+  "ButtonImagePath" : "qt/pc/EVP-theslavs.jpg",
+  "DisplayName" : "斯拉夫人",
+  "typeid" : "2",
+  "LapisId" : "EVP-theslavs"
+}, {
+  "ButtonImagePath" : "qt/pc/EVP-totemisland.jpg",
+  "DisplayName" : "图腾岛",
+  "typeid" : "2",
+  "LapisId" : "EVP-totemisland"
+}, {
+  "ButtonImagePath" : "qt/pc/EVP-ussrgrocery.jpg",
+  "DisplayName" : "苏联食品店",
+  "typeid" : "2",
+  "LapisId" : "EVP-ussrgrocery"
+}, {
+  "ButtonImagePath" : "qt/pc/EVP-ussrseventies.jpg",
+  "DisplayName" : "苏联-70年代",
+  "typeid" : "2",
+  "LapisId" : "EVP-ussrseventies"
+}, {
+  "ButtonImagePath" : "qt/pc/EVP-vegasnights.jpg",
+  "DisplayName" : "拉斯维加斯之夜",
+  "typeid" : "2",
+  "LapisId" : "EVP-vegasnights"
+}, {
+  "ButtonImagePath" : "qt/pc/BNG-12animals.jpg",
+  "DisplayName" : "12发财星",
+  "typeid" : "2",
+  "LapisId" : "BNG-12animals"
+}, {
+  "ButtonImagePath" : "qt/pc/BNG-15goldeneggs.jpg",
+  "DisplayName" : "快乐鸟",
+  "typeid" : "2",
+  "LapisId" : "BNG-15goldeneggs"
+}, {
+  "ButtonImagePath" : "qt/pc/BNG-88wilddragon.jpg",
+  "DisplayName" : "走运一路8",
+  "typeid" : "2",
+  "LapisId" : "BNG-88wilddragon"
+}, {
+  "ButtonImagePath" : "qt/pc/BNG-africanspirit.jpg",
+  "DisplayName" : "非洲之魂",
+  "typeid" : "2",
+  "LapisId" : "BNG-africanspirit"
+}, {
+  "ButtonImagePath" : "qt/pc/BNG-christmascharm.jpg",
+  "DisplayName" : "圣诞快乐",
+  "typeid" : "2",
+  "LapisId" : "BNG-christmascharm"
+}, {
+  "ButtonImagePath" : "qt/pc/BNG-crazygems.jpg",
+  "DisplayName" : "疯狂水晶洞",
+  "typeid" : "2",
+  "LapisId" : "BNG-crazygems"
+}, {
+  "ButtonImagePath" : "qt/pc/BNG-diegofortune.jpg",
+  "DisplayName" : "失落的乐园",
+  "typeid" : "2",
+  "LapisId" : "BNG-diegofortune"
+}, {
+  "ButtonImagePath" : "qt/pc/BNG-fortunemultiplier.jpg",
+  "DisplayName" : "水果传奇",
+  "typeid" : "2",
+  "LapisId" : "BNG-fortunemultiplier"
+}, {
+  "ButtonImagePath" : "qt/pc/BNG-fruiterra.jpg",
+  "DisplayName" : "欢乐水果盘",
+  "typeid" : "2",
+  "LapisId" : "BNG-fruiterra"
+}, {
+  "ButtonImagePath" : "qt/pc/BNG-fruiterrafortune.jpg",
+  "DisplayName" : "经典小玛莉",
+  "typeid" : "2",
+  "LapisId" : "BNG-fruiterrafortune"
+}, {
+  "ButtonImagePath" : "qt/pc/BNG-fruityfrost.jpg",
+  "DisplayName" : "果冻",
+  "typeid" : "2",
+  "LapisId" : "BNG-fruityfrost"
+}, {
+  "ButtonImagePath" : "qt/pc/BNG-fruitywild.jpg",
+  "DisplayName" : "疯狂水果店",
+  "typeid" : "2",
+  "LapisId" : "BNG-fruitywild"
+}, {
+  "ButtonImagePath" : "qt/pc/BNG-gnomesgems.jpg",
+  "DisplayName" : "小矮人寻宝记",
+  "typeid" : "2",
+  "LapisId" : "BNG-gnomesgems"
+}, {
+  "ButtonImagePath" : "qt/pc/BNG-godstemple.jpg",
+  "DisplayName" : "上帝的殿堂",
+  "typeid" : "2",
+  "LapisId" : "BNG-godstemple"
+}, {
+  "ButtonImagePath" : "qt/pc/BNG-goddessofthemoon.jpg",
+  "DisplayName" : "嫦娥与后羿",
+  "typeid" : "2",
+  "LapisId" : "BNG-goddessofthemoon"
+}, {
+  "ButtonImagePath" : "qt/pc/BNG-halloweenwitch.jpg",
+  "DisplayName" : "万圣美魔女",
+  "typeid" : "2",
+  "LapisId" : "BNG-halloweenwitch"
+}, {
+  "ButtonImagePath" : "qt/pc/BNG-happychinesenewyear.jpg",
+  "DisplayName" : "春节快乐",
+  "typeid" : "2",
+  "LapisId" : "BNG-happychinesenewyear"
+}, {
+  "ButtonImagePath" : "qt/pc/BNG-hellsband.jpg",
+  "DisplayName" : "摇滚地狱",
+  "typeid" : "2",
+  "LapisId" : "BNG-hellsband"
+}, {
+  "ButtonImagePath" : "qt/pc/BNG-huntingparty.jpg",
+  "DisplayName" : "就爱打猎趴",
+  "typeid" : "2",
+  "LapisId" : "BNG-huntingparty"
+}, {
+  "ButtonImagePath" : "qt/pc/BNG-kangaliens.jpg",
+  "DisplayName" : "袋鼠怪客",
+  "typeid" : "2",
+  "LapisId" : "BNG-kangaliens"
+}, {
+  "ButtonImagePath" : "qt/pc/BNG-kailashmystery.jpg",
+  "DisplayName" : "神灵之山的传奇",
+  "typeid" : "2",
+  "LapisId" : "BNG-kailashmystery"
+}, {
+  "ButtonImagePath" : "qt/pc/BNG-luckyxmas.jpg",
+  "DisplayName" : "淘气圣诞",
+  "typeid" : "2",
+  "LapisId" : "BNG-luckyxmas"
+}, {
+  "ButtonImagePath" : "qt/pc/BNG-nordswar.jpg",
+  "DisplayName" : "北欧争霸战",
+  "typeid" : "2",
+  "LapisId" : "BNG-nordswar"
+}, {
+  "ButtonImagePath" : "qt/pc/BNG-patrickspub.jpg",
+  "DisplayName" : "牛逼爱尔兰大佬",
+  "typeid" : "2",
+  "LapisId" : "BNG-patrickspub"
+}, {
+  "ButtonImagePath" : "qt/pc/BNG-poisonedapple.jpg",
+  "DisplayName" : "致命毒苹果",
+  "typeid" : "2",
+  "LapisId" : "BNG-poisonedapple"
+}, {
+  "ButtonImagePath" : "qt/pc/BNG-secretofnefertiti.jpg",
+  "DisplayName" : "埃及艳后的任务",
+  "typeid" : "2",
+  "LapisId" : "BNG-secretofnefertiti"
+}, {
+  "ButtonImagePath" : "qt/pc/BNG-secretofnefertiti2.jpg",
+  "DisplayName" : "埃及艳后的任务2",
+  "typeid" : "2",
+  "LapisId" : "BNG-secretofnefertiti2"
+}, {
+  "ButtonImagePath" : "qt/pc/BNG-singlesday.jpg",
+  "DisplayName" : "11.11光棍节",
+  "typeid" : "2",
+  "LapisId" : "BNG-singlesday"
+}, {
+  "ButtonImagePath" : "qt/pc/BNG-thewitch.jpg",
+  "DisplayName" : "女巫的青蛙",
+  "typeid" : "2",
+  "LapisId" : "BNG-thewitch"
+}, {
+  "ButtonImagePath" : "qt/pc/BNG-thunderzeus.jpg",
+  "DisplayName" : "希腊神话",
+  "typeid" : "2",
+  "LapisId" : "BNG-thunderzeus"
+}, {
+  "ButtonImagePath" : "qt/pc/HAB-threecardpoker.jpg",
+  "DisplayName" : "三张牌扑克",
+  "typeid" : "3",
+  "LapisId" : "HAB-threecardpoker"
+}, {
+  "ButtonImagePath" : "qt/pc/BNG-wildgalaxy.jpg",
+  "DisplayName" : "怪客星球",
+  "typeid" : "2",
+  "LapisId" : "BNG-wildgalaxy"
+}, {
+  "ButtonImagePath" : "qt/pc/BNG-zodiac.jpg",
+  "DisplayName" : "魔幻王座",
+  "typeid" : "2",
+  "LapisId" : "BNG-zodiac"
+}, {
+  "ButtonImagePath" : "qt/pc/FNG-samuraiken.jpg",
+  "DisplayName" : "肯恩武士",
+  "typeid" : "2",
+  "LapisId" : "FNG-samuraiken"
+}, {
+  "ButtonImagePath" : "qt/pc/RKI-mammoth.jpg",
+  "DisplayName" : "猛犸象",
+  "typeid" : "2",
+  "LapisId" : "RKI-mammoth"
+}, {
+  "ButtonImagePath" : "qt/pc/HAB-dragontiger.jpg",
+  "DisplayName" : "龙虎",
+  "typeid" : "3",
+  "LapisId" : "HAB-dragontiger"
+}, {
+  "ButtonImagePath" : "qt/pc/HAB-europeanroulette.jpg",
+  "DisplayName" : "欧洲轮盘",
+  "typeid" : "3",
+  "LapisId" : "HAB-europeanroulette"
+}, {
+  "ButtonImagePath" : "qt/pc/HAB-sicbo.jpg",
+  "DisplayName" : "骰宝",
+  "typeid" : "3",
+  "LapisId" : "HAB-sicbo"
+}, {
+  "ButtonImagePath" : "qt/pc/HAB-war.jpg",
+  "DisplayName" : "战争",
+  "typeid" : "3",
+  "LapisId" : "HAB-war"
+}, {
+  "ButtonImagePath" : "qt/pc/AndretheGiant.jpg",
+  "DisplayName" : "巨人安德鲁",
+  "typeid" : "2",
+  "LapisId" : "OGS-andrethegiant"
+}, {
+  "ButtonImagePath" : "qt/pc/DoublePlaySuperBet.jpg",
+  "DisplayName" : "超级赢家",
+  "typeid" : "2",
+  "LapisId" : "OGS-doubleplaysuperbet"
+}, {
+  "ButtonImagePath" : "qt/pc/GloriousEmpire.jpg",
+  "DisplayName" : "帝国荣耀",
+  "typeid" : "2",
+  "LapisId" : "OGS-gloriousempire"
+}, {
+  "ButtonImagePath" : "qt/pc/Medusa2.jpg",
+  "DisplayName" : "美杜莎2",
+  "typeid" : "2",
+  "LapisId" : "OGS-medusaii"
+}, {
+  "ButtonImagePath" : "qt/pc/MerlinsMillionsSuperbet.jpg",
+  "DisplayName" : "梅林的法宝",
+  "typeid" : "2",
+  "LapisId" : "OGS-merlinsmillionssuperbet"
+}, {
+  "ButtonImagePath" : "qt/pc/OwlEyes.jpg",
+  "DisplayName" : "猫头鹰之眼",
+  "typeid" : "2",
+  "LapisId" : "OGS-owleyes"
+}, {
+  "ButtonImagePath" : "qt/pc/BarsandBells.jpg",
+  "DisplayName" : "酒吧门铃",
+  "typeid" : "2",
+  "LapisId" : "OGS-barsandbells"
+}, {
+  "ButtonImagePath" : "qt/pc/Dragon8S.png",
+  "DisplayName" : "龙8",
+  "typeid" : "2",
+  "LapisId" : "OGS-dragon8s"
+}, {
+  "ButtonImagePath" : "qt/pc/FortunesoftheAmazons.jpg",
+  "DisplayName" : "亚马逊财富",
+  "typeid" : "2",
+  "LapisId" : "OGS-fortunesoftheamazon"
+}, {
+  "ButtonImagePath" : "qt/pc/GulliversTrabels.jpg",
+  "DisplayName" : "格力菲游记",
+  "typeid" : "2",
+  "LapisId" : "OGS-gulliverstravels"
+}, {
+  "ButtonImagePath" : "qt/pc/Leonidas.jpg",
+  "DisplayName" : "莱奥尼达斯国王",
+  "typeid" : "2",
+  "LapisId" : "OGS-leonidas"
+}, {
+  "ButtonImagePath" : "qt/pc/ShogunShowdown.jpg",
+  "DisplayName" : "决战将军",
+  "typeid" : "2",
+  "LapisId" : "OGS-shogunshowdown"
+}, {
+  "ButtonImagePath" : "qt/pc/SinfulSpins.jpg",
+  "DisplayName" : "罪恶旋转",
+  "typeid" : "2",
+  "LapisId" : "OGS-sinfulspins"
+}, {
+  "ButtonImagePath" : "qt/pc/ThunderingZeus.jpg",
+  "DisplayName" : "雷鸣宙斯",
+  "typeid" : "2",
+  "LapisId" : "OGS-thunderingzeus"
+}, {
+  "ButtonImagePath" : "qt/pc/VampiresvsWerewolves.jpg",
+  "DisplayName" : "吸血鬼大战狼人",
+  "typeid" : "2",
+  "LapisId" : "OGS-vampiresvswerewolves"
+}, {
+  "ButtonImagePath" : "qt/pc/DolphinGold.png",
+  "DisplayName" : "闪光海豚",
+  "typeid" : "2",
+  "LapisId" : "OGS-dolphingold"
+}, {
+  "ButtonImagePath" : "qt/pc/AllAmerican.jpg",
+  "DisplayName" : "美国派",
+  "typeid" : "3",
+  "LapisId" : "OGS-allamerican"
+}, {
+  "ButtonImagePath" : "qt/pc/Blackjack.jpg",
+  "DisplayName" : "二十一点",
+  "typeid" : "3",
+  "LapisId" : "OGS-blackjack"
+}, {
+  "ButtonImagePath" : "qt/pc/DeucesWild.jpg",
+  "DisplayName" : "百搭二王",
+  "typeid" : "3",
+  "LapisId" : "OGS-deuceswild"
+}, {
+  "ButtonImagePath" : "qt/pc/EuropeanRoulette.jpg",
+  "DisplayName" : "欧式轮盘",
+  "typeid" : "3",
+  "LapisId" : "OGS-europeanroulette"
+}, {
+  "ButtonImagePath" : "qt/pc/JacksorBetter.jpg",
+  "DisplayName" : "杰克扑克",
+  "typeid" : "3",
+  "LapisId" : "OGS-jacksorbetter"
+}, {
+  "ButtonImagePath" : "qt/pc/JokerPoker.jpg",
+  "DisplayName" : "小丑扑克",
+  "typeid" : "3",
+  "LapisId" : "OGS-jokerpoker"
+}, {
+  "ButtonImagePath" : "qt/pc/NoCommissionBaccarat.jpg",
+  "DisplayName" : "无佣百家乐",
+  "typeid" : "3",
+  "LapisId" : "OGS-nocommissionbaccarat"
+}, {
+  "ButtonImagePath" : "qt/pc/RouletteAmerican.jpg",
+  "DisplayName" : "美式轮盘",
+  "typeid" : "3",
+  "LapisId" : "OGS-rouletteamerican"
+}, {
+  "ButtonImagePath" : "qt/pc/SideBetBlackjack.jpg",
+  "DisplayName" : "单投21点",
+  "typeid" : "3",
+  "LapisId" : "OGS-sidebetblackjack"
+}, {
+  "ButtonImagePath" : "qt/pc/AUG-thethirdlotusprince.jpg",
+  "DisplayName" : "哪吒三太子",
+  "typeid" : "3",
+  "LapisId" : "AUG-thethirdlotusprince"
+}, {
+  "ButtonImagePath" : "qt/pc/AUG-fortuneluck.jpg",
+  "DisplayName" : "大吉大利",
+  "typeid" : "3",
+  "LapisId" : "AUG-fortuneluck"
+}, {
+  "ButtonImagePath" : "qt/pc/AUG-theredphoenix.jpg",
+  "DisplayName" : "凤凰传奇",
+  "typeid" : "3",
+  "LapisId" : "AUG-theredphoenix"
+}, {
+  "ButtonImagePath" : "qt/pc/AUG-zhugeliang.jpg",
+  "DisplayName" : "诸葛亮",
+  "typeid" : "3",
+  "LapisId" : "AUG-zhugeliang"
+}, {
+  "ButtonImagePath" : "qt/pc/AUG-3treasures.jpg",
+  "DisplayName" : "吉祥三宝",
+  "typeid" : "3",
+  "LapisId" : "AUG-3treasures"
+}, {
+  "ButtonImagePath" : "qt/pc/FNG-thegrid.jpg",
+  "DisplayName" : "极速网格",
+  "typeid" : "3",
+  "LapisId" : "FNG-thegrid"
+}, {
+  "ButtonImagePath" : "qt/pc/ELK-birthday.jpg",
+  "DisplayName" : "生日快乐！",
+  "typeid" : "3",
+  "LapisId" : "ELK-birthday"
+}, {
+  "ButtonImagePath" : "qt/pc/BNG-ageofcaesar.jpg",
+  "DisplayName" : "罗马帝国",
+  "typeid" : "3",
+  "LapisId" : "BNG-ageofcaesar"
+}, {
+  "ButtonImagePath" : "qt/pc/EVP-ussrgrocery.jpg",
+  "DisplayName" : "苏联食品店",
+  "typeid" : "3",
+  "LapisId" : "EVP-ussrgrocery"
+}, {
+  "ButtonImagePath" : "qt/pc/EVP-dolphinstreasure .jpg",
+  "DisplayName" : "海豚宝宝",
+  "typeid" : "3",
+  "LapisId" : "EVP-dolphinstreasure "
+}, {
+  "ButtonImagePath" : "qt/pc/QS-piratescharm.jpg",
+  "DisplayName" : "神秘海盗",
+  "typeid" : "3",
+  "LapisId" : "QS-piratescharm"
+}, {
+  "ButtonImagePath" : "qt/pc/OGS-wildheistatpeacockmanor.jpg",
+  "DisplayName" : "孔雀庄园",
+  "typeid" : "3",
+  "LapisId" : "OGS-wildheistatpeacockmanor"
+}]

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Bank Setting Controller-->
+        <scene sceneID="n1Z-ss-4z1">
+            <objects>
+                <viewController storyboardIdentifier="bankSetting" id="LHr-Sz-1eh" customClass="BankSettingController" customModule="YiboGameIos" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qLh-vz-IiT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="RPj-Xl-2OI">
+                                <rect key="frame" x="0.0" y="64" width="375" height="301.5"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="bankSettingCell" id="cXi-6k-Ged" customClass="BankSettingCell" customModule="YiboGameIos" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="cXi-6k-Ged" id="PS3-xh-BdW">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="持卡人姓名:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y2i-Wv-ZJF">
+                                                    <rect key="frame" x="15" y="11" width="94" height="21"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="21" id="p5A-6Q-mDR"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <color key="textColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="请输入持卡人姓名" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2BG-e4-M1O" customClass="CustomFeildText" customModule="YiboGameIos" customModuleProvider="target">
+                                                    <rect key="frame" x="117" y="-1" width="281.5" height="44"/>
+                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="Y2i-Wv-ZJF" firstAttribute="leading" secondItem="PS3-xh-BdW" secondAttribute="leadingMargin" id="423-V1-eso"/>
+                                                <constraint firstItem="2BG-e4-M1O" firstAttribute="centerY" secondItem="PS3-xh-BdW" secondAttribute="centerY" id="4Tf-xm-Jf2"/>
+                                                <constraint firstItem="Y2i-Wv-ZJF" firstAttribute="centerY" secondItem="PS3-xh-BdW" secondAttribute="centerY" id="6V8-gU-3bm"/>
+                                                <constraint firstItem="2BG-e4-M1O" firstAttribute="width" secondItem="PS3-xh-BdW" secondAttribute="width" multiplier="3:4" id="BLA-4T-wcG"/>
+                                                <constraint firstItem="Y2i-Wv-ZJF" firstAttribute="width" secondItem="PS3-xh-BdW" secondAttribute="width" multiplier="1:4" id="Tak-Dy-Kfl"/>
+                                                <constraint firstItem="2BG-e4-M1O" firstAttribute="leading" secondItem="Y2i-Wv-ZJF" secondAttribute="trailing" constant="8" id="jON-f7-0Os"/>
+                                                <constraint firstItem="2BG-e4-M1O" firstAttribute="height" secondItem="PS3-xh-BdW" secondAttribute="height" id="mJj-Dq-Unq"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="inputUI" destination="2BG-e4-M1O" id="ocI-Z7-eKM"/>
+                                            <outlet property="tagUI" destination="Y2i-Wv-ZJF" id="BVQ-jz-fQf"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="27x-11-iQR">
+                                <rect key="frame" x="46.5" y="385.5" width="281" height="45"/>
+                                <color key="backgroundColor" red="1" green="0.0944122196" blue="0.1011046932" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="YdD-vR-WRM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="设置">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="27x-11-iQR" firstAttribute="width" secondItem="97v-bj-MPQ" secondAttribute="width" multiplier="3:4" id="J1i-Gl-73R"/>
+                            <constraint firstItem="27x-11-iQR" firstAttribute="top" secondItem="RPj-Xl-2OI" secondAttribute="bottom" constant="20" id="MkX-qI-bpz"/>
+                            <constraint firstItem="RPj-Xl-2OI" firstAttribute="top" secondItem="97v-bj-MPQ" secondAttribute="top" id="Yfq-44-fhI"/>
+                            <constraint firstItem="RPj-Xl-2OI" firstAttribute="height" secondItem="97v-bj-MPQ" secondAttribute="height" multiplier="1:2" id="cD5-Yg-Hc3"/>
+                            <constraint firstItem="RPj-Xl-2OI" firstAttribute="leading" secondItem="97v-bj-MPQ" secondAttribute="leading" id="f7u-2Q-2wc"/>
+                            <constraint firstItem="RPj-Xl-2OI" firstAttribute="trailing" secondItem="97v-bj-MPQ" secondAttribute="trailing" id="gJr-PS-qf9"/>
+                            <constraint firstItem="27x-11-iQR" firstAttribute="centerX" secondItem="qLh-vz-IiT" secondAttribute="centerX" id="yFb-Ow-JvA"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="97v-bj-MPQ"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="cX4-iR-jqz"/>
+                    <connections>
+                        <outlet property="btnUI" destination="27x-11-iQR" id="seS-Pr-J79"/>
+                        <outlet property="tableViewUI" destination="RPj-Xl-2OI" id="0bP-nr-l5w"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Haj-CT-3kr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="765.60000000000002" y="-388.15592203898052"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Du4-GU-B8h">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="y8U-Ug-pf1" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="hVi-9Z-y9x">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="LHr-Sz-1eh" kind="relationship" relationship="rootViewController" id="O5m-23-dbo"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jnp-GS-ftU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="74" y="-388"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="mycell" id="vVb-a5-H8H" customClass="FixMoneyCell" customModule="YiboGameIos" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="155" height="67"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                <rect key="frame" x="0.0" y="0.0" width="155" height="67"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dGw-ZL-ZzR">
+                        <rect key="frame" x="47" y="18" width="60" height="30"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <state key="normal" title="0" backgroundImage="fast_money_bg">
+                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                    </button>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="dGw-ZL-ZzR" firstAttribute="centerX" secondItem="vVb-a5-H8H" secondAttribute="centerX" id="IeU-zT-zvI"/>
+                <constraint firstItem="dGw-ZL-ZzR" firstAttribute="centerY" secondItem="vVb-a5-H8H" secondAttribute="centerY" id="KYk-hM-qYM"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="FUH-yC-HHD"/>
+            <size key="customSize" width="155" height="67"/>
+            <connections>
+                <outlet property="moneyBtn" destination="dGw-ZL-ZzR" id="5wt-k1-Aqh"/>
+            </connections>
+            <point key="canvasLocation" x="-46.5" y="29.5"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="fast_money_bg" width="60" height="30"/>
+    </resources>
+</document>

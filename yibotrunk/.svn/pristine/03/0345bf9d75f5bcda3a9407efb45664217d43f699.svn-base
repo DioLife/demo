@@ -1,0 +1,100 @@
+//
+//  SystemConfig.swift
+//  YiboGameIos
+//
+//  Created by yibo-johnson on 2017/12/13.
+//  Copyright © 2017年 com.lvwenhan. All rights reserved.
+//
+
+import UIKit
+import HandyJSON
+
+class SystemConfig: HandyJSON {
+
+    var onoff_mobile_guest_register:String = "";//注册时是否显示访客试玩入口开关
+    //    String onoff_lottery_record;//彩票投注记录开关
+    //    String onoff_six_record;//六合投注记录开关
+    //    String onoff_real_record;//真人投注记录开关
+    //    String onoff_electronic_record;//电子投注记录开关
+    //    String onoff_sport_record;//体育投注记录开关
+    var onoff_sign_in:String = "";//签到开关
+    var app_qr_code_link_ios:String = "";//IOS版本app二维码地址
+    var app_qr_code_link_android:String = "";//Android版本app二维码地址
+    var lottery_order_cancle_switch:String = "";//彩票撤单开关
+    var lottery_order_chase_switch:String = "";//彩票追号开关
+    var onoff_change_money:String = "";//帐变记录开关
+    
+    var onoff_register:String = "";//注册开关
+    var onoff_mobile_app_reg:String = "";//注册app单独开关
+    var onoff_lottery_game:String = "";//彩票游戏开关
+    var onoff_liu_he_cai:String = "";//六合彩开关
+    var onoff_sports_game:String = "";//皇冠体育开关
+    var new_onoff_sports_game:String = "";//新皇冠体育开关
+    var onoff_zhen_ren_yu_le:String = "";//真人娱乐开关
+    var onoff_dian_zi_you_yi:String = "";//电子游艺开关
+    var iosExamine:String = "";//手机页面ios审核是否关闭
+    var mobileIndex:String = "";////手机主页设置。v1－突出彩票，v2－突出真人,v3-突出体育
+    var yjf:String = "";//元角分模式
+    
+    var onoff_member_mobile_red_packet:String = "";//手机抢红包开关
+    //手机页面中显示取款按钮
+    var onoff_mobile_drawing:String = "";
+    //手机页面中显示存款按钮
+    var onoff_mobile_recharge:String = "";
+    //版本号
+    var version:String = "";
+    var customerServiceUrlLink:String = "";
+    var online_customer_showphone:String = "";
+    
+    var bankFlag:String =  "";
+    var fastFlag:String = "";
+    var onlineFlag:String = "";
+    var exchange_score:String = "";//积分兑换开关
+    var isActive:Bool!;//是否显示优惠活动
+    var app_download_link_ios:String = "";
+    var app_download_link_android:String = "";
+    var lottery_page_logo_url:String = ""
+    var onoff_turnlate = "";//大转盘开关
+    var native_style_code = "";//主页风格code
+    
+    var active_title_switch = "";//优惠活动标题显示或隐藏开关
+    var charge_page_style = "";//充值页面风格切换
+    var register_btn_pos_sort = "";//导航栏右上角注册选项位置
+    var switch_backto_computer = "";//是否显示返回电脑端按钮
+    var member_center_bg_url = "";//个人中心头部背景图片地址
+    var member_center_logo_url = "";//个人中心头部LOGO图片地址
+    var sys_shaba_center_token = "";//沙巴体育授权口令
+    var sys_real_center_token = "";//真人平台授权口令
+    var onoff_shaba_sports_game = "";//沙巴体育开关
+    var switch_active_deadline_time = "";//优惠活动截止时间显示开关
+    var basic_info_website_name = "";//网站名称
+    var mny_score_show = "on"//积分显示开关
+    var remark_field_switch = "on"//入款备注显示开关
+    var logo_for_login="";//登录页LOGO地址
+    var show_active_badge="on";//优惠活动角标显示开关
+    
+    var pay_tips_deposit_fast = "";//快速入款支付说明
+    var pay_tips_deposit_general = "";//一般入款支付说明
+    var pay_tips_deposit_third = "";//第三方入款支付说明
+    var multi_broswer = ""
+    
+    var mobile_web_index_slide_images = "";//手机端首页浮动图片链接
+    var mobile_web_index_slide_url = "";//手机端首页浮动跳转链接
+    
+    var mobile_v3_bet_order_detail_total = "on"//手机新版投注详情页是否显示统计
+    var native_welcome_page_switch = "on";//首次安装时是否展示欢迎页
+    
+    var foreign_game_hall_link = "";//外部游戏大厅链接地址
+    var foreign_game_hall_link_switch = "";//外部游戏大厅链接开关
+    var nbchess_showin_mainpage = "on";//棋牌是否显示在首页
+    var touzhu_color = "#FFE2DA"; //颜色 #FFB6C1 #4B0082  #FFE2DA
+    
+    var onlinepay_name_switch = "off"//在线充值时是否显示支付名
+    var draw_money_user_name_modify = "off"//提款绑定银行卡真实姓名是否可修改
+    
+    var onoff_all_level_fixed = "off"//我的推荐
+    
+    
+    required init() {}
+    
+}

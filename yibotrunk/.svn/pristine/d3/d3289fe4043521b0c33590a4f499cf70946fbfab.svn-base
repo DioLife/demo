@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Set Bank Pwd Controller-->
+        <scene sceneID="Rbr-Ig-pps">
+            <objects>
+                <viewController storyboardIdentifier="setBankPwd" id="a5I-Yl-urs" customClass="SetBankPwdController" customModule="YiboGameIos" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="q35-yk-ngX">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="请输入新密码" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="va8-XW-RUB" customClass="CustomFeildText" customModule="YiboGameIos" customModuleProvider="target">
+                                <rect key="frame" x="62" y="124" width="250" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="SVv-9u-Lrp"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="请确认密码" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="omY-ss-wd0" customClass="CustomFeildText" customModule="YiboGameIos" customModuleProvider="target">
+                                <rect key="frame" x="62.5" y="174" width="250" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Sh1-Mi-nf0"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DPG-Ia-6Un">
+                                <rect key="frame" x="62" y="244" width="250" height="45"/>
+                                <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="4EI-Od-PrR"/>
+                                </constraints>
+                                <state key="normal" title="设置">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="omY-ss-wd0" firstAttribute="top" secondItem="va8-XW-RUB" secondAttribute="bottom" constant="10" id="00i-B5-B3C"/>
+                            <constraint firstItem="DPG-Ia-6Un" firstAttribute="top" secondItem="omY-ss-wd0" secondAttribute="bottom" constant="30" id="9ps-rB-T16"/>
+                            <constraint firstItem="DPG-Ia-6Un" firstAttribute="width" secondItem="omY-ss-wd0" secondAttribute="width" id="GFd-ep-GvC"/>
+                            <constraint firstItem="omY-ss-wd0" firstAttribute="width" secondItem="va8-XW-RUB" secondAttribute="width" id="GcK-uX-cwa"/>
+                            <constraint firstItem="va8-XW-RUB" firstAttribute="width" secondItem="oZh-bJ-7vq" secondAttribute="width" multiplier="2:3" id="IvX-63-AiZ"/>
+                            <constraint firstItem="DPG-Ia-6Un" firstAttribute="centerX" secondItem="q35-yk-ngX" secondAttribute="centerX" id="NW9-60-fDQ"/>
+                            <constraint firstItem="va8-XW-RUB" firstAttribute="centerX" secondItem="q35-yk-ngX" secondAttribute="centerX" id="cr3-up-40F"/>
+                            <constraint firstItem="va8-XW-RUB" firstAttribute="top" secondItem="oZh-bJ-7vq" secondAttribute="top" constant="60" id="nyn-vK-w1O"/>
+                            <constraint firstItem="omY-ss-wd0" firstAttribute="centerX" secondItem="q35-yk-ngX" secondAttribute="centerX" id="u4b-Xr-gTT"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="oZh-bJ-7vq"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="H8W-TN-Et0"/>
+                    <connections>
+                        <outlet property="apwdInput" destination="omY-ss-wd0" id="XoB-h1-GgY"/>
+                        <outlet property="btn" destination="DPG-Ia-6Un" id="B1P-dy-4Qi"/>
+                        <outlet property="npwdInput" destination="va8-XW-RUB" id="fnN-Ed-ALc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OU8-ea-gfz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="740" y="-216.34182908545728"/>
+        </scene>
+        <!--取款密码设置-->
+        <scene sceneID="PxZ-Nb-bvM">
+            <objects>
+                <navigationController title="取款密码设置" automaticallyAdjustsScrollViewInsets="NO" id="0Fd-KB-UTS" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="fyr-PT-q3k">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="a5I-Yl-urs" kind="relationship" relationship="rootViewController" id="GF2-bs-g6Y"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DPv-BE-oDV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="33" y="-216"/>
+        </scene>
+    </scenes>
+</document>

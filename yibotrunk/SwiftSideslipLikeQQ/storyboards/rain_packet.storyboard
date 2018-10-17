@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Rain Package Controller-->
+        <scene sceneID="Xzx-up-W7l">
+            <objects>
+                <viewController storyboardIdentifier="rain_page" id="mgA-PZ-zw6" customClass="RainPackageController" customModule="YiboGameIos" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Dt3-kk-aZ8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rp_bg.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="h1H-bt-gVf">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mxT-Sq-X6j" customClass="JXMarqueeView" customModule="YiboGameIos" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="64" width="375" height="35"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="cPN-fz-cbe"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="MBG-M3-nF0" firstAttribute="trailing" secondItem="h1H-bt-gVf" secondAttribute="trailing" id="4nA-7f-jg9"/>
+                            <constraint firstItem="h1H-bt-gVf" firstAttribute="top" secondItem="MBG-M3-nF0" secondAttribute="top" id="6E4-CU-KSs"/>
+                            <constraint firstItem="mxT-Sq-X6j" firstAttribute="top" secondItem="MBG-M3-nF0" secondAttribute="top" id="Q6c-mz-6ee"/>
+                            <constraint firstItem="mxT-Sq-X6j" firstAttribute="trailing" secondItem="MBG-M3-nF0" secondAttribute="trailing" id="Sae-uH-Gqt"/>
+                            <constraint firstItem="MBG-M3-nF0" firstAttribute="bottom" secondItem="h1H-bt-gVf" secondAttribute="bottom" id="TDZ-P4-Qp5"/>
+                            <constraint firstItem="mxT-Sq-X6j" firstAttribute="leading" secondItem="MBG-M3-nF0" secondAttribute="leading" id="Z2K-Mr-D02"/>
+                            <constraint firstItem="h1H-bt-gVf" firstAttribute="leading" secondItem="MBG-M3-nF0" secondAttribute="leading" id="jZa-vS-CI9"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="MBG-M3-nF0"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Iro-cS-8bh"/>
+                    <connections>
+                        <outlet property="awardHeight" destination="cPN-fz-cbe" id="gCK-PI-HcF"/>
+                        <outlet property="awardResultView" destination="mxT-Sq-X6j" id="wOi-rD-WVD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="M2g-S2-Dig" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="168.80000000000001" y="-117.39130434782609"/>
+        </scene>
+        <!--Main Nav Controller-->
+        <scene sceneID="uNc-jo-vFF">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="WOP-Tc-MnU" customClass="MainNavController" customModule="YiboGameIos" customModuleProvider="target" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="vmq-3x-IuV">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="mgA-PZ-zw6" kind="relationship" relationship="rootViewController" id="5uA-DA-nFD"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="93b-l1-eLb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-609" y="-117"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="rp_bg.jpg" width="540" height="960"/>
+    </resources>
+</document>

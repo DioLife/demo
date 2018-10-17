@@ -1,0 +1,36 @@
+PODS:
+  - Alamofire (4.6.0)
+  - HandyJSON (1.8.0)
+  - Kingfisher (4.6.1)
+  - MBProgressHUD (1.1.0)
+  - MJRefresh (3.1.14.1)
+  - ReachabilitySwift (4.1.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - HandyJSON
+  - Kingfisher
+  - MBProgressHUD
+  - MJRefresh (~> 3.1.14.1)
+  - ReachabilitySwift
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - HandyJSON
+    - Kingfisher
+    - MBProgressHUD
+    - MJRefresh
+    - ReachabilitySwift
+
+SPEC CHECKSUMS:
+  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
+  HandyJSON: edaaa3278bf4c4c96d6f7382b80d6b91c88d3bf5
+  Kingfisher: 1f9157d9c02b380cbd0b7cc890161195164eb634
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  MJRefresh: 238e6a37e2dba12160ee3b79f6d2a2b26abcab42
+  ReachabilitySwift: 6849231cd4e06559f3b9ef4a97a0a0f96d41e09f
+
+PODFILE CHECKSUM: 4898964ee99e6ddd4f79c995cbded2ec53eb994d
+
+COCOAPODS: 1.5.0

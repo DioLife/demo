@@ -1,0 +1,82 @@
+[
+  {
+    "DisplayName": "德州扑克",
+    "LapisId": "620",
+    "ButtonImagePath": "depk.png"
+  },
+  {
+    "DisplayName": "二八杠",
+    "LapisId": "720",
+    "ButtonImagePath": "2bg.png"
+  },
+  {
+    "DisplayName": "抢庄牛牛",
+    "LapisId": "830",
+    "ButtonImagePath": "nn.png"
+  },
+  {
+    "DisplayName": "炸金花",
+    "LapisId": "220",
+    "ButtonImagePath": "zjh.png"
+  },
+  {
+    "DisplayName": "三公",
+    "LapisId": "860",
+    "ButtonImagePath": "3g.png"
+  },
+  {
+    "DisplayName": "押庄龙虎",
+    "LapisId": "900",
+    "ButtonImagePath": "yzlh.png"
+  },
+  {
+    "DisplayName": "21点",
+    "LapisId": "600",
+    "ButtonImagePath": "21d.png"
+  },
+  {
+    "DisplayName": "通比牛牛",
+    "LapisId": "870",
+    "ButtonImagePath": "tbnn.png"
+  },
+  {
+    "DisplayName": "欢乐红包",
+    "LapisId": "880",
+    "ButtonImagePath": "hlqhb.png"
+  },
+  {
+    "DisplayName": "极速炸金花",
+    "LapisId": "230",
+    "ButtonImagePath": "jszjh.png"
+  },
+  {
+    "DisplayName": "抢庄牌九",
+    "LapisId": "730",
+    "ButtonImagePath": "qzpj.png"
+  },
+  {
+    "DisplayName": "十三水",
+    "LapisId": "630",
+    "ButtonImagePath": "sss.png"
+  },
+  {
+    "DisplayName": "幸运五张",
+    "LapisId": "380",
+    "ButtonImagePath": "xywz.png"
+  },
+  {
+    "DisplayName": "斗地主",
+    "LapisId": "610",
+    "ButtonImagePath": "ddz.png"
+  },
+  {
+    "DisplayName": "射龙门",
+    "LapisId": "390",
+    "ButtonImagePath": "slm.png"
+  },
+  {
+    "DisplayName": "百家乐",
+    "LapisId": "910",
+    "ButtonImagePath": "bjl.png"
+  }
+]

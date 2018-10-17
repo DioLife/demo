@@ -1,0 +1,446 @@
+//
+//  LeftViewController.swift
+//
+//  Created by Johnson on 15/4/11.
+//  Copyright (c) 2015年 com.lvwenhan. All rights reserved.
+//
+
+import UIKit
+
+// person center View Controller
+
+class MenuController: BaseMainController, UITableViewDelegate, UITableViewDataSource {
+    
+    @IBOutlet weak var funcTable: UITableView!
+    var unreadCount:Int = 0
+    var useForSlideMenu = false
+    var header:MenuHeader!
+    
+    var datas = [
+        ["name":"操作记录","menus":[
+            ["itemName":"彩票投注记录","itemImgName":"caipiao_record_icon"],
+            ["itemName":"六合投注记录","itemImgName":"lhc_record_icon"],
+                                        ["itemName":"旧体育投注记录","itemImgName":"sport_record_icon"],
+                                        ["itemName":"新体育投注记录","itemImgName":"sport_record_icon"],
+                                        ["itemName":"沙巴体育投注记录","itemImgName":"sport_record_icon"],
+                                        ["itemName":"真人投注记录","itemImgName":"realman_record_icon"],
+                                        ["itemName":"电子游戏记录","itemImgName":"game_record_icon"],
+                                        ["itemName":"用户账变记录","itemImgName":"account_change_record_icon"],
+                                        ["itemName":"账户明细记录","itemImgName":"account_detail_record_icon"]]],
+         ["name":"个人中心","menus":[["itemName":"登陆密码修改","itemImgName":"pwd_modify_icon"],["itemName":"取款密码修改","itemImgName":"withdraw_icon"],["itemName":"我的站内信","itemImgName":"message_center"],["itemName":"积分兑换","itemImgName":"score_exchange_icon"],["itemName":"优惠活动","itemImgName":"pwd_modify_icon"],["itemName":"额度转换","itemImgName":"fee_convert_icon"],["itemName":"抢红包","itemImgName":"message_center"],
+                                         ["itemName":"幸运大转盘","itemImgName":"account_change_record_icon"]]],
+        ["name":"代理管理","menus":[["itemName":"用户列表","itemImgName":"pwd_modify_icon"],["itemName":"我的推荐","itemImgName":"account_detail_record_icon"]]],
+        ["name":"软件设置","menus":[["itemName":"设置","itemImgName":"pwd_modify_icon"],["itemName":"联系我们","itemImgName":"account_detail_record_icon"],["itemName":"退出登录","itemImgName":"pwd_modify_icon"]]]
+        ]
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        self.navigationItem.title = ""
+        funcTable.delegate = self
+        funcTable.dataSource = self
+        header = MenuHeader.init(icon: UIImage.init(named: "default_header"), account: "暂无名称", balance: 0,slideMenu:useForSlideMenu,controller:self)
+        funcTable.tableHeaderView = header
+    }
+
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        print("view will appear menu controller")
+        if header != nil{
+            header.syncDatas()
+        }
+    }
+    
+    override func adjustRightBtn() -> Void {
+        super.adjustRightBtn()
+        if YiboPreference.getLoginStatus(){
+            self.navigationItem.rightBarButtonItems?.removeAll()
+        }
+        if let config = getSystemConfigFromJson(){
+            if config.content != nil{
+                if !isEmptyString(str: config.content.basic_info_website_name){
+                    self.navigationItem.leftBarButtonItems?.removeAll()
+                    let webName = UIBarButtonItem.init(title: config.content.basic_info_website_name, style: UIBarButtonItemStyle.plain, target: self, action:nil)
+                    self.navigationItem.leftBarButtonItem = webName
+                }
+            }
+        }
+    }
+    
+    func adjustLeftMenusBySystemConfig() -> Void {
+        
+        if self.datas.isEmpty{
+            return
+        }
+        let sysConfig = getSystemConfigFromJson()
+        if let sys = sysConfig{
+            //调整第一组项
+            let isGuest = YiboPreference.getAccountMode() == ACCOUNT_PLATFORM_TEST_GUEST
+            if !isGuest{
+                var arr = self.datas[0]["menus"] as! [Dictionary<String,String>]
+                if arr.isEmpty{
+                    return
+                }
+                var menus:[Dictionary<String,String>] = []
+                for index in 0...arr.count-1{
+                    let dic = arr[index] as Dictionary<String,String>
+                    if dic["itemName"] == "彩票投注记录"{
+                        if !isEmptyString(str: sys.content.onoff_lottery_game) && sys.content.onoff_lottery_game == "on"{
+                            menus.append(dic)
+                        }
+                    }else if dic["itemName"] == "六合投注记录"{
+                        if !isEmptyString(str: sys.content.onoff_liu_he_cai) && sys.content.onoff_liu_he_cai == "on"{
+                            menus.append(dic)
+                        }
+                    }else if dic["itemName"] == "旧体育投注记录"{
+                        if !isEmptyString(str: sys.content.onoff_sports_game) && sys.content.onoff_sports_game == "on"{
+                            menus.append(dic)
+                        }
+                    }else if dic["itemName"] == "新体育投注记录"{
+                        if !isEmptyString(str: sys.content.new_onoff_sports_game) && sys.content.new_onoff_sports_game == "on"{
+                            menus.append(dic)
+                        }
+                    }
+                    else if dic["itemName"] == "沙巴体育投注记录"{
+                        if !isEmptyString(str: sys.content.onoff_shaba_sports_game) && sys.content.onoff_shaba_sports_game == "on"{
+                            menus.append(dic)
+                        }
+                    }
+                    else if dic["itemName"] == "真人投注记录"{
+                        if !isEmptyString(str: sys.content.onoff_zhen_ren_yu_le) && sys.content.onoff_zhen_ren_yu_le == "on"{
+                            menus.append(dic)
+                        }
+                    }else if dic["itemName"] == "电子游戏记录"{
+                        if !isEmptyString(str: sys.content.onoff_dian_zi_you_yi) && sys.content.onoff_dian_zi_you_yi == "on"{
+                            menus.append(dic)
+                        }
+                    }else if dic["itemName"] == "用户账变记录"{
+                        if (!isEmptyString(str: sys.content.onoff_change_money) && sys.content.onoff_change_money == "on") && (!isEmptyString(str: sys.content.iosExamine)&&sys.content.iosExamine == "on"){
+                            menus.append(dic)
+                        }
+                    }else if dic["itemName"] == "账户明细记录"{
+                        if (!isEmptyString(str: sys.content.iosExamine)&&sys.content.iosExamine == "on"){
+                            menus.append(dic)
+                        }
+                    }
+                }
+                arr.removeAll()
+                self.datas[0]["menus"] = menus
+            }else{
+                var arr = self.datas[0]["menus"] as! [Dictionary<String,Any>]
+                if arr.isEmpty{
+                    return
+                }
+                arr.removeAll()
+                let menus = [
+                    ["itemName":"彩票投注记录","itemImgName":"caipiao_record_icon"],["itemName":"六合投注记录","itemImgName":"account_change_record_icon"],["itemName":"账户明细记录","itemImgName":"account_detail_record_icon"]
+                ]
+                self.datas[0]["menus"] = menus
+            }
+            
+            //调整第二组项
+            //是否显示积分兑换入口
+            var arr = self.datas[1]["menus"] as! [Dictionary<String,String>]
+            if arr.isEmpty{
+                return
+            }
+            debugPrint("the second menu arr = ",arr)
+            var newArr:[Dictionary<String,String>] = []
+            for index in 0...arr.count-1{
+                
+                let dic = arr[index] as Dictionary<String,String>
+                if dic["itemName"] == "积分兑换"{
+                    if !isEmptyString(str: sys.content.exchange_score) && sys.content.exchange_score == "on"{
+                        newArr.append(dic)
+                    }
+                }else if dic["itemName"] == "幸运大转盘"{
+                    if !isEmptyString(str: sys.content.onoff_turnlate) && sys.content.onoff_turnlate == "on"{
+                        newArr.append(dic)
+                    }
+                }else if dic["itemName"] == "抢红包"{
+                    if !isEmptyString(str: sys.content.onoff_member_mobile_red_packet) && sys.content.onoff_member_mobile_red_packet == "on"{
+                        newArr.append(dic)
+                    }
+                    
+                }else if dic["itemName"] == "额度转换"{
+                    let a = !isEmptyString(str: sys.content.onoff_zhen_ren_yu_le) && sys.content.onoff_zhen_ren_yu_le == "on"
+                    let b = !isEmptyString(str: sys.content.onoff_shaba_sports_game) && sys.content.onoff_shaba_sports_game == "on"
+                    let c = !isEmptyString(str: sys.content.onoff_dian_zi_you_yi) && sys.content.onoff_dian_zi_you_yi == "on"
+                    if a || b || c{
+                        newArr.append(dic)
+                    }
+                }else{
+                    newArr.append(dic)
+                }
+            }
+            arr.removeAll()
+            self.datas[1]["menus"] = newArr
+            self.funcTable.reloadData()
+        }
+    }
+    
+    
+    override func viewDidAppear(_ animated: Bool) {
+        adjustLeftMenusBySystemConfig()
+        perforWhenCreate()
+        header.syncDatas()
+    }
+    
+    func perforWhenCreate() -> Void {
+        //根据会员帐号类型显示或隐藏充值，取款等按钮栏
+        actionUnreadCount()
+    }
+    
+    func actionUnreadCount() -> Void {
+        ////未读消息数
+        request(frontDialog: false, url: UNREAD_MSG_COUNT_URL,
+                callback: {(resultJson:String,resultStatus:Bool)->Void in
+                    if !resultStatus {
+                        return
+                    }
+                    if let result = UnreadMsgCountWraper.deserialize(from: resultJson){
+                        if result.success{
+                            YiboPreference.setToken(value: result.accessToken as AnyObject)
+                            //更新侧边站内信未读消息数
+                            self.unreadCount = result.content
+                            print("unread count === \(self.unreadCount)")
+                            self.funcTable.reloadData()
+                        }
+                    }
+        })
+    }
+    
+    //处理点击事件
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        let dic = self.datas[indexPath.section] as Dictionary<String,AnyObject>
+        let subArr = dic["menus"] as! [Dictionary<String,String>]
+        let menuItem = subArr[indexPath.row]
+        let menuName = menuItem["itemName"]
+        if indexPath.section == 0{
+            var recordType = MenuType.CAIPIAO_RECORD
+            if menuName == "彩票投注记录"{
+                recordType = MenuType.CAIPIAO_RECORD
+            }else if menuName == "六合投注记录"{
+                recordType = MenuType.LIUHE_RECORD
+            }else if menuName == "旧体育投注记录"{
+                recordType = MenuType.SPORT_RECORD
+            }else if menuName == "新体育投注记录"{
+                recordType = MenuType.NEW_SPORT_RECORD
+            }else if menuName == "沙巴体育投注记录"{
+                recordType = MenuType.SBSPORT_RECORD
+            }else if menuName == "真人投注记录"{
+                recordType = MenuType.REAL_MAN_RECORD
+            }else if menuName == "电子游戏记录"{
+                recordType = MenuType.GAME_RECORD
+            }else if menuName == "用户账变记录"{
+                recordType = MenuType.ACCOUNT_CHANGE_RECORD
+            }else if menuName == "账户明细记录"{
+                //            recordType = MenuType.
+            }
+            if menuName != "账户明细记录"{
+                if self.navigationController != nil{
+                    openTouzhuRecord(controller: self, title: menuName!, code: recordType == MenuType.LIUHE_RECORD ? "LHC" : "",recordType: recordType)
+                }else{
+                    openTouzhuRecordInPresent(controller: self, title: menuName!, lotCode: recordType == MenuType.LIUHE_RECORD ? "LHC" : "", recordType: recordType)
+                }
+            }else{
+                if self.navigationController != nil{
+                    openAccountMingxi(controller: self,whichPage:0)
+                }else{
+                    let loginVC = UIStoryboard(name: "account_mingxi_page", bundle: nil).instantiateViewController(withIdentifier: "mingxi")
+                    let recordPage = loginVC as! AccountMingxiController
+                    let nav = UINavigationController.init(rootViewController: recordPage)
+                    self.present(nav, animated: true, completion: nil)
+                }
+            }
+        }else if indexPath.section == 1{
+            if indexPath.row == 0{
+                if self.navigationController != nil{
+                    openModifyPwd(controller: self, loginPwd: true)
+                }else{
+                    let loginVC = UIStoryboard(name: "pwd_modify", bundle: nil).instantiateViewController(withIdentifier: "modifyPwd")
+                    let recordPage = loginVC as! ModifyPwdController
+                    recordPage.isLoginPwdModify = true
+                    self.navigationController?.pushViewController(recordPage, animated: true)
+                    let nav = UINavigationController.init(rootViewController: recordPage)
+                    self.present(nav, animated: true, completion: nil)
+                }
+            }else if indexPath.row == 1{
+                if self.navigationController != nil{
+                    openModifyPwd(controller: self, loginPwd: false)
+                }else{
+                    let loginVC = UIStoryboard(name: "pwd_modify", bundle: nil).instantiateViewController(withIdentifier: "modifyPwd")
+                    let recordPage = loginVC as! ModifyPwdController
+                    recordPage.isLoginPwdModify = false
+                    self.navigationController?.pushViewController(recordPage, animated: true)
+                    let nav = UINavigationController.init(rootViewController: recordPage)
+                    self.present(nav, animated: true, completion: nil)
+                }
+            }else if indexPath.row == 2{
+                if self.navigationController != nil{
+                    openMessageCenter(controller: self)
+                }else{
+                    let loginVC = UIStoryboard(name: "message_center", bundle: nil).instantiateViewController(withIdentifier: "mc")
+                    let recordPage = loginVC as! MessageCenterController
+                    self.navigationController?.pushViewController(recordPage, animated: true)
+                    let nav = UINavigationController.init(rootViewController: recordPage)
+                    self.present(nav, animated: true, completion: nil)
+                }
+                
+            }
+            if menuName == "积分兑换"{
+                if self.navigationController != nil{
+                    openScoreExchangePage(controller: self)
+                }else{
+                    let loginVC = UIStoryboard(name: "score_change_page", bundle: nil).instantiateViewController(withIdentifier: "scoreExchange")
+                    let recordPage = loginVC as! ScoreExchangeController
+                    self.navigationController?.pushViewController(recordPage, animated: true)
+                    let nav = UINavigationController.init(rootViewController: recordPage)
+                    self.present(nav, animated: true, completion: nil)
+                }
+            }else if menuName == "优惠活动"{
+                if self.navigationController != nil{
+                    openActive(controller: self)
+                }else{
+                    let loginVC = UIStoryboard(name: "active_page", bundle: nil).instantiateViewController(withIdentifier: "activePage")
+                    let recordPage = loginVC as! ActiveController
+                    self.navigationController?.pushViewController(recordPage, animated: true)
+                    let nav = UINavigationController.init(rootViewController: recordPage)
+                    self.present(nav, animated: true, completion: nil)
+                }
+            }else if menuName == "额度转换"{
+                if self.navigationController != nil{
+                    openConvertMoneyPage(controller: self)
+                }else{
+                    let loginVC = UIStoryboard(name: "fee_convert", bundle: nil).instantiateViewController(withIdentifier: "feeConvert")
+                    let recordPage = loginVC as! FeeConvertController
+                    self.navigationController?.pushViewController(recordPage, animated: true)
+                    let nav = UINavigationController.init(rootViewController: recordPage)
+                    self.present(nav, animated: true, completion: nil)
+                }
+            }else if menuName == "幸运大转盘"{
+                if self.navigationController != nil{
+                    openBigPanPage(controller: self)
+                }else{
+                    let loginVC = UIStoryboard(name: "bigpan", bundle: nil).instantiateViewController(withIdentifier: "big_pan")
+                    let recordPage = loginVC as! BigPanController
+                    self.navigationController?.pushViewController(recordPage, animated: true)
+                    let nav = UINavigationController.init(rootViewController: recordPage)
+                    self.present(nav, animated: true, completion: nil)
+                }
+            }else if menuName == "抢红包"{
+                if self.navigationController != nil{
+                    openRainController(controller: self)
+                }else{
+                    let vc = UIStoryboard(name: "rain_packet", bundle: nil).instantiateViewController(withIdentifier: "rain_page")
+                    let page = vc as! RainPackageController
+                    let nav = UINavigationController.init(rootViewController: page)
+                    self.present(nav, animated: true, completion: nil)
+                }
+            }
+        }else if indexPath.section == 2{
+            if indexPath.row == 1{
+                self.navigationController?.pushViewController(TueijianViewController(), animated: true)
+//                self.present(TueijianViewController(), animated: true, completion: nil)
+            }
+        }else if indexPath.section == 3{
+            if indexPath.row == 0{
+                if self.navigationController != nil{
+                    openSetting(controller: self)
+                }else{
+                    let loginVC = UIStoryboard(name: "app_setting", bundle: nil).instantiateViewController(withIdentifier: "appSetting")
+                    let settingPage = loginVC as! AppSettingController
+                    self.navigationController?.pushViewController(settingPage, animated: true)
+                    let nav = UINavigationController.init(rootViewController: settingPage)
+                    self.present(nav, animated: true, completion: nil)
+                }
+            }else if indexPath.row == 1{
+                openContactUs(controller:self)
+            }else if indexPath.row == 2{
+                self.postExitLogin()
+//                showToast(view: self.view, txt: "软件将退回到后台")
+//                    let time: TimeInterval = 1.0
+//                    DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + time) {
+//                    exit(0)
+//                    }
+            }
+        }
+    }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return (self.datas[section] as Dictionary<String,AnyObject>)["menus"]!.count
+    }
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return  self.datas.count
+    }
+    
+    func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        return (self.datas[section] as Dictionary<String,AnyObject>)["name"] as? String
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "leftTableCell", for: indexPath) as! LeftTableCell
+        let dic = self.datas[indexPath.section] as Dictionary<String,AnyObject>
+        let subArr = dic["menus"] as! [Dictionary<String,String>]
+        let menuItem = subArr[indexPath.row]
+        cell.name.text = menuItem["itemName"]
+        cell.icon.image = UIImage.init(named: menuItem["itemImgName"]!)
+        if (menuItem["itemName"]?.hasPrefix("我的站内信"))! && self.unreadCount > 0{
+            cell.name.text = String.init(format: "我的站内信(%d)", self.unreadCount)
+        }
+        return cell
+    }
+    
+    func onLeftEvent(tag: Int) {
+        print("receive left menu event --------")
+        adjustLeftMenusBySystemConfig()
+        perforWhenCreate()
+    }
+    
+    func postExitLogin() -> Void {
+        request(frontDialog: true, loadTextStr:"退出登录中...",url:LOGIN_OUT_URL,
+                callback: {(resultJson:String,resultStatus:Bool)->Void in
+                    if !resultStatus {
+                        if resultJson.isEmpty {
+                            showToast(view: self.view, txt: convertString(string: "退出失败,请重试"))
+                        }else{
+                            showToast(view: self.view, txt: resultJson)
+                        }
+                        return
+                    }
+                    if let result = LoginOutWrapper.deserialize(from: resultJson){
+                        if result.success{
+                            if !isEmptyString(str: result.accessToken){
+                                YiboPreference.setToken(value: result.accessToken as AnyObject)
+                            }
+                            YiboPreference.saveLoginStatus(value: false as AnyObject)
+                            if result.content{
+//                                self.navigationController?.popViewController(animated: true)
+                                if self.navigationController != nil{
+                                    loginWhenSessionInvalid(controller: self)
+                                }else{
+                                    let loginVC = UIStoryboard(name: "login", bundle: nil).instantiateViewController(withIdentifier: "login_page")
+                                    let loginPage = loginVC as! LoginController
+                                    loginPage.openFromOtherPage = true
+                                    let nav = UINavigationController.init(rootViewController: loginPage)
+                                    self.present(nav, animated: true, completion: nil)
+                                }
+                                
+                            }else{
+                                showToast(view: self.view, txt: "退出登录失败")
+                            }
+                        }else{
+                            if !isEmptyString(str: result.msg){
+                                showToast(view: self.view, txt: result.msg)
+                            }else{
+                                showToast(view: self.view, txt: convertString(string: "退出失败,请重试"))
+                            }
+                        }
+                    }
+        })
+    }
+    
+    
+
+}

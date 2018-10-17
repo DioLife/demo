@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="J3N-4r-PAt" customClass="BigPanFooterView" customModule="YiboGameIos" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rDb-rS-sq4">
+                    <rect key="frame" x="20" y="30" width="335" height="45"/>
+                    <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="Cn2-ks-v0e"/>
+                    </constraints>
+                    <state key="normal" title="开始抽奖">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1tM-x7-iM8">
+                    <rect key="frame" x="20" y="83" width="335" height="80"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="中奖名单" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TnN-Nw-mBa">
+                            <rect key="frame" x="-5" y="5" width="57.5" height="25"/>
+                            <color key="backgroundColor" red="0.93970098349999998" green="0.53298626177495911" blue="0.50371723483669084" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="25" id="H0O-ax-p19"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vzx-8C-rSV" customClass="JXMarqueeView" customModule="YiboGameIos" customModuleProvider="target">
+                            <rect key="frame" x="57.5" y="10" width="272.5" height="60"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="60" id="0eH-O8-jbg"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" red="0.93970098349999998" green="0.89360044247038883" blue="0.62118307330689326" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="TnN-Nw-mBa" firstAttribute="leading" secondItem="1tM-x7-iM8" secondAttribute="leading" constant="-5" id="035-SN-A7L"/>
+                        <constraint firstItem="TnN-Nw-mBa" firstAttribute="top" secondItem="1tM-x7-iM8" secondAttribute="top" constant="5" id="8vW-yz-0wZ"/>
+                        <constraint firstAttribute="height" constant="80" id="FoE-uk-mPT"/>
+                        <constraint firstAttribute="trailing" secondItem="Vzx-8C-rSV" secondAttribute="trailing" constant="5" id="Rse-yT-CMI"/>
+                        <constraint firstItem="Vzx-8C-rSV" firstAttribute="leading" secondItem="TnN-Nw-mBa" secondAttribute="trailing" constant="5" id="nzj-BB-PcZ"/>
+                        <constraint firstItem="Vzx-8C-rSV" firstAttribute="centerY" secondItem="1tM-x7-iM8" secondAttribute="centerY" id="rnO-g7-YqN"/>
+                    </constraints>
+                </view>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="pfx-1P-Nih">
+                    <rect key="frame" x="20" y="171" width="335" height="476"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="pfx-1P-Nih" firstAttribute="top" secondItem="Vzx-8C-rSV" secondAttribute="bottom" constant="18" id="3Er-Cz-iY8"/>
+                <constraint firstItem="pfx-1P-Nih" firstAttribute="leading" secondItem="Iwx-hx-dti" secondAttribute="leading" constant="20" id="6RC-La-Mkt"/>
+                <constraint firstItem="1tM-x7-iM8" firstAttribute="top" secondItem="rDb-rS-sq4" secondAttribute="bottom" constant="8" id="6UO-rf-Hx6"/>
+                <constraint firstItem="1tM-x7-iM8" firstAttribute="leading" secondItem="rDb-rS-sq4" secondAttribute="leading" id="Ine-tW-Cma"/>
+                <constraint firstItem="Iwx-hx-dti" firstAttribute="trailing" secondItem="pfx-1P-Nih" secondAttribute="trailing" constant="20" id="gQi-Ln-IfB"/>
+                <constraint firstItem="Iwx-hx-dti" firstAttribute="trailing" secondItem="rDb-rS-sq4" secondAttribute="trailing" constant="20" id="hvD-Mw-Iia"/>
+                <constraint firstItem="rDb-rS-sq4" firstAttribute="centerX" secondItem="J3N-4r-PAt" secondAttribute="centerX" id="uw9-By-KAk"/>
+                <constraint firstItem="rDb-rS-sq4" firstAttribute="leading" secondItem="Iwx-hx-dti" secondAttribute="leading" constant="20" id="v0h-FR-dZJ"/>
+                <constraint firstItem="1tM-x7-iM8" firstAttribute="trailing" secondItem="rDb-rS-sq4" secondAttribute="trailing" id="xkQ-FS-uWN"/>
+                <constraint firstItem="Iwx-hx-dti" firstAttribute="bottom" secondItem="pfx-1P-Nih" secondAttribute="bottom" constant="20" id="zNq-yi-age"/>
+                <constraint firstItem="rDb-rS-sq4" firstAttribute="top" secondItem="Iwx-hx-dti" secondAttribute="top" constant="10" id="ziv-TX-Bfh"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Iwx-hx-dti"/>
+            <connections>
+                <outlet property="awardOrderView" destination="Vzx-8C-rSV" id="bEw-Bo-fuY"/>
+                <outlet property="awardView" destination="1tM-x7-iM8" id="Ls2-ee-TLX"/>
+                <outlet property="rulesTV" destination="pfx-1P-Nih" id="5Lw-YI-q9l"/>
+                <outlet property="startBtn" destination="rDb-rS-sq4" id="eGI-LJ-NkE"/>
+            </connections>
+            <point key="canvasLocation" x="-10.5" y="-610.5"/>
+        </view>
+    </objects>
+</document>
