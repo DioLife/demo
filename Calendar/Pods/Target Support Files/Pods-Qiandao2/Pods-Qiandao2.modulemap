@@ -1,0 +1,6 @@
+framework module Pods_Qiandao2 {
+  umbrella header "Pods-Qiandao2-umbrella.h"
+
+  export *
+  module * { export * }
+}
