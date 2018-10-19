@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="UserlistHeader" customModule="YiboGameIos" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="用户名" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cuc-bR-cG6">
+                    <rect key="frame" x="10" y="0.0" width="70" height="44"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="70" id="EjL-7j-JE3"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" 用户类型" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZWO-nc-xym">
+                    <rect key="frame" x="81" y="0.0" width="102" height="44"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="注册时间" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k29-0a-KRV">
+                    <rect key="frame" x="184" y="0.0" width="105" height="44"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="105" id="yD1-sK-unx"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="余额" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xoN-hC-4ke">
+                    <rect key="frame" x="290" y="0.0" width="75" height="44"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="75" id="zft-gH-i8Y"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="xoN-hC-4ke" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="5cj-vd-dQ8"/>
+                <constraint firstItem="k29-0a-KRV" firstAttribute="leading" secondItem="ZWO-nc-xym" secondAttribute="trailing" constant="1" id="88U-OV-gdN"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="xoN-hC-4ke" secondAttribute="trailing" constant="10" id="FmZ-qM-LY9"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="k29-0a-KRV" secondAttribute="bottom" id="Gid-z8-60N"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="cuc-bR-cG6" secondAttribute="bottom" id="UHV-Tk-RE1"/>
+                <constraint firstItem="ZWO-nc-xym" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="gHq-9k-XdO"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="ZWO-nc-xym" secondAttribute="bottom" id="i6P-XG-sba"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="xoN-hC-4ke" secondAttribute="bottom" id="iO4-ke-Olu"/>
+                <constraint firstItem="cuc-bR-cG6" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="mZe-s3-ReG"/>
+                <constraint firstItem="ZWO-nc-xym" firstAttribute="leading" secondItem="cuc-bR-cG6" secondAttribute="trailing" constant="1" id="mlb-GE-xYM"/>
+                <constraint firstItem="cuc-bR-cG6" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="10" id="qe7-hO-wr2"/>
+                <constraint firstItem="xoN-hC-4ke" firstAttribute="leading" secondItem="k29-0a-KRV" secondAttribute="trailing" constant="1" id="r7g-7B-gSg"/>
+                <constraint firstItem="k29-0a-KRV" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="xBx-cS-IHS"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,6 @@
+framework module Pods_datePicker_closure {
+  umbrella header "Pods-datePicker+closure-umbrella.h"
+
+  export *
+  module * { export * }
+}

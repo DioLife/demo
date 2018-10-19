@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D6CD5492179D1900007A710 /* MyTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6CD5482179D1900007A710 /* MyTabBarController.m */; };
 		3DF589882175CEA700AF320B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF589872175CEA700AF320B /* AppDelegate.m */; };
-		3DF5898B2175CEA700AF320B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF5898A2175CEA700AF320B /* ViewController.m */; };
 		3DF5898E2175CEA700AF320B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DF5898C2175CEA700AF320B /* Main.storyboard */; };
 		3DF589902175CEA800AF320B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DF5898F2175CEA800AF320B /* Assets.xcassets */; };
 		3DF589932175CEA800AF320B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DF589912175CEA800AF320B /* LaunchScreen.storyboard */; };
@@ -31,11 +31,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D6CD5472179D1900007A710 /* MyTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTabBarController.h; sourceTree = "<group>"; };
+		3D6CD5482179D1900007A710 /* MyTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTabBarController.m; sourceTree = "<group>"; };
 		3DF589832175CEA700AF320B /* TabBarController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabBarController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DF589862175CEA700AF320B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3DF589872175CEA700AF320B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3DF589892175CEA700AF320B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3DF5898A2175CEA700AF320B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3DF5898D2175CEA700AF320B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3DF5898F2175CEA800AF320B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3DF589922175CEA800AF320B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -98,8 +98,6 @@
 				3DF5899C2175CF0900AF320B /* images */,
 				3DF589862175CEA700AF320B /* AppDelegate.h */,
 				3DF589872175CEA700AF320B /* AppDelegate.m */,
-				3DF589892175CEA700AF320B /* ViewController.h */,
-				3DF5898A2175CEA700AF320B /* ViewController.m */,
 				3DF589FC2175D61D00AF320B /* MyNavgationController.h */,
 				3DF589FD2175D61D00AF320B /* MyNavgationController.m */,
 				3DF589EA2175D58200AF320B /* OneViewController.h */,
@@ -114,6 +112,8 @@
 				3DF589F72175D5CF00AF320B /* FiveViewController.m */,
 				3DF589F92175D5DF00AF320B /* SixViewController.h */,
 				3DF589FA2175D5DF00AF320B /* SixViewController.m */,
+				3D6CD5472179D1900007A710 /* MyTabBarController.h */,
+				3D6CD5482179D1900007A710 /* MyTabBarController.m */,
 				3DF5898C2175CEA700AF320B /* Main.storyboard */,
 				3DF5898F2175CEA800AF320B /* Assets.xcassets */,
 				3DF589912175CEA800AF320B /* LaunchScreen.storyboard */,
@@ -219,7 +219,7 @@
 				3DF589F82175D5CF00AF320B /* FiveViewController.m in Sources */,
 				3DF589FB2175D5DF00AF320B /* SixViewController.m in Sources */,
 				3DF589F52175D5BF00AF320B /* FourViewController.m in Sources */,
-				3DF5898B2175CEA700AF320B /* ViewController.m in Sources */,
+				3D6CD5492179D1900007A710 /* MyTabBarController.m in Sources */,
 				3DF589962175CEA800AF320B /* main.m in Sources */,
 				3DF589FE2175D61D00AF320B /* MyNavgationController.m in Sources */,
 				3DF589882175CEA700AF320B /* AppDelegate.m in Sources */,

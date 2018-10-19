@@ -14,6 +14,7 @@
 #import "FourViewController.h"
 #import "FiveViewController.h"
 #import "SixViewController.h"
+#import "MyTabBarController.h"
 
 @interface AppDelegate ()
 
@@ -64,7 +65,7 @@
 //    UINavigationController *navCtrl6 = [[UINavigationController alloc] initWithRootViewController:sixVC];
     
     
-    UITabBarController *tabBarCtrl = [[UITabBarController alloc] init];
+    MyTabBarController *tabBarCtrl = [[MyTabBarController alloc] init];
     tabBarCtrl.view.backgroundColor = [UIColor cyanColor];
     // 分栏控制器管理的视图控制器的tabBarController属性，自动指向分栏控制器。
     // 当分栏控制器管理的视图控制器的个数超过五个时，会自动创建一个more的导航控制器，并且自动将第五个以及以后的视图控制器添加到more导航控制器中。
@@ -82,7 +83,6 @@
     tabBar.tintColor = [UIColor purpleColor];
 //    // 设置分栏按钮的选中指定图片
 //    tabBar.selectionIndicatorImage = [UIImage imageNamed:@"search"];
-    
     
     self.window.rootViewController = tabBarCtrl;
 }
