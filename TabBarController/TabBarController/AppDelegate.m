@@ -36,7 +36,7 @@
     OneViewController *oneVC = [[OneViewController alloc] init];
     oneVC.title = @"oneVC";
     oneVC.tabBarItem.image = [UIImage imageNamed:@"home"];
-    oneVC.tabBarItem.selectedImage = [UIImage imageNamed:@"home_selected@"];
+    oneVC.tabBarItem.selectedImage = [UIImage imageNamed:@"home_selected"];
     MyNavgationController *navCtrl1 = [[MyNavgationController alloc] initWithRootViewController:oneVC];
     //    navCtrl1.tabBarItem = [[UITabBarItem alloc] initWithTabBarSystemItem:UITabBarSystemItemSearch tag:0];
     

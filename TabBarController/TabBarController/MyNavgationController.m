@@ -19,8 +19,7 @@
     // Do any additional setup after loading the view.
 }
 
-- (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated
-{
+- (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated {
     //1. 取出分栏
     UITabBar *tabBar = self.tabBarController.tabBar;
     
@@ -36,8 +35,7 @@
     [super pushViewController:viewController animated:animated];
 }
 
-- (UIViewController *)popViewControllerAnimated:(BOOL)animated
-{
+- (UIViewController *)popViewControllerAnimated:(BOOL)animated {
     //1. 取出分栏
     UITabBar *tabBar = self.tabBarController.tabBar;
     
