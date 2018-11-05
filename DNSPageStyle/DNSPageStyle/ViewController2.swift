@@ -10,7 +10,7 @@ import UIKit
 import DNSPageView
 
 class ViewController2: UIViewController {
-
+    
     @IBOutlet weak var titleView: DNSPageTitleView!
     @IBOutlet weak var contentView: DNSPageContentView!
     
@@ -40,13 +40,13 @@ class ViewController2: UIViewController {
         // 最后要调用setupUI方法
         titleView.setupUI()
         
-        
         // 创建每一页对应的controller
-  //      let childViewControllers: [ContentViewController] = titles.map { _ -> ContentViewController in
-    //        let controller = ContentViewController()
-      //      controller.view.backgroundColor = UIColor.orange
-     //       return controller
-    //    }
+//        let childViewControllers: [ContentViewController] = titles.map { (title) -> ContentViewController in
+//            print(title)
+//            let controller = ContentViewController()
+//            controller.view.backgroundColor = UIColor.orange
+//            return controller
+//        }
         /*** 上下两段代码功能相同 ***/
         let oneVC = OneViewController()
         let twoVC = TwoViewController()
