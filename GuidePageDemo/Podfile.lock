@@ -1,0 +1,16 @@
+PODS:
+  - GuidePageView (1.0.0)
+
+DEPENDENCIES:
+  - GuidePageView (~> 1.0.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - GuidePageView
+
+SPEC CHECKSUMS:
+  GuidePageView: 3a0f3b8de3a4c7047ef2871bead164a1c9f385ee
+
+PODFILE CHECKSUM: 709fac55cc53f8a9d5219c01bf905da59cac22be
+
+COCOAPODS: 1.5.3
