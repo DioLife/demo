@@ -11,7 +11,7 @@ import DNSPageView
 
 class ViewController4: UIViewController {
 
-    private lazy var titles = ["头条", "视频", "娱乐", "要问", "体育" , "科技" , "汽车"]
+    private lazy var titles = ["头条", "视频", "娱乐"]//, "要问", "体育" , "科技" , "汽车"
 
     private lazy var pageViewManager: DNSPageViewManager = {
         // 创建DNSPageStyle，设置样式
@@ -21,6 +21,7 @@ class ViewController4: UIViewController {
         style.titleViewBackgroundColor = UIColor.clear
         style.titleColor = UIColor.gray
         style.titleSelectedColor = UIColor.black
+//        style.isTitleScaleEnabled = true
         style.bottomLineColor = UIColor(red: 0 / 255, green: 143 / 255, blue: 223 / 255, alpha: 1.0)
 
         // 创建每一页对应的controller
@@ -45,7 +46,7 @@ class ViewController4: UIViewController {
         // 计算titleView需要的宽度
         // 如果style.isTitleScrollEnable = false，则不需要计算宽度，但是titleView的下划线会平分titleView的宽度
         let width: CGFloat = titles.reduce(0) { (width, title) -> CGFloat in
-            width + (title as NSString).boundingRect(with: CGSize(width: CGFloat.greatestFiniteMagnitude, height: 0), options: .usesLineFragmentOrigin, attributes: [NSAttributedStringKey.font : pageViewManager.style.titleFont], context: nil).width + margin
+            width + (title as NSString).boundingRect(with: CGSize(width: CGFloat.greatestFiniteMagnitude, height: 0), options: .usesLineFragmentOrigin, attributes: [NSAttributedString.Key.font : pageViewManager.style.titleFont], context: nil).width + margin
         }
         
         // 单独设置titleView的大小和位置，可以使用autolayout或者frame

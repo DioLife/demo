@@ -24,9 +24,10 @@ class ViewController2: UIViewController {
         style.isShowBottomLine = true
         style.titleViewBackgroundColor = UIColor.clear
         style.isShowCoverView = false
+        style.isTitleViewScrollEnabled = true
 
         // 设置标题内容
-        let titles = ["头条", "视频", "娱乐", "要问", "体育" , "科技" , "汽车"]
+        let titles = ["头条", "视频", "娱乐", "要问", "体育" , "科技" , "汽车"]//, "要问", "体育" , "科技" , "汽车"
 
         // 设置默认的起始位置
         let startIndex = 0
