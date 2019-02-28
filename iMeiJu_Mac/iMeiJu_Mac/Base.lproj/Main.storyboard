@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14460.31"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Application-->
+        <scene sceneID="JPo-4y-FX3">
+            <objects>
+                <application id="hnw-xV-0zn" sceneMemberID="viewController">
+                    <menu key="mainMenu" title="Main Menu" systemMenu="main" id="AYu-sK-qS6">
+                        <items>
+                            <menuItem title="iMeiJu" id="1Xt-HY-uBw">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <menu key="submenu" title="iMeiJu" systemMenu="apple" id="uQy-DD-JDr">
+                                    <items>
+                                        <menuItem title="About iMeiJu" id="5kV-Vb-QxS">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="orderFrontStandardAboutPanel:" target="Ady-hI-5gd" id="Exp-CZ-Vem"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Check for Updates…" keyEquivalent="u" id="t1i-Ov-Xdx">
+                                            <connections>
+                                                <action selector="checkForUpdates:" target="cgg-iE-gx2" id="JvH-k2-X9t"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem isSeparatorItem="YES" id="VOq-y0-SEH"/>
+                                        <menuItem title="Services" id="NMo-om-nkz">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <menu key="submenu" title="Services" systemMenu="services" id="hz9-B4-Xy5"/>
+                                        </menuItem>
+                                        <menuItem isSeparatorItem="YES" id="4je-JR-u6R"/>
+                                        <menuItem title="Hide iMeiJu_Mac" keyEquivalent="h" id="Olw-nP-bQN">
+                                            <connections>
+                                                <action selector="hide:" target="Ady-hI-5gd" id="PnN-Uc-m68"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Hide Others" keyEquivalent="h" id="Vdr-fp-XzO">
+                                            <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
+                                            <connections>
+                                                <action selector="hideOtherApplications:" target="Ady-hI-5gd" id="VT4-aY-XCT"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Show All" id="Kd2-mp-pUS">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="unhideAllApplications:" target="Ady-hI-5gd" id="Dhg-Le-xox"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem isSeparatorItem="YES" id="kCx-OE-vgT"/>
+                                        <menuItem title="Quit iMeiJu" keyEquivalent="q" id="4sb-4s-VLi">
+                                            <connections>
+                                                <action selector="terminate:" target="Ady-hI-5gd" id="Te7-pn-YzF"/>
+                                            </connections>
+                                        </menuItem>
+                                    </items>
+                                </menu>
+                            </menuItem>
+                            <menuItem title="File" id="3gX-6q-l6y">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <menu key="submenu" title="File" id="fvY-9U-jhK">
+                                    <items>
+                                        <menuItem title="Close" keyEquivalent="w" id="Ra6-Dc-rkh">
+                                            <connections>
+                                                <action selector="performClose:" target="Ady-hI-5gd" id="8Th-Cr-4db"/>
+                                            </connections>
+                                        </menuItem>
+                                    </items>
+                                </menu>
+                            </menuItem>
+                            <menuItem title="Edit" id="7Qf-ri-wR5">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <menu key="submenu" title="Edit" id="AZt-yk-xdp">
+                                    <items>
+                                        <menuItem title="Cut" keyEquivalent="x" id="9h1-k7-q6d">
+                                            <connections>
+                                                <action selector="cut:" target="Ady-hI-5gd" id="NCR-C6-vg6"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Copy" keyEquivalent="c" id="vjN-3T-oTQ">
+                                            <connections>
+                                                <action selector="copy:" target="Ady-hI-5gd" id="qPV-kc-PtC"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Paste" keyEquivalent="v" id="iy5-QB-txm">
+                                            <connections>
+                                                <action selector="paste:" target="Ady-hI-5gd" id="Qk0-qT-KNZ"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem isSeparatorItem="YES" id="QB8-uo-j6G"/>
+                                        <menuItem title="Speech" id="8AL-yf-Hgf">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <menu key="submenu" title="Speech" id="pa5-Iu-TM0">
+                                                <items>
+                                                    <menuItem title="Start Speaking" id="dR7-zh-zaC">
+                                                        <modifierMask key="keyEquivalentModifierMask"/>
+                                                        <connections>
+                                                            <action selector="startSpeaking:" target="Ady-hI-5gd" id="pfh-gF-3bo"/>
+                                                        </connections>
+                                                    </menuItem>
+                                                    <menuItem title="Stop Speaking" id="KtK-8A-NVU">
+                                                        <modifierMask key="keyEquivalentModifierMask"/>
+                                                        <connections>
+                                                            <action selector="stopSpeaking:" target="Ady-hI-5gd" id="P9R-kV-uhV"/>
+                                                        </connections>
+                                                    </menuItem>
+                                                </items>
+                                            </menu>
+                                        </menuItem>
+                                    </items>
+                                </menu>
+                            </menuItem>
+                            <menuItem title="Options" id="wsf-Ky-yhy">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <menu key="submenu" title="Options" id="IuY-A8-HGx">
+                                    <items>
+                                        <menuItem title="Github" keyEquivalent="g" id="LdI-yW-2es">
+                                            <connections>
+                                                <action selector="github:" target="Voe-Tx-rLC" id="33g-7H-xmR"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem isSeparatorItem="YES" id="mAG-MU-Upa"/>
+                                    </items>
+                                </menu>
+                            </menuItem>
+                        </items>
+                    </menu>
+                    <connections>
+                        <outlet property="delegate" destination="Voe-Tx-rLC" id="PrD-fu-P6m"/>
+                    </connections>
+                </application>
+                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="iMeiJu_Mac" customModuleProvider="target"/>
+                <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
+                <customObject id="cgg-iE-gx2" customClass="SUUpdater"/>
+                <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-430" y="109"/>
+        </scene>
+        <!--Window Controller-->
+        <scene sceneID="R2V-B0-nI4">
+            <objects>
+                <windowController id="B8D-0N-5wS" customClass="IZMainWindowController" customModule="iMeiJu_Mac" customModuleProvider="target" sceneMemberID="viewController">
+                    <window key="window" title="iMeiJu for Mac" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" titlebarAppearsTransparent="YES" titleVisibility="hidden" id="IQv-IB-iLA" customClass="IZWindow" customModule="iMeiJu_Mac" customModuleProvider="target">
+                        <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" fullSizeContentView="YES"/>
+                        <rect key="contentRect" x="196" y="240" width="1002" height="600"/>
+                        <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1027"/>
+                        <connections>
+                            <outlet property="delegate" destination="B8D-0N-5wS" id="98r-iN-zZc"/>
+                        </connections>
+                    </window>
+                    <connections>
+                        <segue destination="XfG-lQ-9wD" kind="relationship" relationship="window.shadowedContentViewController" id="cq2-FE-JQM"/>
+                    </connections>
+                </windowController>
+                <customObject id="Oky-zY-oP4" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="61" y="618"/>
+        </scene>
+        <!--Main View Controller-->
+        <scene sceneID="hIz-AP-VOD">
+            <objects>
+                <viewController id="XfG-lQ-9wD" customClass="IZMainViewController" customModule="iMeiJu_Mac" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" wantsLayer="YES" id="m2S-Jp-Qdl" customClass="IZView" customModule="iMeiJu_Mac" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="1002" height="682"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <customView translatesAutoresizingMaskIntoConstraints="NO" id="9uF-Ob-rWU" customClass="IZMenusView" customModule="iMeiJu_Mac" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="88" height="682"/>
+                                <subviews>
+                                    <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="zg3-nE-wT6">
+                                        <rect key="frame" x="27" y="380" width="34" height="60"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="9pf-8f-4F3"/>
+                                        </constraints>
+                                        <buttonCell key="cell" type="bevel" bezelStyle="rounded" image="movie" imagePosition="above" alignment="center" imageScaling="proportionallyDown" inset="2" id="rVm-T3-bKw">
+                                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                            <font key="font" metaFont="system"/>
+                                        </buttonCell>
+                                        <connections>
+                                            <action selector="movie:" target="XfG-lQ-9wD" id="x0D-2o-cpR"/>
+                                        </connections>
+                                    </button>
+                                    <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="bDb-Bn-rlQ">
+                                        <rect key="frame" x="27" y="280" width="34" height="60"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="eo7-NI-ZfL"/>
+                                        </constraints>
+                                        <buttonCell key="cell" type="bevel" bezelStyle="rounded" image="television" imagePosition="above" alignment="center" imageScaling="proportionallyDown" inset="2" id="UPT-Wy-iEn">
+                                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                            <font key="font" metaFont="system"/>
+                                        </buttonCell>
+                                        <connections>
+                                            <action selector="television:" target="XfG-lQ-9wD" id="c7L-4n-wS6"/>
+                                        </connections>
+                                    </button>
+                                    <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="p3t-zW-4uC">
+                                        <rect key="frame" x="26" y="180" width="36" height="60"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="0Vy-Ml-m4g"/>
+                                        </constraints>
+                                        <buttonCell key="cell" type="bevel" bezelStyle="rounded" image="search" imagePosition="above" alignment="center" imageScaling="proportionallyDown" inset="2" id="RPJ-Pj-AYP">
+                                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                            <font key="font" metaFont="system"/>
+                                        </buttonCell>
+                                        <connections>
+                                            <action selector="search:" target="XfG-lQ-9wD" id="FBk-z1-JSc"/>
+                                        </connections>
+                                    </button>
+                                    <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="21e-4a-OuC">
+                                        <rect key="frame" x="14" y="20" width="60" height="60"/>
+                                        <buttonCell key="cell" type="bevel" bezelStyle="rounded" image="setting" imagePosition="only" alignment="center" imageScaling="proportionallyDown" inset="2" id="vP7-xZ-NAY">
+                                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                            <font key="font" metaFont="system"/>
+                                        </buttonCell>
+                                        <connections>
+                                            <action selector="setting:" target="XfG-lQ-9wD" id="o57-3r-hL1"/>
+                                        </connections>
+                                    </button>
+                                    <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Pwv-xC-U6K" customClass="IZButton" customModule="iMeiJu_Mac" customModuleProvider="target">
+                                        <rect key="frame" x="23" y="480" width="42" height="60"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="zGy-Fg-D4E"/>
+                                        </constraints>
+                                        <buttonCell key="cell" type="bevel" bezelStyle="rounded" image="recommend" imagePosition="above" alignment="center" imageScaling="proportionallyDown" inset="2" id="MF7-4O-7JH">
+                                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                            <font key="font" metaFont="system"/>
+                                        </buttonCell>
+                                        <connections>
+                                            <action selector="recommend:" target="XfG-lQ-9wD" id="1fA-xK-kW5"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="21e-4a-OuC" firstAttribute="top" secondItem="p3t-zW-4uC" secondAttribute="bottom" constant="100" id="42J-Dp-Yxc"/>
+                                    <constraint firstItem="bDb-Bn-rlQ" firstAttribute="top" secondItem="zg3-nE-wT6" secondAttribute="bottom" constant="40" id="Alt-AF-JTA"/>
+                                    <constraint firstItem="zg3-nE-wT6" firstAttribute="top" secondItem="Pwv-xC-U6K" secondAttribute="bottom" constant="40" id="NnT-9L-qNx"/>
+                                    <constraint firstAttribute="width" constant="88" id="O0I-iY-JIb"/>
+                                    <constraint firstAttribute="bottom" secondItem="21e-4a-OuC" secondAttribute="bottom" constant="20" id="QnK-QP-EGs"/>
+                                    <constraint firstItem="p3t-zW-4uC" firstAttribute="centerX" secondItem="9uF-Ob-rWU" secondAttribute="centerX" id="SfV-WJ-U8O"/>
+                                    <constraint firstItem="Pwv-xC-U6K" firstAttribute="centerX" secondItem="9uF-Ob-rWU" secondAttribute="centerX" id="X9B-l7-gmr"/>
+                                    <constraint firstItem="zg3-nE-wT6" firstAttribute="centerX" secondItem="9uF-Ob-rWU" secondAttribute="centerX" id="a03-Ub-ONJ"/>
+                                    <constraint firstItem="bDb-Bn-rlQ" firstAttribute="centerX" secondItem="9uF-Ob-rWU" secondAttribute="centerX" id="jXj-Kf-pCI"/>
+                                    <constraint firstItem="p3t-zW-4uC" firstAttribute="top" secondItem="bDb-Bn-rlQ" secondAttribute="bottom" constant="40" id="kzR-a5-wSs"/>
+                                    <constraint firstItem="21e-4a-OuC" firstAttribute="centerX" secondItem="9uF-Ob-rWU" secondAttribute="centerX" id="wq4-WT-ZIj"/>
+                                </constraints>
+                            </customView>
+                            <customView translatesAutoresizingMaskIntoConstraints="NO" id="3dd-Oy-snq" customClass="IZView" customModule="iMeiJu_Mac" customModuleProvider="target">
+                                <rect key="frame" x="88" y="0.0" width="914" height="682"/>
+                            </customView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="3dd-Oy-snq" secondAttribute="bottom" id="CcW-am-ZYa"/>
+                            <constraint firstAttribute="trailing" secondItem="3dd-Oy-snq" secondAttribute="trailing" id="NMn-rd-N5u"/>
+                            <constraint firstItem="9uF-Ob-rWU" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" id="SIk-c6-ebP"/>
+                            <constraint firstAttribute="bottom" secondItem="9uF-Ob-rWU" secondAttribute="bottom" id="VSL-Ry-X5U"/>
+                            <constraint firstItem="9uF-Ob-rWU" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" id="czm-BN-C33"/>
+                            <constraint firstItem="3dd-Oy-snq" firstAttribute="leading" secondItem="9uF-Ob-rWU" secondAttribute="trailing" id="kXW-3i-dzu"/>
+                            <constraint firstItem="3dd-Oy-snq" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" id="uLi-DJ-orN"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="contentView" destination="3dd-Oy-snq" id="FuH-DD-VPB"/>
+                        <outlet property="menusView" destination="9uF-Ob-rWU" id="nFo-Jg-jno"/>
+                        <outlet property="movie" destination="zg3-nE-wT6" id="BGc-LC-dzA"/>
+                        <outlet property="recommend" destination="Pwv-xC-U6K" id="g5D-CD-mLd"/>
+                        <outlet property="search" destination="p3t-zW-4uC" id="ywS-3o-zYz"/>
+                        <outlet property="setting" destination="21e-4a-OuC" id="5wt-3c-vKx"/>
+                        <outlet property="television" destination="bDb-Bn-rlQ" id="Jm4-K8-NjS"/>
+                    </connections>
+                </viewController>
+                <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="50" y="1335"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="movie" width="34" height="67"/>
+        <image name="recommend" width="42" height="68"/>
+        <image name="search" width="36" height="61"/>
+        <image name="setting" width="60" height="60"/>
+        <image name="television" width="34" height="63"/>
+    </resources>
+</document>

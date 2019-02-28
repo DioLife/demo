@@ -19,7 +19,7 @@ class ViewController3: UIViewController {
         style.titleViewBackgroundColor = UIColor.clear
 
         // 设置标题内容
-        let titles = ["头条", "视频", "娱乐", "要问", "体育"]
+        let titles = ["头条", "视频", "娱乐", "要问", "体育" , "科技" , "汽车" , "时尚" , "图片" , "游戏" , "房产"]
 
         // 创建每一页对应的controller
         let childViewControllers: [ContentViewController] = titles.map { _ -> ContentViewController in
@@ -42,7 +42,7 @@ class ViewController3: UIViewController {
 
         // 单独设置contentView的大小和位置，可以使用autolayout或者frame
         let contentView = pageViewManager.contentView
-        view.addSubview(pageViewManager.contentView)
+        view.addSubview(contentView)
         contentView.snp.makeConstraints { (maker) in
             maker.edges.equalToSuperview()
         }

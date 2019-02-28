@@ -31,7 +31,7 @@ import UIKit
  需要给titleView和contentView布局，可以用frame或者Autolayout布局
  */
 open class DNSPageViewManager: NSObject {
-        
+
     private (set) public var style: DNSPageStyle
     private (set) public var titles: [String]
     private (set) public var childViewControllers: [UIViewController]

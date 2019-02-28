@@ -15,7 +15,6 @@ class ViewController1: UIViewController {
         super.viewDidLoad()
         automaticallyAdjustsScrollViewInsets = false
 
-
         // 创建DNSPageStyle，设置样式
         let style = DNSPageStyle()
         style.isTitleViewScrollEnabled = true //滑动块是否可以移动

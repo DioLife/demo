@@ -1,0 +1,52 @@
+PODS:
+  - Alamofire (4.8.1)
+  - Kingfisher (5.1.1)
+  - Moya (12.0.1):
+    - Moya/Core (= 12.0.1)
+  - Moya/Core (12.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 4.0)
+  - Result (4.1.0)
+  - Sparkle (1.21.2)
+  - SQLite.swift (0.11.5):
+    - SQLite.swift/standard (= 0.11.5)
+  - SQLite.swift/standard (0.11.5)
+  - SwiftHEXColors (1.2.0)
+  - SwiftyJSON (4.2.0)
+  - VersaPlayer (2.2.3)
+
+DEPENDENCIES:
+  - Kingfisher (~> 5.1.0)
+  - Moya (~> 12.0.1)
+  - Sparkle (~> 1.21.2)
+  - SQLite.swift (~> 0.11.5)
+  - SwiftHEXColors (~> 1.2.0)
+  - SwiftyJSON (~> 4.2.0)
+  - VersaPlayer (~> 2.2.3)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Kingfisher
+    - Moya
+    - Result
+    - Sparkle
+    - SQLite.swift
+    - SwiftHEXColors
+    - SwiftyJSON
+    - VersaPlayer
+
+SPEC CHECKSUMS:
+  Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
+  Kingfisher: 2558186963e5be42d98c5b110ccb3130148b77e4
+  Moya: cf730b3cd9e005401ef37a85143aa141a12fd38f
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+  Sparkle: 1678d4707e7665960c7d1b43aca125e6392d11c4
+  SQLite.swift: 6e5356850bb1791459f8c16d6ee9195b28714a2e
+  SwiftHEXColors: a4ebe93a70890a9fa124e205dd785cc7552273b4
+  SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
+  VersaPlayer: 105ab14111cd48ea1705cf24c66366536da86935
+
+PODFILE CHECKSUM: 03e67982a3270d8cdd2f85cba71f42fcab563065
+
+COCOAPODS: 1.5.3
