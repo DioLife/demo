@@ -15,7 +15,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+//        self.window = UIWindow.init(frame: UIScreen.main.bounds)
+//        self.window?.backgroundColor = UIColor.white
+//        self.window?.makeKeyAndVisible()
+//        
+//        let gameVC = GameViewController()
+//        let nav = UINavigationController.init(rootViewController: gameVC)
+//        self.window?.rootViewController = nav
+        
         return true
     }
 
