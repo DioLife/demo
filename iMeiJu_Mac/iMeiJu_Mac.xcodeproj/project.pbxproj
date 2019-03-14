@@ -647,7 +647,7 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 8Z8F76R3VZ;
+				DEVELOPMENT_TEAM = V64L9N2K5F;
 				INFOPLIST_FILE = iMeiJu_Mac/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -672,7 +672,7 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 8Z8F76R3VZ;
+				DEVELOPMENT_TEAM = V64L9N2K5F;
 				INFOPLIST_FILE = iMeiJu_Mac/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
