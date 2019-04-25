@@ -8,13 +8,13 @@ public enum QueryError: Error, CustomStringConvertible {
 
     public var description: String {
         switch self {
-        case let .noSuchTable(name):
+        case .noSuchTable(let name):
             return "No such table: \(name)"
-        case let .noSuchColumn(name, columns):
+        case .noSuchColumn(let name, let columns):
             return "No such column `\(name)` in columns \(columns)"
-        case let .ambiguousColumn(name, similar):
+        case .ambiguousColumn(let name, let similar):
             return "Ambiguous column `\(name)` (please disambiguate: \(similar))"
-        case let .unexpectedNullValue(name):
+        case .unexpectedNullValue(let name):
             return "Unexpected null value for column `\(name)`"
         }
     }

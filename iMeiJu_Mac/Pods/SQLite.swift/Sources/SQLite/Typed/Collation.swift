@@ -26,6 +26,7 @@
 ///
 /// - SeeAlso: <https://www.sqlite.org/datatype3.html#collation>
 public enum Collation {
+
     /// Compares string by raw data.
     case binary
 
@@ -39,16 +40,20 @@ public enum Collation {
     /// A custom collating sequence identified by the given string, registered
     /// using `Database.create(collation:…)`
     case custom(String)
+
 }
 
-extension Collation: Expressible {
+extension Collation : Expressible {
+
     public var expression: Expression<Void> {
         return Expression(literal: description)
     }
+
 }
 
-extension Collation: CustomStringConvertible {
-    public var description: String {
+extension Collation : CustomStringConvertible {
+
+    public var description : String {
         switch self {
         case .binary:
             return "BINARY"
@@ -56,8 +61,9 @@ extension Collation: CustomStringConvertible {
             return "NOCASE"
         case .rtrim:
             return "RTRIM"
-        case let .custom(collation):
+        case .custom(let collation):
             return collation.quote()
         }
     }
+
 }

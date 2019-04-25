@@ -24,23 +24,26 @@
 
 import Foundation
 
-extension Data: Value {
+extension Data : Value {
+
     public static var declaredDatatype: String {
         return Blob.declaredDatatype
     }
 
     public static func fromDatatypeValue(_ dataValue: Blob) -> Data {
-        return Data(bytes: dataValue.bytes)
+        return Data(dataValue.bytes)
     }
 
     public var datatypeValue: Blob {
-        return withUnsafeBytes { (pointer: UnsafePointer<UInt8>) -> Blob in
-            Blob(bytes: pointer, length: count)
+        return withUnsafeBytes { (pointer: UnsafeRawBufferPointer) -> Blob in
+            return Blob(bytes: pointer.baseAddress!, length: count)
         }
     }
+
 }
 
-extension Date: Value {
+extension Date : Value {
+
     public static var declaredDatatype: String {
         return String.declaredDatatype
     }
@@ -52,6 +55,7 @@ extension Date: Value {
     public var datatypeValue: String {
         return dateFormatter.string(from: self)
     }
+
 }
 
 /// A global date formatter used to serialize and deserialize `NSDate` objects.
