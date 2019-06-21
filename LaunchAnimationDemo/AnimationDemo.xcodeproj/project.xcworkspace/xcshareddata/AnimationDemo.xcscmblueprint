@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "d982db2c-3dd0-4401-8f8c-5e2b8efa468c++5624",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "d982db2c-3dd0-4401-8f8c-5e2b8efa468c++5624" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "d982db2c-3dd0-4401-8f8c-5e2b8efa468c++5624" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "1C3A4806-7E1D-4B11-A247-D22F98C81191",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "d982db2c-3dd0-4401-8f8c-5e2b8efa468c++5624" : "zhcx_passenger\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "AnimationDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Baranch\/educationTrains\/educationTrain\/Main\/AnimationDemo\/AnimationDemo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/172.1.1.199",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "d982db2c-3dd0-4401-8f8c-5e2b8efa468c++5624"
+    }
+  ]
+}
