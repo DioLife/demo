@@ -1,0 +1,42 @@
+PODS:
+  - Alamofire (4.8.0)
+  - HandyJSON (5.0.0-beta.1)
+  - Masonry (1.1.0)
+  - UMCAnalytics (6.0.5):
+    - UMCCommon
+  - UMCCommon (2.0.1)
+  - UMCPush (3.2.4):
+    - UMCCommon
+  - UMCSecurityPlugins (1.0.6)
+
+DEPENDENCIES:
+  - Alamofire (= 4.8.0)
+  - HandyJSON (= 5.0.0-beta.1)
+  - Masonry
+  - UMCAnalytics (~> 6.0.3)
+  - UMCCommon (~> 2.0.1)
+  - UMCPush (~> 3.2.4)
+  - UMCSecurityPlugins (~> 1.0.6)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - HandyJSON
+    - Masonry
+    - UMCAnalytics
+    - UMCCommon
+    - UMCPush
+    - UMCSecurityPlugins
+
+SPEC CHECKSUMS:
+  Alamofire: 3ec537f71edc9804815215393ae2b1a8ea33a844
+  HandyJSON: 582477127ab3ab65bd2e471815f1a7b846856978
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  UMCAnalytics: 045be2cd1ec05aa95ad62405a850757f932e2d59
+  UMCCommon: 0263a057a2e1ae1da4c8308541e56904a493ce13
+  UMCPush: 1edd856027dcf905333effb4040ace5d236a7316
+  UMCSecurityPlugins: 0831a08f3988f3cea9f1d3a7626cd9bee4fef150
+
+PODFILE CHECKSUM: 715f28f80376e4133a2b745f3cf21c893e4de9b3
+
+COCOAPODS: 1.8.0.beta.1

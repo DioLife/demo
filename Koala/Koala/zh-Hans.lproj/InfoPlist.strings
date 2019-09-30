@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  Koala
+
+  Created by hello on 2019/7/9.
+  Copyright © 2019 Dio. All rights reserved.
+*/
+
+CFBundleDisplayName = "考拉避雨";

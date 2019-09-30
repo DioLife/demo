@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>appGame58.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>armv7</string>
+				<string>arm64</string>
+			</array>
+			<key>bitcode</key>
+			<false/>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>9E761FD6B2C1E8AC284131340030026A6FACC377</string>
+				<key>dateExpires</key>
+				<string>2020/7/4</string>
+				<key>type</key>
+				<string>iOS Distribution</string>
+			</dict>
+			<key>embeddedBinaries</key>
+			<array>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>armv7</string>
+						<string>arm64</string>
+					</array>
+					<key>bitcode</key>
+					<false/>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>9E761FD6B2C1E8AC284131340030026A6FACC377</string>
+						<key>dateExpires</key>
+						<string>2020/7/4</string>
+						<key>type</key>
+						<string>iOS Distribution</string>
+					</dict>
+					<key>entitlements</key>
+					<dict>
+						<key>application-identifier</key>
+						<string>XFUVC9HUP4.com.baihai.NationalBeauty.Today</string>
+						<key>beta-reports-active</key>
+						<true/>
+						<key>com.apple.developer.team-identifier</key>
+						<string>XFUVC9HUP4</string>
+						<key>get-task-allow</key>
+						<false/>
+						<key>keychain-access-groups</key>
+						<array>
+							<string>XFUVC9HUP4.com.baihai.NationalBeauty.Today</string>
+						</array>
+					</dict>
+					<key>name</key>
+					<string>Today.appex</string>
+					<key>profile</key>
+					<dict>
+						<key>UUID</key>
+						<string>446da7bf-f343-4635-b9a6-4b9bb9c0737d</string>
+						<key>name</key>
+						<string>iOS Team Store Provisioning Profile: *</string>
+					</dict>
+					<key>symbols</key>
+					<true/>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>XFUVC9HUP4</string>
+						<key>name</key>
+						<string>Tianbie Wen</string>
+					</dict>
+				</dict>
+			</array>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>XFUVC9HUP4.com.baihai.NationalBeauty</string>
+				<key>aps-environment</key>
+				<string>production</string>
+				<key>beta-reports-active</key>
+				<true/>
+				<key>com.apple.developer.associated-domains</key>
+				<array>
+					<string>applinks:gh605t.openinstall.io</string>
+				</array>
+				<key>com.apple.developer.team-identifier</key>
+				<string>XFUVC9HUP4</string>
+				<key>get-task-allow</key>
+				<false/>
+			</dict>
+			<key>name</key>
+			<string>appGame58.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>686bbb6c-d80b-4d21-95f0-a3722f9e4427</string>
+				<key>name</key>
+				<string>iOS Team Store Provisioning Profile: com.baihai.NationalBeauty</string>
+			</dict>
+			<key>symbols</key>
+			<true/>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>XFUVC9HUP4</string>
+				<key>name</key>
+				<string>Tianbie Wen</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,6 @@
+framework module Pods_ColorWheel {
+  umbrella header "Pods-ColorWheel-umbrella.h"
+
+  export *
+  module * { export * }
+}
